@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=2072238587,0,0,{}
+ local __e='WTS1XMFy5dgkimYF0nR3kOkc3IJ3L3a36XAXKkacmLjFsKaC5wb2TtGn8ofYDhtOZrzgWQIroKp8XsljNMZuoX7Zo97VVBBKA0aoIFNogdN3MO2D5vZirz2XTY7NWtbVIAqzF5bcqJezFgHsxBLLvulNfbdYuucvhMnIB/euY4enND6iWX0Ci6HSa48ut8YydOMj6fvU5GFgLzhhoEqiZhcbLFMJO9dXGMNG5BHjqJknHVVUPSN3naOv1OndyQqR80SmB9wSsuswlQgzmwY/CXUAKR6YdYSR5QNMC37E+1DhVNmWhpwqF3BFiTBdlsgkYy3kuA0B+03WnUr4PQ8a/4wGMAC0cp/rn5KIuJefaGBMBz20tGg4c1WYB8CsM3TPKCpffW4gUq1hQVkI5GAKEvSZkRY6w/Z+fPZJVtfk+3GvrPB17ev+Zr5NxO4E5LdBoymfKpjBMRvvAOb2nV0IjvQDrgl4HynmUf3/I9QOtEZVARsm+OR7USjBaWXKlJyRUKPHhjAd7YMzQ7GmI0NzvJzrLdFFI5j6/ysln1EM8gyb6DZtcYTgykaIxt0bHEKJeQwNj7rfO2QZN1WUFnjwqVWCcmhc+ZEi9XcARt+O6KMvAZdrB3xazDsQ/htIaKE99+D2P1XnBFUTH3YZukSeC43chLyFFsF2kmpJMgM32+qThjcwP4OKt/fay36FkSZk7VTvWJNIn1IGtAE6I7CphSH5ly03zFY1M5GSC2DbRwFIC/5rfUS22fuhgnvYMVrBj4MzxMdcSv7zTPD+V3bivV06borsVQ65WJr/XnuaJCA7DuXs39T+w52nRZO9dHdjFQUFVxtma2qtRhMdjAImt7gWD2HJbS3zViEsNGrj4Fa7T/+TQvDxudN53o2hBlmcRVL/ExN2ItvH8A5T29Psw9XmEq7YBrcnKo26TzpKbGHpFoSSZiF0izrn24FhauRpQ+OOvOUdqG5cHDB60ooiPsBcRGfNoe1P7Z7thKQ3W9LTyABO9pdoCX7uxZXwmWL+TO0Z51+0/yjW2wJPdYRBCCOMlJs7V3L2TbaCENvApE9hf3yci1VlpMZ20vjqW4h+VJ2zT/ArUVyRc1coXTg='
+ local __o,__q,__z,__u=1543529206,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={59,3,12,5,3,5,6,0,5,6,0,23,8,31,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,16,64,8,8,7,7,16,16,7,7,9,8,8,9,8,5,5,5,10,1,5,5,5,5,10,5,5,17,0,22,7,32,22,7,9,9,11,5,5,5,5,5,9,12,9,2,9,11,7,0,3,9,19,5,5,9,9,9,6,17,15,17,20,18,4,0,2,0,0,11,11,10,22,1,36,12,9,10,7,5,8,23,25}
+ local __w={59,3,12,5,3,5,6,0,5,6,0,23,8,31,7,7,9,8,8,9,8,5,5,5,10,1,5,17,0,22,7,32,22,7,9,9,11,5,5,5,5,5,9,12,9,2,9,11,7,0,3,9,19,5,5,9,9,9,6,17,15,17,20,18,4,0,2,0,0,11,11,10,22,1,36,12,9,10,7,5,8,23,25}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 2072238587
+-- seed 1543529206
 
 local RAW_BASE = __tc_s(0)
 local KEY = __tc_s(1)
@@ -65,149 +65,7 @@ if type(fn) ~= __tc_s(12) then return nil, __tc_s(13) end
 return fn(src)
 end
 
-local LOGO_B64 =
-__tc_s(14) ..
-__tc_s(15) ..
-__tc_s(16) ..
-__tc_s(17) ..
-__tc_s(18) ..
-__tc_s(19) ..
-__tc_s(20) ..
-__tc_s(21) ..
-__tc_s(22) ..
-__tc_s(23) ..
-__tc_s(24) ..
-__tc_s(25) ..
-__tc_s(26) ..
-__tc_s(27) ..
-__tc_s(28) ..
-__tc_s(29) ..
-__tc_s(30) ..
-__tc_s(31) ..
-__tc_s(32) ..
-__tc_s(33) ..
-__tc_s(34) ..
-__tc_s(35) ..
-__tc_s(36) ..
-__tc_s(37) ..
-__tc_s(38) ..
-__tc_s(39) ..
-__tc_s(40) ..
-__tc_s(41) ..
-__tc_s(42) ..
-__tc_s(43) ..
-__tc_s(44) ..
-__tc_s(45) ..
-__tc_s(46) ..
-__tc_s(47) ..
-__tc_s(48) ..
-__tc_s(49) ..
-__tc_s(50) ..
-__tc_s(51) ..
-__tc_s(52) ..
-__tc_s(53) ..
-__tc_s(54) ..
-__tc_s(55) ..
-__tc_s(56) ..
-__tc_s(57) ..
-__tc_s(58) ..
-__tc_s(59) ..
-__tc_s(60) ..
-__tc_s(61) ..
-__tc_s(62) ..
-__tc_s(63) ..
-__tc_s(64) ..
-__tc_s(65) ..
-__tc_s(66) ..
-__tc_s(67) ..
-__tc_s(68) ..
-__tc_s(69) ..
-__tc_s(70) ..
-__tc_s(71) ..
-__tc_s(72) ..
-__tc_s(73) ..
-__tc_s(74) ..
-__tc_s(75) ..
-__tc_s(76) ..
-__tc_s(77) ..
-__tc_s(78) ..
-__tc_s(79) ..
-__tc_s(80) ..
-__tc_s(81) ..
-__tc_s(82) ..
-__tc_s(83) ..
-__tc_s(84) ..
-__tc_s(85) ..
-__tc_s(86) ..
-__tc_s(87) ..
-__tc_s(88) ..
-__tc_s(89) ..
-__tc_s(90) ..
-__tc_s(91) ..
-__tc_s(92) ..
-__tc_s(93) ..
-__tc_s(94) ..
-__tc_s(95) ..
-__tc_s(96) ..
-__tc_s(97) ..
-__tc_s(98) ..
-__tc_s(99) ..
-__tc_s(100) ..
-__tc_s(101) ..
-__tc_s(102) ..
-__tc_s(103) ..
-__tc_s(104) ..
-__tc_s(105) ..
-__tc_s(106) ..
-__tc_s(107) ..
-__tc_s(108) ..
-__tc_s(109) ..
-__tc_s(110) ..
-__tc_s(111) ..
-__tc_s(112) ..
-__tc_s(113) ..
-__tc_s(114) ..
-__tc_s(115) ..
-__tc_s(116) ..
-__tc_s(117) ..
-__tc_s(118) ..
-__tc_s(119) ..
-__tc_s(120) ..
-__tc_s(121) ..
-__tc_s(122) ..
-__tc_s(123)
-
-local function b64decode(s)
-local alphabet = __tc_s(124)
-local map, out, acc, bits = {}, {}, 0, 0
-for i = 1, #alphabet do map[alphabet:sub(i, i)] = i - 1 end
-for i = 1, #s do
-local v = map[s:sub(i, i)]
-if v then
-acc, bits = acc * 64 + v, bits + 6
-while bits >= 8 do
-bits = bits - 8
-out[#out + 1] = string.char(math.floor(acc / 2 ^ bits) % 256)
-acc = acc % 2 ^ bits
-end
-end
-end
-return table.concat(out)
-end
-
-local function loadLogo()
-if type(writefile) ~= __tc_s(125) or type(getcustomasset) ~= __tc_s(126) then return nil end
-local decode = base64decode or b64decode
-local ok = pcall(function()
-if isfolder and not isfolder(__tc_s(127)) then makefolder(__tc_s(128)) end
-writefile(__tc_s(129), decode(LOGO_B64))
-end)
-if not ok then return nil end
-local ok2, src = pcall(getcustomasset, __tc_s(130))
-return ok2 and src or nil
-end
-
-local Players = game:GetService(__tc_s(131))
+local Players = game:GetService(__tc_s(14))
 local LP = Players.LocalPlayer
 
 local C = {
@@ -221,9 +79,9 @@ accent = Color3.fromRGB(255, 179, 209),
 }
 
 local function parentGui()
-local g = (gethui and gethui()) or game:GetService(__tc_s(132))
+local g = (gethui and gethui()) or game:GetService(__tc_s(15))
 local ok = pcall(function() return g end)
-return ok and g or LP:WaitForChild(__tc_s(133))
+return ok and g or LP:WaitForChild(__tc_s(16))
 end
 
 local function make(class, props, parent)
@@ -234,11 +92,11 @@ return o
 end
 
 local function round(o, r)
-local c = Instance.new(__tc_s(134)); c.CornerRadius = UDim.new(0, r or 6); c.Parent = o
+local c = Instance.new(__tc_s(17)); c.CornerRadius = UDim.new(0, r or 6); c.Parent = o
 end
 
 local function stroke(o, color, thickness, transparency)
-local s = Instance.new(__tc_s(135))
+local s = Instance.new(__tc_s(18))
 s.Color = color or C.line
 s.Thickness = thickness or 1
 s.Transparency = transparency or 0
@@ -246,116 +104,72 @@ s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 s.Parent = o
 end
 
-local gui = make(__tc_s(136), {
-Name = __tc_s(137) .. tostring(math.random(1e6)),
+local gui = make(__tc_s(19), {
+Name = __tc_s(20) .. tostring(math.random(1e6)),
 ResetOnSpawn = false, IgnoreGuiInset = true, DisplayOrder = 2147483647,
 }, parentGui())
 if syn and syn.protect_gui then pcall(syn.protect_gui, gui) end
 
-local stage = make(__tc_s(138), {
-Name = __tc_s(139),
+local stage = make(__tc_s(21), {
+Name = __tc_s(22),
 Size = UDim2.fromScale(1, 1),
 BackgroundColor3 = C.bg,
 BorderSizePixel = 0,
 }, gui)
 
-make(__tc_s(140), {
+make(__tc_s(23), {
 Size = UDim2.new(1, 0, 0, 2),
 BackgroundColor3 = C.accent,
 BorderSizePixel = 0,
 ZIndex = 3,
 }, stage)
 
-local close = make(__tc_s(141), {
-Text = __tc_s(142), Font = Enum.Font.GothamBold, TextSize = 16,
+local close = make(__tc_s(24), {
+Text = __tc_s(25), Font = Enum.Font.GothamBold, TextSize = 16,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 Size = UDim2.fromOffset(32, 32), Position = UDim2.new(1, -46, 0, 12),
 }, stage)
 close.MouseButton1Click:Connect(function() gui:Destroy() end)
 
-local center = make(__tc_s(143), {
+local center = make(__tc_s(26), {
 AnchorPoint = Vector2.new(0.5, 0.5),
 Position = UDim2.fromScale(0.5, 0.5),
-Size = UDim2.fromOffset(360, 306),
+Size = UDim2.fromOffset(360, 192),
 BackgroundTransparency = 1,
 }, stage)
 
-local mark = make(__tc_s(144), {
-Size = UDim2.fromOffset(82, 82),
-Position = UDim2.new(0.5, -41, 0, 0),
-BackgroundTransparency = 1,
-}, center)
-local spin = make(__tc_s(145), {
-Size = UDim2.fromScale(1, 1),
-BackgroundTransparency = 1,
-}, mark)
-round(spin, 41)
-stroke(spin, C.accent, 2, 0.78)
-local caret = make(__tc_s(146), {
-Size = UDim2.fromOffset(4, 16),
-Position = UDim2.new(0.5, -2, 0, 1),
-BackgroundColor3 = C.accent,
-BorderSizePixel = 0,
-}, spin)
-round(caret, 2)
-
-local markSrc = loadLogo()
-if markSrc then
-make(__tc_s(147), {
-BackgroundTransparency = 1, Image = markSrc,
-Size = UDim2.fromOffset(34, 34),
-Position = UDim2.new(0.5, -17, 0.5, -17),
-}, mark)
-else
-
-local petal = make(__tc_s(148), {
-Size = UDim2.fromOffset(24, 34),
-Position = UDim2.new(0.5, -12, 0.5, -17),
-BackgroundColor3 = C.accent, BorderSizePixel = 0,
-Rotation = 32,
-}, mark)
-round(petal, 12)
-local stem = make(__tc_s(149), {
-Size = UDim2.fromOffset(3, 18),
-Position = UDim2.new(0.5, -1, 0.5, -9),
-BackgroundColor3 = C.bg, BorderSizePixel = 0,
-Rotation = 32, ZIndex = 2,
-}, mark)
-round(stem, 1)
-end
-
 local function wordmark(p)
-local left, right = p:match(__tc_s(150))
-if not left or right == __tc_s(151) then return p end
-return __tc_s(152) .. left .. __tc_s(153)
-.. __tc_s(154)
-.. __tc_s(155) .. right .. __tc_s(156)
+local left, right = p:match(__tc_s(27))
+if not left or right == __tc_s(28) then return p end
+return __tc_s(29) .. left .. __tc_s(30)
+.. __tc_s(31)
+.. __tc_s(32) .. right .. __tc_s(33)
 end
-make(__tc_s(157), {
+make(__tc_s(34), {
 Text = wordmark(PRODUCT),
 RichText = true, Font = Enum.Font.GothamBold, TextSize = 22,
 TextColor3 = C.text, BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 28), Position = UDim2.fromOffset(0, 94),
+Size = UDim2.new(1, 0, 0, 28), Position = UDim2.fromOffset(0, 0),
 }, center)
-make(__tc_s(158), {
-Text = __tc_s(159) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(35), {
+Text = __tc_s(36) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.dim, BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 122),
+Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 32),
 }, center)
 
-local track = make(__tc_s(160), {
+local track = make(__tc_s(37), {
 Size = UDim2.fromOffset(360, 6),
-Position = UDim2.new(0.5, -180, 0, 152),
+Position = UDim2.new(0.5, -180, 0, 62),
 BackgroundColor3 = C.row, BorderSizePixel = 0,
 ClipsDescendants = true,
 }, center)
 round(track, 3)
-local fill = make(__tc_s(161), {
+local fill = make(__tc_s(38), {
 Size = UDim2.new(0, 0, 1, 0),
 BackgroundColor3 = C.accent, BorderSizePixel = 0,
 }, track)
 round(fill, 3)
-local shimmer = make(__tc_s(162), {
+local shimmer = make(__tc_s(39), {
 Size = UDim2.fromOffset(80, 6),
 Position = UDim2.fromOffset(-90, 0),
 BackgroundColor3 = Color3.fromRGB(255, 255, 255),
@@ -363,68 +177,68 @@ BackgroundTransparency = 0.82,
 BorderSizePixel = 0,
 }, track)
 
-local meta = make(__tc_s(163), {
+local meta = make(__tc_s(40), {
 Size = UDim2.fromOffset(360, 16),
-Position = UDim2.new(0.5, -180, 0, 168),
+Position = UDim2.new(0.5, -180, 0, 78),
 BackgroundTransparency = 1,
 }, center)
-local dot = make(__tc_s(164), {
+local dot = make(__tc_s(41), {
 Size = UDim2.fromOffset(6, 6),
 Position = UDim2.new(0, 0, 0.5, -3),
 BackgroundColor3 = C.accent, BorderSizePixel = 0,
 }, meta)
 round(dot, 3)
-local status = make(__tc_s(165), {
-Text = __tc_s(166), Font = Enum.Font.Gotham, TextSize = 12,
+local status = make(__tc_s(42), {
+Text = __tc_s(43), Font = Enum.Font.Gotham, TextSize = 12,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Size = UDim2.new(1, -80, 1, 0), Position = UDim2.fromOffset(14, 0),
 }, meta)
-local pct = make(__tc_s(167), {
-Text = __tc_s(168), Font = Enum.Font.GothamBold, TextSize = 12,
+local pct = make(__tc_s(44), {
+Text = __tc_s(45), Font = Enum.Font.GothamBold, TextSize = 12,
 TextColor3 = C.accent, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
 Size = UDim2.fromOffset(70, 16), Position = UDim2.new(1, -70, 0, 0),
 }, meta)
 
-make(__tc_s(169), {
-Text = __tc_s(170), Font = Enum.Font.Gotham, TextSize = 10,
+make(__tc_s(46), {
+Text = __tc_s(47), Font = Enum.Font.Gotham, TextSize = 10,
 TextColor3 = C.off, BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 232),
+Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 118),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, center)
-local box = make(__tc_s(171), {
-Text = __tc_s(172), PlaceholderText = __tc_s(173), ClearTextOnFocus = false,
+local box = make(__tc_s(48), {
+Text = __tc_s(49), PlaceholderText = __tc_s(50), ClearTextOnFocus = false,
 Font = Enum.Font.Gotham, TextSize = 14, TextColor3 = C.text,
 BackgroundColor3 = C.row, BorderSizePixel = 0,
-Size = UDim2.fromOffset(360, 34), Position = UDim2.fromOffset(0, 250),
+Size = UDim2.fromOffset(360, 34), Position = UDim2.fromOffset(0, 136),
 TextXAlignment = Enum.TextXAlignment.Center,
 }, center)
 round(box, 4)
 stroke(box, C.line, 1)
-make(__tc_s(174), {
-Text = __tc_s(175), Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(51), {
+Text = __tc_s(52), Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.off, BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 290),
+Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 178),
 }, center)
 
-local foot = make(__tc_s(176), {
+local foot = make(__tc_s(53), {
 Size = UDim2.new(1, 0, 0, 34),
 Position = UDim2.new(0, 0, 1, -34),
 BackgroundColor3 = C.bg, BorderSizePixel = 0,
 }, stage)
-make(__tc_s(177), {
+make(__tc_s(54), {
 Size = UDim2.new(1, 0, 0, 1),
 BackgroundColor3 = C.line, BorderSizePixel = 0,
 }, foot)
-make(__tc_s(178), {
-Text = __tc_s(179) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(55), {
+Text = __tc_s(56) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 Size = UDim2.new(1, -36, 1, 0), Position = UDim2.fromOffset(18, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, foot)
-make(__tc_s(180), {
-Text = __tc_s(181), Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(57), {
+Text = __tc_s(58), Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.accent, BackgroundTransparency = 1,
 Size = UDim2.fromOffset(120, 34), Position = UDim2.new(1, -138, 0, 0),
 TextXAlignment = Enum.TextXAlignment.Right,
@@ -434,7 +248,6 @@ task.spawn(function()
 local t0 = os.clock()
 while gui and gui.Parent do
 local t = os.clock() - t0
-spin.Rotation = (t * 120) % 360
 shimmer.Position = UDim2.fromOffset(-90 + ((t * 200) % 470), 0)
 task.wait(0.03)
 end
@@ -450,24 +263,24 @@ dot.BackgroundColor3 = ok and OK_RGB or (ok == false and BAD_RGB or C.accent)
 end
 
 local STEPS = {
-__tc_s(182),
-__tc_s(183),
-__tc_s(184),
-__tc_s(185),
-__tc_s(186),
+__tc_s(59),
+__tc_s(60),
+__tc_s(61),
+__tc_s(62),
+__tc_s(63),
 }
 
 local function progress(p)
 p = math.clamp(p, 0, 1)
 fill.Size = UDim2.new(p, 0, 1, 0)
-pct.Text = string.format(__tc_s(187), math.floor(p * 100 + 0.5))
+pct.Text = string.format(__tc_s(64), math.floor(p * 100 + 0.5))
 end
 
 local function launch()
 if busy then return end
-local typed = (box.Text or __tc_s(188)):lower():gsub(__tc_s(189), __tc_s(190))
-if typed == __tc_s(191) then setStatus(__tc_s(192)); return end
-if typed ~= KEY then setStatus(__tc_s(193), false); return end
+local typed = (box.Text or __tc_s(65)):lower():gsub(__tc_s(66), __tc_s(67))
+if typed == __tc_s(68) then setStatus(__tc_s(69)); return end
+if typed ~= KEY then setStatus(__tc_s(70), false); return end
 
 busy = true
 progress(0)
@@ -484,18 +297,18 @@ task.wait(0.04)
 end
 end)
 
-local payload, err = httpGet(RAW_BASE .. __tc_s(194))
+local payload, err = httpGet(RAW_BASE .. __tc_s(71))
 loading = false
 
 if not payload then
 busy = false
-setStatus(err or __tc_s(195), false)
+setStatus(err or __tc_s(72), false)
 return
 end
 
-if payload:sub(1, 1) == __tc_s(196) then
+if payload:sub(1, 1) == __tc_s(73) then
 busy = false
-setStatus(__tc_s(197), false)
+setStatus(__tc_s(74), false)
 return
 end
 
@@ -503,14 +316,14 @@ setStatus(STEPS[#STEPS], true)
 progress(1)
 task.wait(0.45)
 
-local TweenService = game:GetService(__tc_s(198))
+local TweenService = game:GetService(__tc_s(75))
 local tweens = {}
 for _, d in ipairs(stage:GetDescendants()) do
-if d:IsA(__tc_s(199)) or d:IsA(__tc_s(200)) or d:IsA(__tc_s(201)) then
+if d:IsA(__tc_s(76)) or d:IsA(__tc_s(77)) or d:IsA(__tc_s(78)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { TextTransparency = 1 })
-elseif d:IsA(__tc_s(202)) then
+elseif d:IsA(__tc_s(79)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { BackgroundTransparency = 1 })
-elseif d:IsA(__tc_s(203)) then
+elseif d:IsA(__tc_s(80)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { Transparency = 1 })
 end
 end
@@ -520,11 +333,11 @@ gui:Destroy()
 
 local chunk, cerr = compile(payload)
 if not chunk then
-warn(__tc_s(204) .. tostring(cerr))
+warn(__tc_s(81) .. tostring(cerr))
 return
 end
 local ok, rerr = pcall(chunk)
-if not ok then warn(__tc_s(205) .. tostring(rerr)) end
+if not ok then warn(__tc_s(82) .. tostring(rerr)) end
 end
 
 box.FocusLost:Connect(function(enter) if enter then launch() end end)
