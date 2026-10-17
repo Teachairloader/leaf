@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=1135079664,0,0,{}
+ local __e='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'
+ local __o,__q,__z,__u=630255049,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,8,8,13,9,8,7,9,5,9,9,5,8,5,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,1,1,8,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,21,10,1,4,6,4,8,7,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,12,10,9,5,4,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,5,12,6,5,8,11,14,23,6,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,11,10,11,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,16,8,9,6,10,4,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,8,9,5,4,9,4,4,9,3,4,8,10,6,10,4,4,16,4,13,3,9,4,8,19,12,10,4,7,2,5,4,8,2,3,7,10,7,8,3,12,10,4,6,8,6,8,8,14,10,23,10,13,6,6,3,12,4,6,18,20,6,3,4,6,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,5,5,3,7,4,5,6,8,8,4,10,10,8,3,11,8,6,16,9,11,7,15,50}
+ local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,8,8,13,9,8,7,9,5,9,9,5,8,5,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,1,1,8,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,21,10,1,4,6,7,8,4,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,12,16,19,10,9,5,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,5,12,6,5,8,11,14,23,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,11,10,11,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,16,8,9,6,10,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,9,5,4,9,4,4,9,3,4,8,10,6,10,4,4,16,4,13,3,9,4,8,19,12,10,4,7,2,5,4,8,2,3,10,7,8,3,12,10,4,6,8,6,8,8,14,10,23,10,13,6,6,3,12,4,6,18,20,6,3,4,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,5,5,3,7,4,5,6,8,8,4,10,10,8,3,11,8,6,16,9,11,7,4,6,4,8,7,6,64,67,15,57,50}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 1135079664
+-- seed 630255049
 
 if not Drawing then
 error(__tc_s(0))
@@ -54,7 +54,7 @@ end)
 
 local Config = {
 esp = {
-enabled = true,
+enabled = false,
 box = true,
 filledBox = false,
 corner = false,
@@ -84,7 +84,7 @@ teamCheck = true,
 healthCheck = false,
 targetMode = __tc_s(11),
 sticky = true,
-showFov = true,
+showFov = false,
 },
 
 silent = {
@@ -867,6 +867,8 @@ local SLIDER_H = 34
 local FIELD_H = 46
 local HEADER_H = 26
 local COLOR_H = 46
+local PAGE_PAD = 10
+local COL_GAP = 10
 
 local function rowFrame(card, height)
 return inst(__tc_s(102), {
@@ -1270,6 +1272,7 @@ end
 
 local gui = makeGui()
 local menuOpen = true
+local menuBuiltAt = os.clock()
 
 local WINDOW = Vector2.new(560, 600)
 local BAR_H = 34
@@ -1380,7 +1383,8 @@ TextXAlignment = Enum.TextXAlignment.Left,
 }, footer)
 
 local pages = {}
-local function makePage(name, tab)
+local pending = {}
+local function makePage(name, tab, build)
 local page = inst(__tc_s(182), {
 Name = name,
 Size = UDim2.fromScale(1, 1),
@@ -1395,30 +1399,40 @@ Visible = false,
 }, bodyHost)
 inst(__tc_s(183), {
 FillDirection = Enum.FillDirection.Horizontal,
-Padding = UDim.new(0, 10),
+Padding = UDim.new(0, COL_GAP),
 SortOrder = Enum.SortOrder.LayoutOrder,
 }, page)
 inst(__tc_s(184), {
-PaddingLeft = UDim.new(0, 10), PaddingRight = UDim.new(0, 10),
-PaddingTop = UDim.new(0, 10), PaddingBottom = UDim.new(0, 10),
+PaddingLeft = UDim.new(0, PAGE_PAD), PaddingRight = UDim.new(0, PAGE_PAD),
+PaddingTop = UDim.new(0, PAGE_PAD), PaddingBottom = UDim.new(0, PAGE_PAD),
 }, page)
 
+local colW = UDim2.new(0.5, -(PAGE_PAD + COL_GAP / 2), 0, 0)
 local function column(order)
 local f = inst(__tc_s(185), {
-Size = UDim2.new(0.5, -5, 0, 0),
+Size = colW,
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundTransparency = 1,
 LayoutOrder = order,
 }, page)
-inst(__tc_s(186), { Padding = UDim.new(0, 10), SortOrder = Enum.SortOrder.LayoutOrder }, f)
+inst(__tc_s(186), { Padding = UDim.new(0, COL_GAP), SortOrder = Enum.SortOrder.LayoutOrder }, f)
 return f
 end
 pages[tab] = page
-return column(1), column(2)
+pending[tab] = { build = build, L = column(1), R = column(2) }
 end
 
 local tabButtons, tabMarks = {}, {}
 local function showTab(i)
+
+local slot = pending[i]
+if slot then
+pending[i] = nil
+local ok, err = pcall(slot.build, slot.L, slot.R)
+if not ok then
+warn(__tc_s(187) .. tostring(TABS[i]) .. __tc_s(188) .. tostring(err))
+end
+end
 for idx, p in ipairs(pages) do
 if p then p.Visible = (idx == i) end
 end
@@ -1430,7 +1444,7 @@ end
 
 for i, tabName in ipairs(TABS) do
 local idx = i
-local b = inst(__tc_s(187), {
+local b = inst(__tc_s(189), {
 Text = tabName,
 Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, BorderSizePixel = 0, AutoButtonColor = false,
@@ -1438,8 +1452,8 @@ AutomaticSize = Enum.AutomaticSize.X,
 Size = UDim2.new(0, 0, 1, 0),
 LayoutOrder = i,
 }, tabBar)
-inst(__tc_s(188), { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) }, b)
-tabMarks[i] = inst(__tc_s(189), {
+inst(__tc_s(190), { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) }, b)
+tabMarks[i] = inst(__tc_s(191), {
 Size = UDim2.new(1, 0, 0, 2),
 Position = UDim2.new(0, 0, 1, -2),
 BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
@@ -1449,43 +1463,41 @@ b.MouseButton1Click:Connect(function() showTab(idx) end)
 tabButtons[i] = b
 end
 
-do
-local L, R = makePage(__tc_s(190), 1)
+local function buildHome(L, R)
 
-local who = makeCard(L, __tc_s(191))
-addInfo(who, __tc_s(192), function() return LP.Name end)
-addInfo(who, __tc_s(193), function() return LP.DisplayName end)
-addInfo(who, __tc_s(194), function() return LP.Team and LP.Team.Name or __tc_s(195) end)
-addInfo(who, __tc_s(196), function() return tostring(game.PlaceId) end)
+local who = makeCard(L, __tc_s(192))
+addInfo(who, __tc_s(193), function() return LP.Name end)
+addInfo(who, __tc_s(194), function() return LP.DisplayName end)
+addInfo(who, __tc_s(195), function() return LP.Team and LP.Team.Name or __tc_s(196) end)
+addInfo(who, __tc_s(197), function() return tostring(game.PlaceId) end)
 
-local keys = makeCard(L, __tc_s(197))
-addInfo(keys, __tc_s(198), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(199), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(200), function() return bindName(Config.silent.key) end)
+local keys = makeCard(L, __tc_s(198))
+addInfo(keys, __tc_s(199), function() return bindName(Config.hud.menu) end)
+addInfo(keys, __tc_s(200), function() return bindName(Config.aim.key) end)
+addInfo(keys, __tc_s(201), function() return bindName(Config.silent.key) end)
 
-local live = makeCard(R, __tc_s(201))
-addInfo(live, __tc_s(202), function()
-if not aimActive then return __tc_s(203) end
-return locked and __tc_s(204) or __tc_s(205)
+local live = makeCard(R, __tc_s(202))
+addInfo(live, __tc_s(203), function()
+if not aimActive then return __tc_s(204) end
+return locked and __tc_s(205) or __tc_s(206)
 end)
-addInfo(live, __tc_s(206), function()
-if not Config.silent.enabled then return __tc_s(207) end
-if not silentReady then return __tc_s(208) end
-if not silentActive then return __tc_s(209) end
-return silentSpoof and __tc_s(210) or __tc_s(211)
+addInfo(live, __tc_s(207), function()
+if not Config.silent.enabled then return __tc_s(208) end
+if not silentReady then return __tc_s(209) end
+if not silentActive then return __tc_s(210) end
+return silentSpoof and __tc_s(211) or __tc_s(212)
 end)
-addInfo(live, __tc_s(212), function() return Config.esp.enabled and __tc_s(213) or __tc_s(214) end)
-addInfo(live, __tc_s(215), function() return Config.hud.enabled and __tc_s(216) or __tc_s(217) end)
+addInfo(live, __tc_s(213), function() return Config.esp.enabled and __tc_s(214) or __tc_s(215) end)
+addInfo(live, __tc_s(216), function() return Config.hud.enabled and __tc_s(217) or __tc_s(218) end)
 
-local build = makeCard(R, __tc_s(218))
-addInfo(build, __tc_s(219), function() return __tc_s(220) end)
-addInfo(build, __tc_s(221), function() return string.format(__tc_s(222), WINDOW.X, WINDOW.Y) end)
-addInfo(build, __tc_s(223), function() return Config.aim.part end)
-addInfo(build, __tc_s(224), function() return silentReady and __tc_s(225) or __tc_s(226) end)
+local build = makeCard(R, __tc_s(219))
+addInfo(build, __tc_s(220), function() return __tc_s(221) end)
+addInfo(build, __tc_s(222), function() return string.format(__tc_s(223), WINDOW.X, WINDOW.Y) end)
+addInfo(build, __tc_s(224), function() return Config.aim.part end)
+addInfo(build, __tc_s(225), function() return silentReady and __tc_s(226) or __tc_s(227) end)
 end
 
-do
-local L, R = makePage(__tc_s(227), 2)
+local function buildCombat(L, R)
 
 local silent = makeCard(L, __tc_s(228))
 addCheck(silent, __tc_s(229), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
@@ -1550,147 +1562,143 @@ addInfo(sstat, __tc_s(295), function() return Config.silent.method end)
 addInfo(sstat, __tc_s(296), function() return bindName(Config.silent.key) end)
 end
 
-do
-local L, R = makePage(__tc_s(297), 3)
+local function buildGame(L, R)
 
-local npc = makeCard(L, __tc_s(298))
-addCheck(npc, __tc_s(299), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
-addCheck(npc, __tc_s(300), function() return Config.npc.name end, function(v) Config.npc.name = v end)
-addCheck(npc, __tc_s(301), function() return Config.npc.health end, function(v) Config.npc.health = v end)
-addHeader(npc, __tc_s(302))
-addSlider(npc, __tc_s(303), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(304))
-addHeader(npc, __tc_s(305))
-addColor(npc, __tc_s(306), function() return Config.npc.color end, function(c) Config.npc.color = c end)
+local npc = makeCard(L, __tc_s(297))
+addCheck(npc, __tc_s(298), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
+addCheck(npc, __tc_s(299), function() return Config.npc.name end, function(v) Config.npc.name = v end)
+addCheck(npc, __tc_s(300), function() return Config.npc.health end, function(v) Config.npc.health = v end)
+addHeader(npc, __tc_s(301))
+addSlider(npc, __tc_s(302), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(303))
+addHeader(npc, __tc_s(304))
+addColor(npc, __tc_s(305), function() return Config.npc.color end, function(c) Config.npc.color = c end)
 
-local teams = makeCard(R, __tc_s(307))
-addCheck(teams, __tc_s(308), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(teams, __tc_s(309), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addInfo(teams, __tc_s(310), function() return LP.Team and LP.Team.Name or __tc_s(311) end)
+local teams = makeCard(R, __tc_s(306))
+addCheck(teams, __tc_s(307), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(teams, __tc_s(308), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addInfo(teams, __tc_s(309), function() return LP.Team and LP.Team.Name or __tc_s(310) end)
 
-local status = makeCard(R, __tc_s(312))
-addInfo(status, __tc_s(313), function() return tostring(game.PlaceId) end)
-addInfo(status, __tc_s(314), function() return tostring(#Players:GetPlayers()) end)
-addInfo(status, __tc_s(315), function() return Config.silent.method end)
+local status = makeCard(R, __tc_s(311))
+addInfo(status, __tc_s(312), function() return tostring(game.PlaceId) end)
+addInfo(status, __tc_s(313), function() return tostring(#Players:GetPlayers()) end)
+addInfo(status, __tc_s(314), function() return Config.silent.method end)
 end
 
-do
-local L, R = makePage(__tc_s(316), 4)
+local function buildExploits(L, R)
 
-local move = makeCard(L, __tc_s(317))
-addCheck(move, __tc_s(318), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
-addSlider(move, __tc_s(319), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(320))
-addCheck(move, __tc_s(321), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
-addSlider(move, __tc_s(322), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(323))
-addCheck(move, __tc_s(324), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
-addSlider(move, __tc_s(325), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(326))
+local move = makeCard(L, __tc_s(315))
+addCheck(move, __tc_s(316), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
+addSlider(move, __tc_s(317), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(318))
+addCheck(move, __tc_s(319), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
+addSlider(move, __tc_s(320), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(321))
+addCheck(move, __tc_s(322), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
+addSlider(move, __tc_s(323), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(324))
 
-local light = makeCard(L, __tc_s(327))
-addCheck(light, __tc_s(328), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
-addCheck(light, __tc_s(329), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
-addCheck(light, __tc_s(330), function() return Config.world.clock end, function(v) Config.world.clock = v end)
-addSlider(light, __tc_s(331), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(332))
-addCheck(light, __tc_s(333), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
+local light = makeCard(L, __tc_s(325))
+addCheck(light, __tc_s(326), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
+addCheck(light, __tc_s(327), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
+addCheck(light, __tc_s(328), function() return Config.world.clock end, function(v) Config.world.clock = v end)
+addSlider(light, __tc_s(329), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(330))
+addCheck(light, __tc_s(331), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
 
-local misc = makeCard(R, __tc_s(334))
-addCheck(misc, __tc_s(335), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
-addCheck(misc, __tc_s(336), function() return Config.character.fly end, function(v) Config.character.fly = v end)
-addSlider(misc, __tc_s(337), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(338))
-addInfo(misc, __tc_s(339), function() return __tc_s(340) end)
+local misc = makeCard(R, __tc_s(332))
+addCheck(misc, __tc_s(333), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
+addCheck(misc, __tc_s(334), function() return Config.character.fly end, function(v) Config.character.fly = v end)
+addSlider(misc, __tc_s(335), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(336))
+addInfo(misc, __tc_s(337), function() return __tc_s(338) end)
 
-local world = makeCard(R, __tc_s(341))
-addInfo(world, __tc_s(342), function() return string.format(__tc_s(343), Lighting.Brightness) end)
-addInfo(world, __tc_s(344), function() return string.format(__tc_s(345), Lighting.FogEnd) end)
-addInfo(world, __tc_s(346), function() return string.format(__tc_s(347), Lighting.ClockTime) end)
-addInfo(world, __tc_s(348), function() return worldOriginals and __tc_s(349) or __tc_s(350) end)
+local world = makeCard(R, __tc_s(339))
+addInfo(world, __tc_s(340), function() return string.format(__tc_s(341), Lighting.Brightness) end)
+addInfo(world, __tc_s(342), function() return string.format(__tc_s(343), Lighting.FogEnd) end)
+addInfo(world, __tc_s(344), function() return string.format(__tc_s(345), Lighting.ClockTime) end)
+addInfo(world, __tc_s(346), function() return worldOriginals and __tc_s(347) or __tc_s(348) end)
 end
 
-do
-local L, R = makePage(__tc_s(351), 5)
+local function buildVisuals(L, R)
 
-local esp = makeCard(L, __tc_s(352))
-addCheck(esp, __tc_s(353), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
-addHeader(esp, __tc_s(354))
-addCheck(esp, __tc_s(355), function() return Config.esp.box end, function(v) Config.esp.box = v end)
-addCheck(esp, __tc_s(356), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
-addCheck(esp, __tc_s(357), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
-addCheck(esp, __tc_s(358), function() return Config.esp.name end, function(v) Config.esp.name = v end)
-addCheck(esp, __tc_s(359), function() return Config.esp.health end, function(v) Config.esp.health = v end)
-addCheck(esp, __tc_s(360), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
-addCheck(esp, __tc_s(361), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
-addCheck(esp, __tc_s(362), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
-addCheck(esp, __tc_s(363), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
+local esp = makeCard(L, __tc_s(349))
+addCheck(esp, __tc_s(350), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
+addHeader(esp, __tc_s(351))
+addCheck(esp, __tc_s(352), function() return Config.esp.box end, function(v) Config.esp.box = v end)
+addCheck(esp, __tc_s(353), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
+addCheck(esp, __tc_s(354), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
+addCheck(esp, __tc_s(355), function() return Config.esp.name end, function(v) Config.esp.name = v end)
+addCheck(esp, __tc_s(356), function() return Config.esp.health end, function(v) Config.esp.health = v end)
+addCheck(esp, __tc_s(357), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
+addCheck(esp, __tc_s(358), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
+addCheck(esp, __tc_s(359), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
+addCheck(esp, __tc_s(360), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
 
-local opt = makeCard(R, __tc_s(364))
-addCheck(opt, __tc_s(365), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addCheck(opt, __tc_s(366), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
-addHeader(opt, __tc_s(367))
-addDrop(opt, __tc_s(368), { __tc_s(369), __tc_s(370), __tc_s(371) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
-addSlider(opt, __tc_s(372), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(373))
-addInfo(opt, __tc_s(374), function() return Config.esp.useScreenPoint and __tc_s(375) or __tc_s(376) end)
+local opt = makeCard(R, __tc_s(361))
+addCheck(opt, __tc_s(362), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addCheck(opt, __tc_s(363), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
+addHeader(opt, __tc_s(364))
+addDrop(opt, __tc_s(365), { __tc_s(366), __tc_s(367), __tc_s(368) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
+addSlider(opt, __tc_s(369), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(370))
+addInfo(opt, __tc_s(371), function() return Config.esp.useScreenPoint and __tc_s(372) or __tc_s(373) end)
 
-local colors = makeCard(R, __tc_s(377))
-addColor(colors, __tc_s(378), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
-addColor(colors, __tc_s(379), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
+local colors = makeCard(R, __tc_s(374))
+addColor(colors, __tc_s(375), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
+addColor(colors, __tc_s(376), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
 end
 
-do
-local L, R = makePage(__tc_s(380), 6)
+local function buildExtras(L, R)
 
-local menu = makeCard(L, __tc_s(381))
-addCheck(menu, __tc_s(382), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
-addHeader(menu, __tc_s(383))
-addBind(menu, __tc_s(384), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
-addInfo(menu, __tc_s(385), function() return string.format(__tc_s(386), WINDOW.X, WINDOW.Y) end)
+local menu = makeCard(L, __tc_s(377))
+addCheck(menu, __tc_s(378), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
+addHeader(menu, __tc_s(379))
+addBind(menu, __tc_s(380), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
+addInfo(menu, __tc_s(381), function() return string.format(__tc_s(382), WINDOW.X, WINDOW.Y) end)
 
-local save = makeCard(L, __tc_s(387))
-local dir = __tc_s(388)
-local nameBuf = __tc_s(389)
+local save = makeCard(L, __tc_s(383))
+local dir = __tc_s(384)
+local nameBuf = __tc_s(385)
 
-local input = addTextInput(save, __tc_s(390), __tc_s(391))
-input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(392) and input.Text or __tc_s(393) end)
+local input = addTextInput(save, __tc_s(386), __tc_s(387))
+input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(388) and input.Text or __tc_s(389) end)
 
-local function fileOf(n) return dir .. __tc_s(394) .. n .. __tc_s(395) end
+local function fileOf(n) return dir .. __tc_s(390) .. n .. __tc_s(391) end
 local function snapshot()
 local t = {}
 for k, v in pairs(Config) do
-if typeof(v) == __tc_s(396) then t[k] = v.Name
-elseif type(v) ~= __tc_s(397) then t[k] = v
+if typeof(v) == __tc_s(392) then t[k] = v.Name
+elseif type(v) ~= __tc_s(393) then t[k] = v
 else
 t[k] = {}
 for k2, v2 in pairs(v) do
-t[k][k2] = (typeof(v2) == __tc_s(398)) and v2.Name or v2
+t[k][k2] = (typeof(v2) == __tc_s(394)) and v2.Name or v2
 end
 end
 end
 for k, v in pairs(t) do
-if type(v) == __tc_s(399) then
+if type(v) == __tc_s(395) then
 for k2, v2 in pairs(v) do
-if typeof(v2) == __tc_s(400) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
+if typeof(v2) == __tc_s(396) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
 end
 end
 end
 return t
 end
 
-addButton(save, __tc_s(401), true, function()
+addButton(save, __tc_s(397), true, function()
 if not (writefile and isfolder and makefolder) then return end
 if not isfolder(dir) then makefolder(dir) end
 writefile(fileOf(nameBuf), HttpService:JSONEncode(snapshot()))
 end)
 
-addButton(save, __tc_s(402), false, function()
+addButton(save, __tc_s(398), false, function()
 if not (readfile and isfile and isfile(fileOf(nameBuf))) then return end
 local ok, data = pcall(function() return HttpService:JSONDecode(readfile(fileOf(nameBuf))) end)
 if not ok then return end
 for k, v in pairs(data) do
-if type(v) == __tc_s(403) and type(Config[k]) == __tc_s(404) then
+if type(v) == __tc_s(399) and type(Config[k]) == __tc_s(400) then
 for k2, v2 in pairs(v) do
 
-local legacy = (k == __tc_s(405) and (k2 == __tc_s(406) or k2 == __tc_s(407)))
+local legacy = (k == __tc_s(401) and (k2 == __tc_s(402) or k2 == __tc_s(403)))
 if not legacy then
-if type(v2) == __tc_s(408) and v2.r then
+if type(v2) == __tc_s(404) and v2.r then
 Config[k][k2] = Color3.new(v2.r, v2.g, v2.b)
-elseif type(v2) == __tc_s(409) and typeof(Config[k][k2]) == __tc_s(410) then
+elseif type(v2) == __tc_s(405) and typeof(Config[k][k2]) == __tc_s(406) then
 
 local enum = Config[k][k2].EnumType
 pcall(function() Config[k][k2] = enum[v2] end)
@@ -1703,20 +1711,29 @@ end
 end
 end)
 
-local ctrl = makeCard(R, __tc_s(411))
-addInfo(ctrl, __tc_s(412), function() return bindName(Config.hud.menu) end)
-addInfo(ctrl, __tc_s(413), function() return bindName(Config.aim.key) end)
-addInfo(ctrl, __tc_s(414), function() return bindName(Config.silent.key) end)
-addInfo(ctrl, __tc_s(415), function() return Config.aim.part end)
-addInfo(ctrl, __tc_s(416), function() return __tc_s(417) end)
+local ctrl = makeCard(R, __tc_s(407))
+addInfo(ctrl, __tc_s(408), function() return bindName(Config.hud.menu) end)
+addInfo(ctrl, __tc_s(409), function() return bindName(Config.aim.key) end)
+addInfo(ctrl, __tc_s(410), function() return bindName(Config.silent.key) end)
+addInfo(ctrl, __tc_s(411), function() return Config.aim.part end)
+addInfo(ctrl, __tc_s(412), function() return __tc_s(413) end)
 
-local list = makeCard(R, __tc_s(418))
-addInfo(list, __tc_s(419), function() return dir end)
-addInfo(list, __tc_s(420), function() return (writefile and readfile) and __tc_s(421) or __tc_s(422) end)
-addInfo(list, __tc_s(423), function() return nameBuf end)
+local list = makeCard(R, __tc_s(414))
+addInfo(list, __tc_s(415), function() return dir end)
+addInfo(list, __tc_s(416), function() return (writefile and readfile) and __tc_s(417) or __tc_s(418) end)
+addInfo(list, __tc_s(419), function() return nameBuf end)
 end
 
+makePage(__tc_s(420), 1, buildHome)
+makePage(__tc_s(421), 2, buildCombat)
+makePage(__tc_s(422), 5, buildGame)
+makePage(__tc_s(423), 4, buildExploits)
+makePage(__tc_s(424), 3, buildVisuals)
+makePage(__tc_s(425), 6, buildExtras)
+
 showTab(1)
+print(string.format(__tc_s(426),
+(os.clock() - menuBuiltAt) * 1000, #refreshers, #TABS))
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
 
@@ -1755,22 +1772,45 @@ silentLock = nil
 end
 end)
 
+local lastDrawWarn = 0
 RunService.RenderStepped:Connect(function()
 Camera = Workspace.CurrentCamera
 if not Camera then return end
+local t0 = os.clock()
 pcall(drawESP)
+local t1 = os.clock()
 pcall(drawHud)
+local t2 = os.clock()
+local ms = (t2 - t0) * 1000
+if ms > 30 and os.clock() - lastDrawWarn > 5 then
+lastDrawWarn = os.clock()
+warn(string.format(__tc_s(427),
+ms, (t1 - t0) * 1000, (t2 - t1) * 1000,
+tostring(Config.esp.enabled), tostring(Config.npc.enabled), tostring(Config.hud.enabled)))
+end
 pcall(applyCharacter)
 pcall(applyFly)
 pcall(applyWorld)
 pcall(runSilent)
 end)
 
-RunService:BindToRenderStep(__tc_s(424), Enum.RenderPriority.Camera.Value + 1, function()
+RunService:BindToRenderStep(__tc_s(428), Enum.RenderPriority.Camera.Value + 1, function()
 pcall(runAim)
 end)
+
+local lastSweepWarn = 0
 RunService.RenderStepped:Connect(function()
-for _, fn in ipairs(refreshers) do pcall(fn) end
+if not (menuOpen and gui.Enabled) then return end
+local t0 = os.clock()
+local failed = 0
+for _, fn in ipairs(refreshers) do
+if not pcall(fn) then failed = failed + 1 end
+end
+local ms = (os.clock() - t0) * 1000
+if (ms > 40 or failed > 0) and os.clock() - lastSweepWarn > 5 then
+lastSweepWarn = os.clock()
+warn(string.format(__tc_s(429), ms, #refreshers, failed))
+end
 end)
 
-print(__tc_s(425))
+print(__tc_s(430))
