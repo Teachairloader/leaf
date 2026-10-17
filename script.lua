@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=820989519,0,0,{}
+ local __e='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'
+ local __o,__q,__z,__u=1065197632,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={76,6,7,10,16,9,8,11,10,13,6,4,9,16,4,9,6,6,4,4,6,5,5,8,10,7,8,5,7,5,5,8,9,5,8,8,16,10,5,4,8,8,4,10,5,16,8,9,4,6,0,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,70,3,8,5,8,6,0,16,3,4,7,8,8,6,36,7,6,34,8,30,4,6,28,3,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,17,7,5,2,3,7,6,6,5,5,1,8,8,13,9,8,7,9,5,9,9,5,8,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,7,7,8,6,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,7,10,0,5,1,1,1,5,9,5,5,5,9,1,10,0,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,20,10,1,4,6,7,8,4,6,9,5,4,12,5,4,5,6,5,9,22,2,7,14,12,9,5,12,16,19,10,9,5,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,5,8,9,15,3,2,3,3,2,3,5,5,11,7,6,5,8,11,14,15,10,9,7,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,9,6,11,15,3,6,8,1,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,8,9,15,6,10,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,9,5,4,9,4,4,9,3,4,4,16,15,2,3,8,10,6,10,4,4,16,4,13,3,9,4,4,10,8,19,9,2,3,12,10,4,7,2,5,4,8,2,3,10,7,8,3,12,10,4,6,8,6,8,8,14,10,9,23,10,13,6,6,3,12,4,6,18,20,6,3,4,4,8,6,8,8,5,9,4,13,4,10,33,12,8,9,9,9,11,13,12,9,11,6,4,4,4,4,21,13,7,15,3,12,5,1,15,7,17,6,19,12,28,12,5,21,13,13,12,9,7,3,2,15,10,18,20,10,4,11,9,5,8,6,6,4,6,1,4,14,24,6,20,13,10,3,3,11,16,4,10,5,10,10,15,4,9,12,4,10,7,6,4,6,9,4,12,4,5,4,15,6,18,8,19,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,9,5,15,5,5,3,7,4,6,5,6,6,6,8,22,8,4,10,10,9,3,8,3,11,8,6,16,9,11,7,9,1,4,6,4,8,7,6,9,64,26,67,3,15,57,50}
+ local __w={76,6,7,10,16,9,8,11,10,13,6,4,9,16,4,9,6,6,4,4,6,5,5,8,8,16,10,5,4,8,8,4,10,5,16,8,9,4,6,0,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,70,3,8,5,8,6,0,16,3,4,7,8,8,6,36,7,6,34,8,30,4,6,28,3,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,17,7,5,2,3,7,6,6,5,5,1,8,8,13,9,8,7,9,5,9,9,5,8,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,7,7,8,6,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,7,10,0,5,1,1,1,5,9,5,5,5,9,1,10,0,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,20,10,1,4,6,7,8,4,6,9,5,4,12,5,4,5,6,5,9,22,2,7,14,12,9,5,12,16,19,10,9,5,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,5,8,9,15,3,2,3,3,2,3,5,5,11,7,6,5,8,11,14,15,10,9,7,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,9,6,11,15,3,6,8,1,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,8,9,15,6,10,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,9,5,4,9,4,4,9,3,4,4,16,15,2,3,8,10,6,10,4,4,16,4,13,3,9,4,4,10,8,19,9,2,3,12,10,4,7,2,5,4,8,2,3,10,7,8,3,12,10,4,6,8,6,8,8,14,10,9,23,10,13,6,6,3,12,4,6,18,20,6,3,4,4,8,6,8,8,5,9,4,13,4,10,33,12,8,9,9,9,11,13,12,15,7,17,6,19,12,5,21,13,9,7,3,2,15,10,18,20,10,4,11,9,5,8,6,6,4,6,1,4,14,24,6,20,13,10,3,3,11,16,4,10,5,10,10,15,4,9,12,4,10,7,6,4,6,9,4,12,4,5,4,15,6,18,8,19,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,9,5,15,5,5,3,7,4,6,5,6,6,6,8,22,8,4,10,10,9,3,8,3,11,8,6,16,9,11,7,9,1,4,6,4,8,7,6,9,64,26,67,3,15,57,50}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 820989519
+-- seed 1065197632
 
 if not Drawing then
 error(__tc_s(0))
@@ -68,13 +68,9 @@ tracerOrigin = __tc_s(10),
 headDot = false,
 skeleton = false,
 maxDistance = 1000,
+teamCheck = true,
 
-teamCheck = false,
-hideDead = false,
-
-streamPush = false,
-streamRadius = 600,
-streamStep = 300,
+hideDead = true,
 
 boxColor = Color3.fromRGB(255, 255, 255),
 fillColor = Color3.fromRGB(255, 255, 255),
@@ -169,8 +165,7 @@ local locked = nil
 local aimActive = false
 local hudText, fovCircle
 
-local espStats = { players = 0, bodies = 0, nostream = 0, dead = 0, drawn = 0, hidden = 0, fallback = 0,
-rescued = 0, recycled = 0, noalloc = 0 }
+local espStats = { players = 0, bodies = 0, nostream = 0, dead = 0, drawn = 0, hidden = 0, fallback = 0 }
 local espError = nil
 
 local function safeColor(c, fallback)
@@ -207,9 +202,7 @@ end
 
 local function ensure(key)
 if objects[key] then return objects[key] end
-
-local ok, o = pcall(function()
-return {
+local o = {
 box = newSquare(),
 fill = newSquare(),
 headDot = newCircle(true),
@@ -222,11 +215,6 @@ corner = { newLine(), newLine(), newLine(), newLine(),
 newLine(), newLine(), newLine(), newLine() },
 bones = {},
 }
-end)
-if not ok or not o then
-espStats.noalloc = espStats.noalloc + 1
-return nil
-end
 o.fill.Filled = true
 o.fill.Transparency = 0.6
 objects[key] = o
@@ -234,18 +222,16 @@ return o
 end
 
 local function destroy(o)
-if not o then return end
 for _, v in pairs(o) do
 if type(v) == __tc_s(21) then
-for _, l in ipairs(v) do pcall(function() l:Remove() end) end
+for _, l in ipairs(v) do l:Remove() end
 else
-pcall(function() v:Remove() end)
+v:Remove()
 end
 end
 end
 
 local function hide(o)
-if not o then return end
 for _, v in pairs(o) do
 if type(v) == __tc_s(22) then
 for _, l in ipairs(v) do l.Visible = false end
@@ -316,45 +302,24 @@ local rayc = RaycastParams.new()
 rayc.FilterType = Enum.RaycastFilterType.Exclude
 rayc.IgnoreWater = true
 
-local CHAR_CONTAINERS = { __tc_s(24), __tc_s(25), __tc_s(26), __tc_s(27), __tc_s(28), __tc_s(29) }
-
-local function resolveChar(plr)
-local char = plr.Character
-if char and char.Parent then return char, nil end
-local named = Workspace:FindFirstChild(plr.Name)
-if named and named:IsA(__tc_s(30)) and named:FindFirstChildWhichIsA(__tc_s(31)) then
-return named, __tc_s(32)
-end
-for _, name in ipairs(CHAR_CONTAINERS) do
-local box = Workspace:FindFirstChild(name)
-if box then
-local m = box:FindFirstChild(plr.Name)
-if m and m:IsA(__tc_s(33)) and m:FindFirstChildWhichIsA(__tc_s(34)) then
-return m, name
-end
-end
-end
-return nil, nil
-end
-
 local function body(plr)
-local char, via = resolveChar(plr)
+local char = plr.Character
 if not char then return nil end
-local hum = char:FindFirstChildOfClass(__tc_s(35))
+local hum = char:FindFirstChildOfClass(__tc_s(24))
 
-local root = char:FindFirstChild(__tc_s(36))
+local root = char:FindFirstChild(__tc_s(25))
 or (hum and hum.RootPart)
 or char.PrimaryPart
 if not root then
-for _, name in ipairs({ __tc_s(37), __tc_s(38), __tc_s(39) }) do
+for _, name in ipairs({ __tc_s(26), __tc_s(27), __tc_s(28) }) do
 local p = char:FindFirstChild(name)
-if p and p:IsA(__tc_s(40)) then root = p; break end
+if p and p:IsA(__tc_s(29)) then root = p; break end
 end
 end
-if not root then root = char:FindFirstChildWhichIsA(__tc_s(41)) end
+if not root then root = char:FindFirstChildWhichIsA(__tc_s(30)) end
 if not root then return nil end
 
-return char, hum, root, via
+return char, hum, root
 end
 
 local function isDead(hum)
@@ -370,9 +335,7 @@ local function visible(plr, point)
 if not Config.aim.wallCheck then return true end
 local origin = Camera.CFrame.Position
 
-local filter = {}
-local char = resolveChar(plr)
-if char then table.insert(filter, char) end
+local filter = { plr.Character }
 if LP.Character then table.insert(filter, LP.Character) end
 rayc.FilterDescendantsInstances = filter
 return Workspace:Raycast(origin, point - origin, rayc) == nil
@@ -383,9 +346,9 @@ return (Camera.CFrame.Position - root.Position).Magnitude
 end
 
 local AIM_PARTS = {
-Head = { __tc_s(42) },
-Torso = { __tc_s(43), __tc_s(44) },
-Root = { __tc_s(45) },
+Head = { __tc_s(31) },
+Torso = { __tc_s(32), __tc_s(33) },
+Root = { __tc_s(34) },
 }
 
 local function aimPartOf(char, root)
@@ -398,7 +361,7 @@ return root.Position
 end
 
 local function rawScore(plr, root)
-if Config.aim.targetMode == __tc_s(46) then return distanceTo(root) end
+if Config.aim.targetMode == __tc_s(35) then return distanceTo(root) end
 local p = project(aimPartOf(plr.Character, root))
 if not p then return distanceTo(root) end
 return (p - Camera.ViewportSize / 2).Magnitude
@@ -406,7 +369,7 @@ end
 
 local function scoreOf(plr, root)
 local point = aimPartOf(plr.Character, root)
-if Config.aim.targetMode == __tc_s(47) then
+if Config.aim.targetMode == __tc_s(36) then
 local p = project(point)
 if not p or (p - Camera.ViewportSize / 2).Magnitude > Config.aim.fov then return nil end
 end
@@ -449,15 +412,6 @@ end
 
 local function drawEntity(key, model, hum, root, base, opts)
 local o = ensure(key)
-if not o then return end
-
-if not pcall(function() o.box.Visible = o.box.Visible end) then
-pcall(destroy, objects[key])
-objects[key] = nil
-espStats.recycled = espStats.recycled + 1
-return
-end
-
 base = safeColor(base, Color3.new(1, 1, 1))
 local own = opts and opts.ownColors
 
@@ -529,7 +483,7 @@ line.From = pts[i][1]; line.To = pts[i][2]
 end
 end
 
-local head = model:FindFirstChild(__tc_s(48))
+local head = model:FindFirstChild(__tc_s(37))
 if Config.esp.headDot and head then
 local hp = project(head.Position)
 if hp then
@@ -544,7 +498,7 @@ else
 o.headDot.Visible = false
 end
 
-if Config.esp.name and type(opts.label) == __tc_s(49) and opts.label ~= __tc_s(50) then
+if Config.esp.name and type(opts.label) == __tc_s(38) and opts.label ~= __tc_s(39) then
 o.name.Visible = true
 o.name.Text = opts.label
 o.name.Color = col(Config.esp.nameColor)
@@ -555,7 +509,7 @@ end
 
 if Config.esp.distance then
 o.distance.Visible = true
-o.distance.Text = string.format(__tc_s(51), math.floor(dist))
+o.distance.Text = string.format(__tc_s(40), math.floor(dist))
 o.distance.Color = col(Config.esp.distColor)
 o.distance.Position = Vector2.new(tl.X + w / 2, br.Y + 3)
 else
@@ -584,8 +538,8 @@ end
 if Config.esp.tracer then
 local center = Camera.ViewportSize / 2
 local from
-if Config.esp.tracerOrigin == __tc_s(52) then from = Vector2.new(center.X, 0)
-elseif Config.esp.tracerOrigin == __tc_s(53) then from = center
+if Config.esp.tracerOrigin == __tc_s(41) then from = Vector2.new(center.X, 0)
+elseif Config.esp.tracerOrigin == __tc_s(42) then from = center
 else from = Vector2.new(center.X, Camera.ViewportSize.Y) end
 o.tracer.Visible = true
 o.tracer.From = from
@@ -607,14 +561,14 @@ local p1 = project(pa.Position); local p2 = project(pb.Position)
 if p1 and p2 then table.insert(m, { p1, p2 }) end
 end
 end
-joint(__tc_s(54), __tc_s(55)); joint(__tc_s(56), __tc_s(57))
-joint(__tc_s(58), __tc_s(59)); joint(__tc_s(60), __tc_s(61)); joint(__tc_s(62), __tc_s(63))
-joint(__tc_s(64), __tc_s(65)); joint(__tc_s(66), __tc_s(67)); joint(__tc_s(68), __tc_s(69))
-joint(__tc_s(70), __tc_s(71)); joint(__tc_s(72), __tc_s(73)); joint(__tc_s(74), __tc_s(75))
-joint(__tc_s(76), __tc_s(77)); joint(__tc_s(78), __tc_s(79)); joint(__tc_s(80), __tc_s(81))
+joint(__tc_s(43), __tc_s(44)); joint(__tc_s(45), __tc_s(46))
+joint(__tc_s(47), __tc_s(48)); joint(__tc_s(49), __tc_s(50)); joint(__tc_s(51), __tc_s(52))
+joint(__tc_s(53), __tc_s(54)); joint(__tc_s(55), __tc_s(56)); joint(__tc_s(57), __tc_s(58))
+joint(__tc_s(59), __tc_s(60)); joint(__tc_s(61), __tc_s(62)); joint(__tc_s(63), __tc_s(64))
+joint(__tc_s(65), __tc_s(66)); joint(__tc_s(67), __tc_s(68)); joint(__tc_s(69), __tc_s(70))
 if #m == 0 then
-joint(__tc_s(82), __tc_s(83)); joint(__tc_s(84), __tc_s(85)); joint(__tc_s(86), __tc_s(87))
-joint(__tc_s(88), __tc_s(89)); joint(__tc_s(90), __tc_s(91))
+joint(__tc_s(71), __tc_s(72)); joint(__tc_s(73), __tc_s(74)); joint(__tc_s(75), __tc_s(76))
+joint(__tc_s(77), __tc_s(78)); joint(__tc_s(79), __tc_s(80))
 end
 return m
 end)
@@ -635,7 +589,6 @@ local function drawESP()
 espStats.players, espStats.bodies = 0, 0
 espStats.nostream, espStats.dead = 0, 0
 espStats.drawn, espStats.hidden, espStats.fallback = 0, 0, 0
-espStats.rescued, espStats.recycled, espStats.noalloc = 0, 0, 0
 
 for _, plr in ipairs(Players:GetPlayers()) do
 if plr == LP then continue end
@@ -643,13 +596,12 @@ espStats.players = espStats.players + 1
 if not Config.esp.enabled or (Config.esp.teamCheck and onMyTeam(plr)) then
 hide(ensure(plr)); continue
 end
-local char, hum, root, via = body(plr)
+local char, hum, root = body(plr)
 
 if not char then
 espStats.nostream = espStats.nostream + 1
 hide(ensure(plr)); continue
 end
-if via then espStats.rescued = espStats.rescued + 1 end
 if Config.esp.hideDead and isDead(hum) then
 espStats.dead = espStats.dead + 1
 hide(ensure(plr)); continue
@@ -664,9 +616,9 @@ end
 
 if not Config.npc.enabled then return end
 for _, m in ipairs(Workspace:GetChildren()) do
-if m:IsA(__tc_s(92)) and not Players:GetPlayerFromCharacter(m) then
-local hum = m:FindFirstChildOfClass(__tc_s(93))
-local root = m:FindFirstChild(__tc_s(94)) or m:FindFirstChild(__tc_s(95)) or m:FindFirstChild(__tc_s(96))
+if m:IsA(__tc_s(81)) and not Players:GetPlayerFromCharacter(m) then
+local hum = m:FindFirstChildOfClass(__tc_s(82))
+local root = m:FindFirstChild(__tc_s(83)) or m:FindFirstChild(__tc_s(84)) or m:FindFirstChild(__tc_s(85))
 if hum and root then
 if hum.Health <= 0 and Config.npc.health then
 hide(ensure(m))
@@ -682,47 +634,6 @@ end
 end
 end
 
-local STREAM_API = type(Workspace.RequestStreamAroundAsync) == __tc_s(97)
-local streamThread = false
-local streamPushes = 0
-
-local function streamSweep()
-local radius = math.clamp(tonumber(Config.esp.streamRadius) or 600, 200, 4000)
-local step = math.clamp(tonumber(Config.esp.streamStep) or 300, 100, radius)
-local origin = (Camera and Camera.CFrame.Position) or Vector3.new(0, 0, 0)
-local sent = 0
-for dx = -radius, radius, step do
-for dz = -radius, radius, step do
-if pcall(function()
-Workspace:RequestStreamAroundAsync(origin + Vector3.new(dx, 0, dz))
-end) then
-sent = sent + 1
-end
-end
-end
-streamPushes = sent
-end
-
-local function streamLoop()
-while streamThread do
-if Config.esp.streamPush and Workspace.StreamingEnabled and STREAM_API then
-pcall(streamSweep)
-end
-task.wait(3)
-end
-end
-
-local function syncStreamPush()
-local want = Config.esp.streamPush and Workspace.StreamingEnabled and STREAM_API
-if want and not streamThread then
-streamThread = true
-task.spawn(streamLoop)
-elseif not want and streamThread then
-streamThread = false
-streamPushes = 0
-end
-end
-
 local function aimAt(targetPos)
 if not Camera then return end
 local cur = Camera.CFrame
@@ -731,29 +642,29 @@ local alpha = 1 - Config.aim.smoothness
 Camera.CFrame = cur:Lerp(goal, math.clamp(alpha, 0.02, 1))
 end
 
-local MOUSELOCK_URL = __tc_s(98)
+local MOUSELOCK_URL = __tc_s(86)
 
-local mouselockState = __tc_s(99)
+local mouselockState = __tc_s(87)
 local mouselockMsg = nil
 
 local function mouselockEnv()
-if type(getgenv) == __tc_s(100) then
+if type(getgenv) == __tc_s(88) then
 local ok, env = pcall(getgenv)
-if ok and type(env) == __tc_s(101) then return env end
+if ok and type(env) == __tc_s(89) then return env end
 end
 return _G
 end
 
 local function mouselockAimKey()
 local k = Config.aim.mouselockKey
-if typeof(k) == __tc_s(102) and k.EnumType == Enum.KeyCode then return k end
+if typeof(k) == __tc_s(90) and k.EnumType == Enum.KeyCode then return k end
 return Enum.KeyCode.E
 end
 
 local function mouselockTargetPart()
 local p = Config.aim.mouselockPart
-if type(p) == __tc_s(103) and p ~= __tc_s(104) then return p end
-return __tc_s(105)
+if type(p) == __tc_s(91) and p ~= __tc_s(92) then return p end
+return __tc_s(93)
 end
 
 local function applyMouselockConfig()
@@ -778,36 +689,36 @@ end
 
 local function loadMouselock()
 if not Config.aim.mouselock then
-mouselockState, mouselockMsg = __tc_s(106), nil
+mouselockState, mouselockMsg = __tc_s(94), nil
 return
 end
-if mouselockState == __tc_s(107) or mouselockState == __tc_s(108) then return end
-if type(loadstring) ~= __tc_s(109) or type(game.HttpGet) ~= __tc_s(110) then
-mouselockState, mouselockMsg = __tc_s(111), __tc_s(112)
+if mouselockState == __tc_s(95) or mouselockState == __tc_s(96) then return end
+if type(loadstring) ~= __tc_s(97) or type(game.HttpGet) ~= __tc_s(98) then
+mouselockState, mouselockMsg = __tc_s(99), __tc_s(100)
 return
 end
 
-mouselockState, mouselockMsg = __tc_s(113), nil
+mouselockState, mouselockMsg = __tc_s(101), nil
 applyMouselockConfig()
 
 local ok, err = pcall(function()
 local src = game:HttpGet(MOUSELOCK_URL)
-if type(src) ~= __tc_s(114) or #src < 64 then error(__tc_s(115)) end
+if type(src) ~= __tc_s(102) or #src < 64 then error(__tc_s(103)) end
 local chunk = loadstring(src)
-if type(chunk) ~= __tc_s(116) then error(__tc_s(117)) end
+if type(chunk) ~= __tc_s(104) then error(__tc_s(105)) end
 chunk()
 end)
 
 if ok then
-mouselockState, mouselockMsg = __tc_s(118), nil
+mouselockState, mouselockMsg = __tc_s(106), nil
 else
-mouselockState, mouselockMsg = __tc_s(119), tostring(err)
-warn(__tc_s(120) .. mouselockMsg)
+mouselockState, mouselockMsg = __tc_s(107), tostring(err)
+warn(__tc_s(108) .. mouselockMsg)
 end
 end
 
 local function reloadMouselock()
-mouselockState, mouselockMsg = __tc_s(121), nil
+mouselockState, mouselockMsg = __tc_s(109), nil
 loadMouselock()
 end
 
@@ -827,7 +738,7 @@ if not target then return end
 local _, _, root = body(target)
 if not root then return end
 
-if Config.aim.mouselock and mouselockState == __tc_s(122) then return end
+if Config.aim.mouselock and mouselockState == __tc_s(110) then return end
 if not Config.aim.cameraLock then return end
 
 aimAt(aimPartOf(target.Character, root))
@@ -847,7 +758,7 @@ local function silentPoint(char, root)
 if char then
 for _, name in ipairs(AIM_PARTS[Config.silent.part] or AIM_PARTS.Head) do
 local part = char:FindFirstChild(name)
-if part and part:IsA(__tc_s(123)) then return part.Position, part end
+if part and part:IsA(__tc_s(111)) then return part.Position, part end
 end
 end
 return root.Position, root
@@ -923,20 +834,20 @@ end
 local function installSilent()
 if silentReady then return true end
 if not MOUSE then return false end
-if type(getrawmetatable) ~= __tc_s(124) or type(setreadonly) ~= __tc_s(125) then return false end
+if type(getrawmetatable) ~= __tc_s(112) or type(setreadonly) ~= __tc_s(113) then return false end
 local wrap = newcclosure or function(f) return f end
 local caller = checkcaller
 local ok = pcall(function()
 local mt = getrawmetatable(game)
 local old = mt.__index
 
-if type(old) ~= __tc_s(126) then return end
+if type(old) ~= __tc_s(114) then return end
 silentMeta, silentOriginal = mt, old
 setreadonly(mt, false)
 mt.__index = wrap(function(self, key)
 if silentSpoof and self == MOUSE and not (caller and caller()) then
-if key == __tc_s(127) then return silentSpoof.hit end
-if key == __tc_s(128) then return silentSpoof.target end
+if key == __tc_s(115) then return silentSpoof.hit end
+if key == __tc_s(116) then return silentSpoof.target end
 end
 return old(self, key)
 end)
@@ -989,7 +900,7 @@ end
 if not installSilent() then return end
 
 silentSpoof = {
-hit = Config.silent.method == __tc_s(129)
+hit = Config.silent.method == __tc_s(117)
 and CFrame.new(pos)
 or CFrame.lookAt(pos, pos + dir),
 target = part,
@@ -1029,7 +940,7 @@ end
 
 local function applyCharacter()
 local char = LP.Character
-local hum = char and char:FindFirstChildOfClass(__tc_s(130))
+local hum = char and char:FindFirstChildOfClass(__tc_s(118))
 if not hum then return end
 local c = Config.character
 if c.speedEnabled then hum.WalkSpeed = c.speed end
@@ -1039,14 +950,14 @@ end
 
 local function applyFly()
 local char = LP.Character
-local root = char and char:FindFirstChild(__tc_s(131))
-local hum = char and char:FindFirstChildOfClass(__tc_s(132))
+local root = char and char:FindFirstChild(__tc_s(119))
+local hum = char and char:FindFirstChildOfClass(__tc_s(120))
 if not root or not hum then return end
 
 if Config.character.fly then
 if not flyBV or flyBV.Parent ~= root then
 if flyBV then flyBV:Destroy() end
-flyBV = Instance.new(__tc_s(133))
+flyBV = Instance.new(__tc_s(121))
 flyBV.MaxForce = Vector3.new(1e5, 1e5, 1e5)
 flyBV.Velocity = Vector3.zero
 flyBV.Parent = root
@@ -1069,18 +980,18 @@ end
 
 UserInputService.JumpRequest:Connect(function()
 if not Config.character.infiniteJump then return end
-local hum = LP.Character and LP.Character:FindFirstChildOfClass(__tc_s(134))
+local hum = LP.Character and LP.Character:FindFirstChildOfClass(__tc_s(122))
 if hum then hum:ChangeState(Enum.HumanoidStateType.Jumping) end
 end)
 
 local function drawHud()
 if not hudText then
-hudText = Drawing.new(__tc_s(135))
+hudText = Drawing.new(__tc_s(123))
 hudText.Center, hudText.Outline, hudText.Font = false, true, Font
 hudText.Size, hudText.Color = 13, Color3.fromRGB(235, 235, 235)
 end
 if not fovCircle then
-fovCircle = Drawing.new(__tc_s(136))
+fovCircle = Drawing.new(__tc_s(124))
 fovCircle.Filled, fovCircle.Thickness = false, 1
 fovCircle.NumSides, fovCircle.Color, fovCircle.Transparency = 64, Color3.fromRGB(255, 255, 255), 0.5
 end
@@ -1088,15 +999,15 @@ end
 hudText.Visible = Config.hud.enabled
 if Config.hud.enabled then
 local lines = {
-string.format(__tc_s(137), VERSION),
-string.format(__tc_s(138), Config.esp.enabled and (espError and __tc_s(139) or __tc_s(140)) or __tc_s(141)),
-string.format(__tc_s(142), aimActive and (locked and __tc_s(143) or __tc_s(144)) or __tc_s(145)),
+string.format(__tc_s(125), VERSION),
+string.format(__tc_s(126), Config.esp.enabled and (espError and __tc_s(127) or __tc_s(128)) or __tc_s(129)),
+string.format(__tc_s(130), aimActive and (locked and __tc_s(131) or __tc_s(132)) or __tc_s(133)),
 }
 
 if Config.esp.enabled and espError then
-table.insert(lines, __tc_s(146) .. espError)
+table.insert(lines, __tc_s(134) .. espError)
 end
-hudText.Text = table.concat(lines, __tc_s(147))
+hudText.Text = table.concat(lines, __tc_s(135))
 hudText.Position = Vector2.new(12, 12)
 end
 
@@ -1128,13 +1039,13 @@ return o
 end
 
 local function round(obj, r)
-local c = Instance.new(__tc_s(148))
+local c = Instance.new(__tc_s(136))
 c.CornerRadius = UDim.new(0, r or 6)
 c.Parent = obj
 end
 
 local function border(obj, color, thickness)
-local s = Instance.new(__tc_s(149))
+local s = Instance.new(__tc_s(137))
 s.Color = color or Theme.line
 s.Thickness = thickness or 1
 s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
@@ -1142,7 +1053,7 @@ s.Parent = obj
 end
 
 local function hexStr(c)
-return string.format(__tc_s(150),
+return string.format(__tc_s(138),
 math.floor(c.R * 255 + 0.5), math.floor(c.G * 255 + 0.5), math.floor(c.B * 255 + 0.5))
 end
 
@@ -1150,17 +1061,17 @@ local refreshers = {}
 local bindCapture = nil
 
 local function makeGui()
-local gui = inst(__tc_s(151), {
-Name = __tc_s(152) .. tostring(math.random(100000, 999999)),
+local gui = inst(__tc_s(139), {
+Name = __tc_s(140) .. tostring(math.random(100000, 999999)),
 ResetOnSpawn = false,
 ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 IgnoreGuiInset = true,
 DisplayOrder = 9999,
 })
 if syn and syn.protect_gui then pcall(syn.protect_gui, gui) end
-local parent = (gethui and gethui()) or game:GetService(__tc_s(153))
+local parent = (gethui and gethui()) or game:GetService(__tc_s(141))
 if not pcall(function() gui.Parent = parent end) then
-gui.Parent = LP:WaitForChild(__tc_s(154))
+gui.Parent = LP:WaitForChild(__tc_s(142))
 end
 return gui
 end
@@ -1174,14 +1085,14 @@ local PAGE_PAD = 10
 local COL_GAP = 10
 
 local function rowFrame(card, height)
-return inst(__tc_s(155), {
+return inst(__tc_s(143), {
 Size = UDim2.new(1, 0, 0, height),
 BackgroundTransparency = 1,
 }, card)
 end
 
 local function rowText(parent, text, x, rightPad, color)
-return inst(__tc_s(156), {
+return inst(__tc_s(144), {
 Text = text, Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = color or Theme.text,
 BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Left,
@@ -1192,7 +1103,7 @@ end
 
 local function addHeader(card, label)
 local r = rowFrame(card, HEADER_H)
-inst(__tc_s(157), {
+inst(__tc_s(145), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
@@ -1202,14 +1113,14 @@ Size = UDim2.new(1, 0, 1, 0),
 end
 
 local function checkBox(parent, on)
-local box = inst(__tc_s(158), {
+local box = inst(__tc_s(146), {
 Size = UDim2.fromOffset(13, 13),
 Position = UDim2.new(0, 0, 0.5, -6.5),
 BackgroundColor3 = on and Theme.accent or Theme.bg,
 BorderSizePixel = 0,
 }, parent)
 round(box, 3)
-local edge = Instance.new(__tc_s(159))
+local edge = Instance.new(__tc_s(147))
 edge.Color = on and Theme.accent or Theme.line
 edge.Thickness = 1
 edge.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
@@ -1222,9 +1133,9 @@ local r = rowFrame(card, ROW_H)
 local box, edge = checkBox(r, get())
 rowText(r, label, 21, 0)
 
-local btn = inst(__tc_s(160), {
+local btn = inst(__tc_s(148), {
 Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1,
-Text = __tc_s(161), AutoButtonColor = false,
+Text = __tc_s(149), AutoButtonColor = false,
 }, r)
 btn.MouseButton1Click:Connect(function() set(not get()) end)
 
@@ -1238,13 +1149,13 @@ end
 local function addSlider(card, label, min, max, step, get, set, fmt, accentValue)
 local block = rowFrame(card, SLIDER_H)
 
-local head = inst(__tc_s(162), {
+local head = inst(__tc_s(150), {
 Size = UDim2.new(1, 0, 0, 16),
 BackgroundTransparency = 1,
 }, block)
 rowText(head, label, 0, 0)
-local valueLbl = inst(__tc_s(163), {
-Text = __tc_s(164), Font = Enum.Font.Gotham, TextSize = 13,
+local valueLbl = inst(__tc_s(151), {
+Text = __tc_s(152), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = accentValue and Theme.accent or Theme.text,
 BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Center,
 Size = UDim2.new(0, 64, 1, 0), Position = UDim2.new(0.6, -32, 0, 0),
@@ -1261,8 +1172,8 @@ set(quantise(get() + direction * (step or span / 100)))
 end
 
 for i, dir in ipairs({ 1, -1 }) do
-local b = inst(__tc_s(165), {
-Text = dir > 0 and __tc_s(166) or __tc_s(167), Font = Enum.Font.Gotham,
+local b = inst(__tc_s(153), {
+Text = dir > 0 and __tc_s(154) or __tc_s(155), Font = Enum.Font.Gotham,
 TextSize = 11, TextColor3 = Theme.dim, BackgroundTransparency = 1,
 AutoButtonColor = false,
 Size = UDim2.fromOffset(12, 8),
@@ -1271,20 +1182,20 @@ Position = UDim2.new(1, -12, 0, (i - 1) * 8),
 b.MouseButton1Click:Connect(function() nudge(dir) end)
 end
 
-local track = inst(__tc_s(168), {
+local track = inst(__tc_s(156), {
 Size = UDim2.new(1, 0, 0, 4),
 Position = UDim2.fromOffset(0, 26),
 BackgroundColor3 = Theme.off,
 BorderSizePixel = 0,
 }, block)
 round(track, 2)
-local fill = inst(__tc_s(169), {
+local fill = inst(__tc_s(157), {
 Size = UDim2.fromScale(0, 1),
 BackgroundColor3 = Theme.accent,
 BorderSizePixel = 0,
 }, track)
 round(fill, 2)
-local knob = inst(__tc_s(170), {
+local knob = inst(__tc_s(158), {
 Size = UDim2.fromOffset(11, 11),
 AnchorPoint = Vector2.new(0.5, 0.5),
 Position = UDim2.new(0, 0, 0.5, 0),
@@ -1293,10 +1204,10 @@ BorderSizePixel = 0,
 }, track)
 round(knob, 6)
 
-local grab = inst(__tc_s(171), {
+local grab = inst(__tc_s(159), {
 Size = UDim2.new(1, 0, 0, 18),
 Position = UDim2.fromOffset(0, 17),
-BackgroundTransparency = 1, Text = __tc_s(172), AutoButtonColor = false,
+BackgroundTransparency = 1, Text = __tc_s(160), AutoButtonColor = false,
 }, block)
 
 local dragging = false
@@ -1330,18 +1241,18 @@ end)
 end
 
 local BIND_NAMES = {
-MouseButton1 = __tc_s(173),
-MouseButton2 = __tc_s(174),
-MouseButton3 = __tc_s(175),
+MouseButton1 = __tc_s(161),
+MouseButton2 = __tc_s(162),
+MouseButton3 = __tc_s(163),
 }
 
 local function bindName(v)
-if not v then return __tc_s(176) end
-return BIND_NAMES[v.Name] or v.Name or __tc_s(177)
+if not v then return __tc_s(164) end
+return BIND_NAMES[v.Name] or v.Name or __tc_s(165)
 end
 
 local function inputMatches(bind, input)
-if typeof(bind) ~= __tc_s(178) then return false end
+if typeof(bind) ~= __tc_s(166) then return false end
 if bind.EnumType == Enum.UserInputType then
 return input.UserInputType == bind
 end
@@ -1360,7 +1271,7 @@ character = { speedKey = true, flyKey = true },
 }
 
 local function resolveBind(name)
-if type(name) ~= __tc_s(179) then return nil end
+if type(name) ~= __tc_s(167) then return nil end
 local ok, kc = pcall(function() return Enum.KeyCode[name] end)
 if ok and kc and kc ~= Enum.KeyCode.Unknown then return kc end
 local ok2, uit = pcall(function() return Enum.UserInputType[name] end)
@@ -1370,14 +1281,14 @@ end
 
 local function addBind(card, label, get, set)
 local block = rowFrame(card, FIELD_H)
-inst(__tc_s(180), {
+inst(__tc_s(168), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
 }, block)
 
-local btn = inst(__tc_s(181), {
+local btn = inst(__tc_s(169), {
 Text = bindName(get()), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = Theme.text, BackgroundColor3 = Theme.row,
 BorderSizePixel = 0, AutoButtonColor = false,
@@ -1386,11 +1297,11 @@ Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 18),
 }, block)
 round(btn, 4)
 border(btn, Theme.line)
-inst(__tc_s(182), { PaddingLeft = UDim.new(0, 10) }, btn)
+inst(__tc_s(170), { PaddingLeft = UDim.new(0, 10) }, btn)
 
 btn.MouseButton1Click:Connect(function()
 bindCapture = { btn = btn, set = set, get = get }
-btn.Text = __tc_s(183)
+btn.Text = __tc_s(171)
 end)
 table.insert(refreshers, function()
 if bindCapture and bindCapture.btn == btn then return end
@@ -1400,21 +1311,21 @@ end
 
 local function addDrop(card, label, items, get, set)
 local block = rowFrame(card, FIELD_H)
-inst(__tc_s(184), {
+inst(__tc_s(172), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
 }, block)
 
-local btn = inst(__tc_s(185), {
-Text = __tc_s(186), BackgroundColor3 = Theme.row, BorderSizePixel = 0,
+local btn = inst(__tc_s(173), {
+Text = __tc_s(174), BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 AutoButtonColor = false,
 Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 18),
 }, block)
 round(btn, 4)
 border(btn, Theme.line)
-local cur = inst(__tc_s(187), {
+local cur = inst(__tc_s(175), {
 Text = get(), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = Theme.text, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
@@ -1423,7 +1334,7 @@ TextTruncate = Enum.TextTruncate.AtEnd,
 }, btn)
 
 for i, rot in ipairs({ 45, -45 }) do
-inst(__tc_s(188), {
+inst(__tc_s(176), {
 Size = UDim2.fromOffset(6, 2),
 Position = UDim2.new(1, -20 + (i - 1) * 4, 0.5, -1),
 BackgroundColor3 = Theme.dim, BorderSizePixel = 0, Rotation = rot,
@@ -1445,12 +1356,12 @@ Color3.fromRGB(120, 120, 120), Color3.fromRGB(0, 0, 0),
 }
 
 local function toHex(c)
-return string.format(__tc_s(189),
+return string.format(__tc_s(177),
 math.floor(c.R * 255 + 0.5), math.floor(c.G * 255 + 0.5), math.floor(c.B * 255 + 0.5))
 end
 
 local function fromHex(s)
-local h = tostring(s):gsub(__tc_s(190), __tc_s(191))
+local h = tostring(s):gsub(__tc_s(178), __tc_s(179))
 if #h == 3 then h = h:sub(1, 1):rep(2) .. h:sub(2, 2):rep(2) .. h:sub(3, 3):rep(2) end
 if #h < 6 then return nil end
 return Color3.fromRGB(tonumber(h:sub(1, 2), 16), tonumber(h:sub(3, 4), 16), tonumber(h:sub(5, 6), 16))
@@ -1458,14 +1369,14 @@ end
 
 local function addColor(card, label, get, set)
 local block = rowFrame(card, COLOR_H)
-inst(__tc_s(192), {
+inst(__tc_s(180), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
 }, block)
 
-local hex = inst(__tc_s(193), {
+local hex = inst(__tc_s(181), {
 Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 12,
 TextColor3 = Theme.text, BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 Size = UDim2.new(1, -36, 0, 26), Position = UDim2.fromOffset(0, 18),
@@ -1474,8 +1385,8 @@ TextXAlignment = Enum.TextXAlignment.Center, ClearTextOnFocus = false,
 round(hex, 4)
 border(hex, Theme.line)
 
-local swatch = inst(__tc_s(194), {
-Text = __tc_s(195), Size = UDim2.fromOffset(26, 26),
+local swatch = inst(__tc_s(182), {
+Text = __tc_s(183), Size = UDim2.fromOffset(26, 26),
 Position = UDim2.new(1, -26, 0, 18),
 BackgroundColor3 = get(), BorderSizePixel = 0, AutoButtonColor = false,
 }, block)
@@ -1506,14 +1417,14 @@ local function addColorRGB(card, label, get, set)
 local block = rowFrame(card, COLOR_H)
 local expanded = false
 
-inst(__tc_s(196), {
+inst(__tc_s(184), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
 }, block)
 
-local hex = inst(__tc_s(197), {
+local hex = inst(__tc_s(185), {
 Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 12,
 TextColor3 = Theme.text, BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 Size = UDim2.new(1, -36, 0, 26), Position = UDim2.fromOffset(0, 18),
@@ -1522,58 +1433,58 @@ TextXAlignment = Enum.TextXAlignment.Center, ClearTextOnFocus = false,
 round(hex, 4)
 border(hex, Theme.line)
 
-local swatch = inst(__tc_s(198), {
-Text = __tc_s(199), Size = UDim2.fromOffset(26, 26),
+local swatch = inst(__tc_s(186), {
+Text = __tc_s(187), Size = UDim2.fromOffset(26, 26),
 Position = UDim2.new(1, -26, 0, 18),
 BackgroundColor3 = get(), BorderSizePixel = 0, AutoButtonColor = false,
 }, block)
 round(swatch, 4)
 border(swatch)
 
-local panel = inst(__tc_s(200), {
+local panel = inst(__tc_s(188), {
 Size = UDim2.new(1, 0, 0, COLOR_OPEN_H - COLOR_ROW_PAD),
 Position = UDim2.fromOffset(0, COLOR_ROW_PAD),
 BackgroundTransparency = 1, Visible = false,
 }, block)
 
 local bars = {}
-for i, letter in ipairs({ __tc_s(201), __tc_s(202), __tc_s(203) }) do
-local bar = inst(__tc_s(204), {
+for i, letter in ipairs({ __tc_s(189), __tc_s(190), __tc_s(191) }) do
+local bar = inst(__tc_s(192), {
 Size = UDim2.new(1, 0, 0, 18),
 Position = UDim2.fromOffset(0, (i - 1) * COLOR_BAR_H),
 BackgroundTransparency = 1,
 }, panel)
-inst(__tc_s(205), {
+inst(__tc_s(193), {
 Text = letter, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Size = UDim2.fromOffset(10, 18),
 }, bar)
-local track = inst(__tc_s(206), {
+local track = inst(__tc_s(194), {
 Size = UDim2.new(1, -48, 0, 6), Position = UDim2.fromOffset(14, 6),
 BackgroundColor3 = Theme.off, BorderSizePixel = 0,
 }, bar)
 round(track, 3)
-local fill = inst(__tc_s(207), {
+local fill = inst(__tc_s(195), {
 Size = UDim2.fromScale(0, 1), BackgroundColor3 = Theme.accent,
 BorderSizePixel = 0,
 }, track)
 round(fill, 3)
-local knob = inst(__tc_s(208), {
+local knob = inst(__tc_s(196), {
 Size = UDim2.fromOffset(9, 9), AnchorPoint = Vector2.new(0.5, 0.5),
 Position = UDim2.new(0, 0, 0.5, 0), BackgroundColor3 = Theme.knob,
 BorderSizePixel = 0,
 }, track)
 round(knob, 5)
-local readout = inst(__tc_s(209), {
-Text = __tc_s(210), Font = Enum.Font.Gotham, TextSize = 11,
+local readout = inst(__tc_s(197), {
+Text = __tc_s(198), Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = Theme.text, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
 Size = UDim2.new(0, 30, 0, 18), Position = UDim2.new(1, -30, 0, 0),
 }, bar)
-local grab = inst(__tc_s(211), {
+local grab = inst(__tc_s(199), {
 Size = UDim2.new(1, -48, 0, 18), Position = UDim2.fromOffset(14, 0),
-BackgroundTransparency = 1, Text = __tc_s(212), AutoButtonColor = false,
+BackgroundTransparency = 1, Text = __tc_s(200), AutoButtonColor = false,
 }, bar)
 
 bars[i] = { track = track, fill = fill, knob = knob, readout = readout }
@@ -1606,8 +1517,8 @@ end
 
 local presetsY = 3 * COLOR_BAR_H + 6
 for i, preset in ipairs(COLOR_PRESETS) do
-local b = inst(__tc_s(213), {
-Text = __tc_s(214), Size = UDim2.fromOffset(22, 20),
+local b = inst(__tc_s(201), {
+Text = __tc_s(202), Size = UDim2.fromOffset(22, 20),
 Position = UDim2.fromOffset((i - 1) * 25, presetsY),
 BackgroundColor3 = preset, BorderSizePixel = 0, AutoButtonColor = false,
 }, panel)
@@ -1660,14 +1571,14 @@ end
 
 local function addInfo(card, label, valueFn)
 local r = rowFrame(card, ROW_H)
-inst(__tc_s(215), {
+inst(__tc_s(203), {
 Text = label, Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = Theme.text, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Size = UDim2.new(0.55, -6, 1, 0),
 }, r)
-local v = inst(__tc_s(216), {
-Text = __tc_s(217), Font = Enum.Font.Gotham, TextSize = 13,
+local v = inst(__tc_s(204), {
+Text = __tc_s(205), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
 Size = UDim2.new(0.45, 0, 1, 0), Position = UDim2.new(0.55, 0, 0, 0),
@@ -1677,7 +1588,7 @@ table.insert(refreshers, function() v.Text = valueFn() end)
 end
 
 local function addButton(card, label, primary, onClick)
-local btn = inst(__tc_s(218), {
+local btn = inst(__tc_s(206), {
 Text = label, Font = Enum.Font.GothamMedium, TextSize = 13,
 TextColor3 = primary and Theme.bg or Theme.text,
 BackgroundColor3 = primary and Theme.accent or Theme.row,
@@ -1691,21 +1602,21 @@ return btn
 end
 
 local function addTextInput(card, placeholder, default)
-local box = inst(__tc_s(219), {
-Text = default or __tc_s(220), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
+local box = inst(__tc_s(207), {
+Text = default or __tc_s(208), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
 BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 Size = UDim2.new(1, 0, 0, 30),
-PlaceholderText = placeholder or __tc_s(221), ClearTextOnFocus = false,
+PlaceholderText = placeholder or __tc_s(209), ClearTextOnFocus = false,
 TextXAlignment = Enum.TextXAlignment.Left,
 }, card)
 round(box, 4)
 border(box, Theme.line)
-inst(__tc_s(222), { PaddingLeft = UDim.new(0, 10) }, box)
+inst(__tc_s(210), { PaddingLeft = UDim.new(0, 10) }, box)
 return box
 end
 
 local function makeCard(column, title)
-local card = inst(__tc_s(223), {
+local card = inst(__tc_s(211), {
 Size = UDim2.new(1, 0, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundColor3 = Theme.card,
@@ -1713,13 +1624,13 @@ BorderSizePixel = 0,
 }, column)
 round(card, 6)
 border(card, Theme.line)
-inst(__tc_s(224), {
+inst(__tc_s(212), {
 PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12),
 PaddingTop = UDim.new(0, 10), PaddingBottom = UDim.new(0, 12),
 }, card)
-inst(__tc_s(225), { Padding = UDim.new(0, 2), SortOrder = Enum.SortOrder.LayoutOrder }, card)
+inst(__tc_s(213), { Padding = UDim.new(0, 2), SortOrder = Enum.SortOrder.LayoutOrder }, card)
 
-inst(__tc_s(226), {
+inst(__tc_s(214), {
 Text = title,
 Font = Enum.Font.GothamMedium,
 TextSize = 13,
@@ -1741,8 +1652,8 @@ local WINDOW = Vector2.new(560, 600)
 local BAR_H = 34
 local FOOTER_H = 26
 
-local win = inst(__tc_s(227), {
-Name = __tc_s(228),
+local win = inst(__tc_s(215), {
+Name = __tc_s(216),
 Size = UDim2.fromOffset(WINDOW.X, WINDOW.Y),
 Position = UDim2.new(0.5, -WINDOW.X / 2, 0.5, -WINDOW.Y / 2),
 BackgroundColor3 = Theme.bg,
@@ -1752,13 +1663,13 @@ Active = true,
 round(win, 8)
 border(win, Theme.line)
 
-local header = inst(__tc_s(229), {
-Name = __tc_s(230),
+local header = inst(__tc_s(217), {
+Name = __tc_s(218),
 Size = UDim2.new(1, 0, 0, BAR_H),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(231), {
+inst(__tc_s(219), {
 Size = UDim2.new(1, 0, 0, 1),
 Position = UDim2.new(0, 0, 1, -1),
 BackgroundColor3 = Theme.line,
@@ -1766,16 +1677,16 @@ BorderSizePixel = 0,
 ZIndex = 2,
 }, header)
 
-inst(__tc_s(232), {
-Text = __tc_s(233) .. hexStr(Theme.accent) .. __tc_s(234),
+inst(__tc_s(220), {
+Text = __tc_s(221) .. hexStr(Theme.accent) .. __tc_s(222),
 RichText = true, Font = Enum.Font.GothamBold, TextSize = 14, TextColor3 = Theme.text,
 BackgroundTransparency = 1,
 Size = UDim2.fromOffset(100, BAR_H), Position = UDim2.fromOffset(14, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, header)
 
-local closeBtn = inst(__tc_s(235), {
-Text = __tc_s(236), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
+local closeBtn = inst(__tc_s(223), {
+Text = __tc_s(224), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, Size = UDim2.fromOffset(26, BAR_H),
 Position = UDim2.new(1, -30, 0, 0),
 }, header)
@@ -1805,41 +1716,41 @@ end)
 end
 
 local MOUSELOCK_TAB = 7
-local TABS = { __tc_s(237), __tc_s(238), __tc_s(239), __tc_s(240), __tc_s(241), __tc_s(242), __tc_s(243) }
-local tabBar = inst(__tc_s(244), {
-Name = __tc_s(245),
+local TABS = { __tc_s(225), __tc_s(226), __tc_s(227), __tc_s(228), __tc_s(229), __tc_s(230), __tc_s(231) }
+local tabBar = inst(__tc_s(232), {
+Name = __tc_s(233),
 Size = UDim2.new(1, -110, 1, 0),
 Position = UDim2.fromOffset(106, 0),
 BackgroundTransparency = 1,
 }, header)
-inst(__tc_s(246), {
+inst(__tc_s(234), {
 FillDirection = Enum.FillDirection.Horizontal,
 SortOrder = Enum.SortOrder.LayoutOrder,
 VerticalAlignment = Enum.VerticalAlignment.Center,
 }, tabBar)
 
-local bodyHost = inst(__tc_s(247), {
-Name = __tc_s(248),
+local bodyHost = inst(__tc_s(235), {
+Name = __tc_s(236),
 Size = UDim2.new(1, 0, 1, -(BAR_H + FOOTER_H)),
 Position = UDim2.fromOffset(0, BAR_H),
 BackgroundTransparency = 1,
 }, win)
 
-local footer = inst(__tc_s(249), {
-Name = __tc_s(250),
+local footer = inst(__tc_s(237), {
+Name = __tc_s(238),
 Size = UDim2.new(1, 0, 0, FOOTER_H),
 Position = UDim2.new(0, 0, 1, -FOOTER_H),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(251), {
+inst(__tc_s(239), {
 Size = UDim2.new(1, 0, 0, 1),
 BackgroundColor3 = Theme.line,
 BorderSizePixel = 0,
 ZIndex = 2,
 }, footer)
-inst(__tc_s(252), {
-Text = __tc_s(253) .. hexStr(Theme.accent) .. __tc_s(254) .. VERSION .. __tc_s(255),
+inst(__tc_s(240), {
+Text = __tc_s(241) .. hexStr(Theme.accent) .. __tc_s(242) .. VERSION .. __tc_s(243),
 RichText = true, Font = Enum.Font.Gotham, TextSize = 12, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, Size = UDim2.new(1, -28, 1, 0),
 Position = UDim2.fromOffset(14, 0),
@@ -1849,7 +1760,7 @@ TextXAlignment = Enum.TextXAlignment.Left,
 local pages = {}
 local pending = {}
 local function makePage(name, tab, build)
-local page = inst(__tc_s(256), {
+local page = inst(__tc_s(244), {
 Name = name,
 Size = UDim2.fromScale(1, 1),
 BackgroundTransparency = 1,
@@ -1861,25 +1772,25 @@ ScrollBarImageColor3 = Theme.off,
 ScrollBarImageTransparency = 0.5,
 Visible = false,
 }, bodyHost)
-inst(__tc_s(257), {
+inst(__tc_s(245), {
 FillDirection = Enum.FillDirection.Horizontal,
 Padding = UDim.new(0, COL_GAP),
 SortOrder = Enum.SortOrder.LayoutOrder,
 }, page)
-inst(__tc_s(258), {
+inst(__tc_s(246), {
 PaddingLeft = UDim.new(0, PAGE_PAD), PaddingRight = UDim.new(0, PAGE_PAD),
 PaddingTop = UDim.new(0, PAGE_PAD), PaddingBottom = UDim.new(0, PAGE_PAD),
 }, page)
 
 local colW = UDim2.new(0.5, -(PAGE_PAD + COL_GAP / 2), 0, 0)
 local function column(order)
-local f = inst(__tc_s(259), {
+local f = inst(__tc_s(247), {
 Size = colW,
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundTransparency = 1,
 LayoutOrder = order,
 }, page)
-inst(__tc_s(260), { Padding = UDim.new(0, COL_GAP), SortOrder = Enum.SortOrder.LayoutOrder }, f)
+inst(__tc_s(248), { Padding = UDim.new(0, COL_GAP), SortOrder = Enum.SortOrder.LayoutOrder }, f)
 return f
 end
 pages[tab] = page
@@ -1895,7 +1806,7 @@ if slot then
 pending[i] = nil
 local ok, err = pcall(slot.build, slot.L, slot.R)
 if not ok then
-warn(__tc_s(261) .. tostring(TABS[i]) .. __tc_s(262) .. tostring(err))
+warn(__tc_s(249) .. tostring(TABS[i]) .. __tc_s(250) .. tostring(err))
 end
 end
 for idx, p in ipairs(pages) do
@@ -1922,7 +1833,7 @@ end
 
 for i, tabName in ipairs(TABS) do
 local idx = i
-local b = inst(__tc_s(263), {
+local b = inst(__tc_s(251), {
 Text = tabName,
 Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, BorderSizePixel = 0, AutoButtonColor = false,
@@ -1930,8 +1841,8 @@ AutomaticSize = Enum.AutomaticSize.X,
 Size = UDim2.new(0, 0, 1, 0),
 LayoutOrder = i,
 }, tabBar)
-inst(__tc_s(264), { PaddingLeft = UDim.new(0, 9), PaddingRight = UDim.new(0, 9) }, b)
-tabMarks[i] = inst(__tc_s(265), {
+inst(__tc_s(252), { PaddingLeft = UDim.new(0, 9), PaddingRight = UDim.new(0, 9) }, b)
+tabMarks[i] = inst(__tc_s(253), {
 Size = UDim2.new(1, 0, 0, 2),
 Position = UDim2.new(0, 0, 1, -2),
 BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
@@ -1943,377 +1854,353 @@ end
 
 local function buildHome(L, R)
 
-local who = makeCard(L, __tc_s(266))
-addInfo(who, __tc_s(267), function() return LP.Name end)
-addInfo(who, __tc_s(268), function() return LP.DisplayName end)
-addInfo(who, __tc_s(269), function() return LP.Team and LP.Team.Name or __tc_s(270) end)
-addInfo(who, __tc_s(271), function() return tostring(game.PlaceId) end)
+local who = makeCard(L, __tc_s(254))
+addInfo(who, __tc_s(255), function() return LP.Name end)
+addInfo(who, __tc_s(256), function() return LP.DisplayName end)
+addInfo(who, __tc_s(257), function() return LP.Team and LP.Team.Name or __tc_s(258) end)
+addInfo(who, __tc_s(259), function() return tostring(game.PlaceId) end)
 
-local keys = makeCard(L, __tc_s(272))
-addInfo(keys, __tc_s(273), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(274), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(275), function() return bindName(Config.silent.key) end)
+local keys = makeCard(L, __tc_s(260))
+addInfo(keys, __tc_s(261), function() return bindName(Config.hud.menu) end)
+addInfo(keys, __tc_s(262), function() return bindName(Config.aim.key) end)
+addInfo(keys, __tc_s(263), function() return bindName(Config.silent.key) end)
 
-local live = makeCard(R, __tc_s(276))
-addInfo(live, __tc_s(277), function()
-if not aimActive then return __tc_s(278) end
-return locked and __tc_s(279) or __tc_s(280)
+local live = makeCard(R, __tc_s(264))
+addInfo(live, __tc_s(265), function()
+if not aimActive then return __tc_s(266) end
+return locked and __tc_s(267) or __tc_s(268)
 end)
-addInfo(live, __tc_s(281), function()
-if not Config.silent.enabled then return __tc_s(282) end
-if not silentActive then return __tc_s(283) end
-if silentSpoof then return __tc_s(284) end
-return MOUSE and __tc_s(285) or __tc_s(286)
+addInfo(live, __tc_s(269), function()
+if not Config.silent.enabled then return __tc_s(270) end
+if not silentActive then return __tc_s(271) end
+if silentSpoof then return __tc_s(272) end
+return MOUSE and __tc_s(273) or __tc_s(274)
 end)
-addInfo(live, __tc_s(287), function() return Config.esp.enabled and __tc_s(288) or __tc_s(289) end)
-addInfo(live, __tc_s(290), function() return Config.hud.enabled and __tc_s(291) or __tc_s(292) end)
+addInfo(live, __tc_s(275), function() return Config.esp.enabled and __tc_s(276) or __tc_s(277) end)
+addInfo(live, __tc_s(278), function() return Config.hud.enabled and __tc_s(279) or __tc_s(280) end)
 
-local build = makeCard(R, __tc_s(293))
-addInfo(build, __tc_s(294), function() return __tc_s(295) end)
-addInfo(build, __tc_s(296), function() return VERSION end)
-addInfo(build, __tc_s(297), function() return string.format(__tc_s(298), WINDOW.X, WINDOW.Y) end)
-addInfo(build, __tc_s(299), function() return Config.aim.part end)
-addInfo(build, __tc_s(300), function() return MOUSE and __tc_s(301) or __tc_s(302) end)
-addInfo(build, __tc_s(303), function() return silentReady and __tc_s(304) or __tc_s(305) end)
+local build = makeCard(R, __tc_s(281))
+addInfo(build, __tc_s(282), function() return __tc_s(283) end)
+addInfo(build, __tc_s(284), function() return VERSION end)
+addInfo(build, __tc_s(285), function() return string.format(__tc_s(286), WINDOW.X, WINDOW.Y) end)
+addInfo(build, __tc_s(287), function() return Config.aim.part end)
+addInfo(build, __tc_s(288), function() return MOUSE and __tc_s(289) or __tc_s(290) end)
+addInfo(build, __tc_s(291), function() return silentReady and __tc_s(292) or __tc_s(293) end)
 end
 
 local function buildCombat(L, R)
 
-local silent = makeCard(L, __tc_s(306))
-addCheck(silent, __tc_s(307), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
-addCheck(silent, __tc_s(308), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
-addCheck(silent, __tc_s(309), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
-addCheck(silent, __tc_s(310), function() return Config.silent.healthCheck end, function(v) Config.silent.healthCheck = v end)
-addCheck(silent, __tc_s(311), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
-addHeader(silent, __tc_s(312))
-addSlider(silent, __tc_s(313), 0, 600, 5, function() return Config.silent.fov end, function(v) Config.silent.fov = v end, __tc_s(314))
-addSlider(silent, __tc_s(315), 50, 5000, 50, function() return Config.silent.maxDistance end, function(v) Config.silent.maxDistance = v end, __tc_s(316))
-addSlider(silent, __tc_s(317), 0, 100, 1, function() return Config.silent.hitChance end, function(v) Config.silent.hitChance = v end, __tc_s(318), true)
-addSlider(silent, __tc_s(319), 0, 1, 0.01, function() return Config.silent.prediction end, function(v) Config.silent.prediction = v end, __tc_s(320))
-addHeader(silent, __tc_s(321))
-addDrop(silent, __tc_s(322), { __tc_s(323), __tc_s(324), __tc_s(325) }, function() return Config.silent.part end, function(v) Config.silent.part = v end)
-addDrop(silent, __tc_s(326), { __tc_s(327), __tc_s(328) }, function() return Config.silent.method end, function(v) Config.silent.method = v end)
-addBind(silent, __tc_s(329), function() return Config.silent.key end, function(k) Config.silent.key = k end)
+local silent = makeCard(L, __tc_s(294))
+addCheck(silent, __tc_s(295), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
+addCheck(silent, __tc_s(296), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
+addCheck(silent, __tc_s(297), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
+addCheck(silent, __tc_s(298), function() return Config.silent.healthCheck end, function(v) Config.silent.healthCheck = v end)
+addCheck(silent, __tc_s(299), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
+addHeader(silent, __tc_s(300))
+addSlider(silent, __tc_s(301), 0, 600, 5, function() return Config.silent.fov end, function(v) Config.silent.fov = v end, __tc_s(302))
+addSlider(silent, __tc_s(303), 50, 5000, 50, function() return Config.silent.maxDistance end, function(v) Config.silent.maxDistance = v end, __tc_s(304))
+addSlider(silent, __tc_s(305), 0, 100, 1, function() return Config.silent.hitChance end, function(v) Config.silent.hitChance = v end, __tc_s(306), true)
+addSlider(silent, __tc_s(307), 0, 1, 0.01, function() return Config.silent.prediction end, function(v) Config.silent.prediction = v end, __tc_s(308))
+addHeader(silent, __tc_s(309))
+addDrop(silent, __tc_s(310), { __tc_s(311), __tc_s(312), __tc_s(313) }, function() return Config.silent.part end, function(v) Config.silent.part = v end)
+addDrop(silent, __tc_s(314), { __tc_s(315), __tc_s(316) }, function() return Config.silent.method end, function(v) Config.silent.method = v end)
+addBind(silent, __tc_s(317), function() return Config.silent.key end, function(k) Config.silent.key = k end)
 
-local aim = makeCard(R, __tc_s(330))
+local aim = makeCard(R, __tc_s(318))
 
-addCheck(aim, __tc_s(331), function() return Config.aim.mouselock end, function(v)
+addCheck(aim, __tc_s(319), function() return Config.aim.mouselock end, function(v)
 Config.aim.mouselock = v
 if v then
 Config.aim.cameraLock = false
-if mouselockState == __tc_s(332) then reloadMouselock() end
+if mouselockState == __tc_s(320) then reloadMouselock() end
 end
 syncMouselockTab()
 end)
-addCheck(aim, __tc_s(333), function() return Config.aim.cameraLock end, function(v)
+addCheck(aim, __tc_s(321), function() return Config.aim.cameraLock end, function(v)
 Config.aim.cameraLock = v
 if v then Config.aim.mouselock = false; syncMouselockTab() end
 end)
-addInfo(aim, __tc_s(334), function()
-if not Config.aim.mouselock then return __tc_s(335) end
-if mouselockState == __tc_s(336) then return __tc_s(337) .. (mouselockMsg or __tc_s(338)) end
+addInfo(aim, __tc_s(322), function()
+if not Config.aim.mouselock then return __tc_s(323) end
+if mouselockState == __tc_s(324) then return __tc_s(325) .. (mouselockMsg or __tc_s(326)) end
 return mouselockState
 end)
-addCheck(aim, __tc_s(339), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
-addHeader(aim, __tc_s(340))
-addCheck(aim, __tc_s(341), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(aim, __tc_s(342), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
-addCheck(aim, __tc_s(343), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
-addHeader(aim, __tc_s(344))
-addSlider(aim, __tc_s(345), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(346))
-addSlider(aim, __tc_s(347), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(348))
-addSlider(aim, __tc_s(349), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(350))
-addHeader(aim, __tc_s(351))
-addDrop(aim, __tc_s(352), { __tc_s(353), __tc_s(354), __tc_s(355) }, function() return Config.aim.part end, function(v) Config.aim.part = v end)
-addDrop(aim, __tc_s(356), { __tc_s(357), __tc_s(358) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
-addBind(aim, __tc_s(359), function() return Config.aim.key end, function(k) Config.aim.key = k end)
+addCheck(aim, __tc_s(327), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
+addHeader(aim, __tc_s(328))
+addCheck(aim, __tc_s(329), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(aim, __tc_s(330), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
+addCheck(aim, __tc_s(331), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
+addHeader(aim, __tc_s(332))
+addSlider(aim, __tc_s(333), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(334))
+addSlider(aim, __tc_s(335), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(336))
+addSlider(aim, __tc_s(337), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(338))
+addHeader(aim, __tc_s(339))
+addDrop(aim, __tc_s(340), { __tc_s(341), __tc_s(342), __tc_s(343) }, function() return Config.aim.part end, function(v) Config.aim.part = v end)
+addDrop(aim, __tc_s(344), { __tc_s(345), __tc_s(346) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
+addBind(aim, __tc_s(347), function() return Config.aim.key end, function(k) Config.aim.key = k end)
 
-local astat = makeCard(L, __tc_s(360))
-addInfo(astat, __tc_s(361), function()
+local astat = makeCard(L, __tc_s(348))
+addInfo(astat, __tc_s(349), function()
 local t = locked
-if not t or not t.Parent then return __tc_s(362) end
+if not t or not t.Parent then return __tc_s(350) end
 return t.DisplayName
 end)
-addInfo(astat, __tc_s(363), function()
-if not aimActive then return __tc_s(364) end
-return locked and __tc_s(365) or __tc_s(366)
+addInfo(astat, __tc_s(351), function()
+if not aimActive then return __tc_s(352) end
+return locked and __tc_s(353) or __tc_s(354)
 end)
-addInfo(astat, __tc_s(367), function() return Config.aim.targetMode end)
-addInfo(astat, __tc_s(368), function() return bindName(Config.aim.key) end)
+addInfo(astat, __tc_s(355), function() return Config.aim.targetMode end)
+addInfo(astat, __tc_s(356), function() return bindName(Config.aim.key) end)
 
-local sstat = makeCard(R, __tc_s(369))
-addInfo(sstat, __tc_s(370), function()
+local sstat = makeCard(R, __tc_s(357))
+addInfo(sstat, __tc_s(358), function()
 local t = silentLock
-if not t or not t.Parent then return __tc_s(371) end
+if not t or not t.Parent then return __tc_s(359) end
 return t.DisplayName
 end)
-addInfo(sstat, __tc_s(372), function()
-if not Config.silent.enabled then return __tc_s(373) end
-if not silentActive then return __tc_s(374) end
-if silentSpoof then return __tc_s(375) end
-return MOUSE and __tc_s(376) or __tc_s(377)
+addInfo(sstat, __tc_s(360), function()
+if not Config.silent.enabled then return __tc_s(361) end
+if not silentActive then return __tc_s(362) end
+if silentSpoof then return __tc_s(363) end
+return MOUSE and __tc_s(364) or __tc_s(365)
 end)
-addInfo(sstat, __tc_s(378), function() return Config.silent.method end)
-addInfo(sstat, __tc_s(379), function() return bindName(Config.silent.key) end)
+addInfo(sstat, __tc_s(366), function() return Config.silent.method end)
+addInfo(sstat, __tc_s(367), function() return bindName(Config.silent.key) end)
 end
 
 local function buildGame(L, R)
 
-local npc = makeCard(L, __tc_s(380))
-addCheck(npc, __tc_s(381), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
-addCheck(npc, __tc_s(382), function() return Config.npc.name end, function(v) Config.npc.name = v end)
-addCheck(npc, __tc_s(383), function() return Config.npc.health end, function(v) Config.npc.health = v end)
-addHeader(npc, __tc_s(384))
-addSlider(npc, __tc_s(385), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(386))
-addHeader(npc, __tc_s(387))
-addColor(npc, __tc_s(388), function() return Config.npc.color end, function(c) Config.npc.color = c end)
+local npc = makeCard(L, __tc_s(368))
+addCheck(npc, __tc_s(369), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
+addCheck(npc, __tc_s(370), function() return Config.npc.name end, function(v) Config.npc.name = v end)
+addCheck(npc, __tc_s(371), function() return Config.npc.health end, function(v) Config.npc.health = v end)
+addHeader(npc, __tc_s(372))
+addSlider(npc, __tc_s(373), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(374))
+addHeader(npc, __tc_s(375))
+addColor(npc, __tc_s(376), function() return Config.npc.color end, function(c) Config.npc.color = c end)
 
-local teams = makeCard(R, __tc_s(389))
-addCheck(teams, __tc_s(390), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(teams, __tc_s(391), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addInfo(teams, __tc_s(392), function() return LP.Team and LP.Team.Name or __tc_s(393) end)
+local teams = makeCard(R, __tc_s(377))
+addCheck(teams, __tc_s(378), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(teams, __tc_s(379), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addInfo(teams, __tc_s(380), function() return LP.Team and LP.Team.Name or __tc_s(381) end)
 
-local status = makeCard(R, __tc_s(394))
-addInfo(status, __tc_s(395), function() return tostring(game.PlaceId) end)
-addInfo(status, __tc_s(396), function() return tostring(#Players:GetPlayers()) end)
-addInfo(status, __tc_s(397), function() return Config.silent.method end)
+local status = makeCard(R, __tc_s(382))
+addInfo(status, __tc_s(383), function() return tostring(game.PlaceId) end)
+addInfo(status, __tc_s(384), function() return tostring(#Players:GetPlayers()) end)
+addInfo(status, __tc_s(385), function() return Config.silent.method end)
 end
 
 local function buildExploits(L, R)
 
-local move = makeCard(L, __tc_s(398))
-addCheck(move, __tc_s(399), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
-addSlider(move, __tc_s(400), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(401))
-addCheck(move, __tc_s(402), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
-addSlider(move, __tc_s(403), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(404))
-addCheck(move, __tc_s(405), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
-addSlider(move, __tc_s(406), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(407))
-addHeader(move, __tc_s(408))
-addBind(move, __tc_s(409), function() return Config.character.speedKey end, function(k) Config.character.speedKey = k end)
-addInfo(move, __tc_s(410), function() return Config.character.speedEnabled and __tc_s(411) or __tc_s(412) end)
+local move = makeCard(L, __tc_s(386))
+addCheck(move, __tc_s(387), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
+addSlider(move, __tc_s(388), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(389))
+addCheck(move, __tc_s(390), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
+addSlider(move, __tc_s(391), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(392))
+addCheck(move, __tc_s(393), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
+addSlider(move, __tc_s(394), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(395))
+addHeader(move, __tc_s(396))
+addBind(move, __tc_s(397), function() return Config.character.speedKey end, function(k) Config.character.speedKey = k end)
+addInfo(move, __tc_s(398), function() return Config.character.speedEnabled and __tc_s(399) or __tc_s(400) end)
 
-local light = makeCard(L, __tc_s(413))
-addCheck(light, __tc_s(414), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
-addCheck(light, __tc_s(415), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
-addCheck(light, __tc_s(416), function() return Config.world.clock end, function(v) Config.world.clock = v end)
-addSlider(light, __tc_s(417), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(418))
-addCheck(light, __tc_s(419), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
+local light = makeCard(L, __tc_s(401))
+addCheck(light, __tc_s(402), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
+addCheck(light, __tc_s(403), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
+addCheck(light, __tc_s(404), function() return Config.world.clock end, function(v) Config.world.clock = v end)
+addSlider(light, __tc_s(405), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(406))
+addCheck(light, __tc_s(407), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
 
-local misc = makeCard(R, __tc_s(420))
-addCheck(misc, __tc_s(421), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
-addCheck(misc, __tc_s(422), function() return Config.character.fly end, function(v) Config.character.fly = v end)
-addSlider(misc, __tc_s(423), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(424))
-addHeader(misc, __tc_s(425))
-addBind(misc, __tc_s(426), function() return Config.character.flyKey end, function(k) Config.character.flyKey = k end)
-addInfo(misc, __tc_s(427), function() return __tc_s(428) end)
-addInfo(misc, __tc_s(429), function() return Config.character.fly and __tc_s(430) or __tc_s(431) end)
+local misc = makeCard(R, __tc_s(408))
+addCheck(misc, __tc_s(409), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
+addCheck(misc, __tc_s(410), function() return Config.character.fly end, function(v) Config.character.fly = v end)
+addSlider(misc, __tc_s(411), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(412))
+addHeader(misc, __tc_s(413))
+addBind(misc, __tc_s(414), function() return Config.character.flyKey end, function(k) Config.character.flyKey = k end)
+addInfo(misc, __tc_s(415), function() return __tc_s(416) end)
+addInfo(misc, __tc_s(417), function() return Config.character.fly and __tc_s(418) or __tc_s(419) end)
 
-local world = makeCard(R, __tc_s(432))
-addInfo(world, __tc_s(433), function() return string.format(__tc_s(434), Lighting.Brightness) end)
-addInfo(world, __tc_s(435), function() return string.format(__tc_s(436), Lighting.FogEnd) end)
-addInfo(world, __tc_s(437), function() return string.format(__tc_s(438), Lighting.ClockTime) end)
-addInfo(world, __tc_s(439), function() return worldOriginals and __tc_s(440) or __tc_s(441) end)
+local world = makeCard(R, __tc_s(420))
+addInfo(world, __tc_s(421), function() return string.format(__tc_s(422), Lighting.Brightness) end)
+addInfo(world, __tc_s(423), function() return string.format(__tc_s(424), Lighting.FogEnd) end)
+addInfo(world, __tc_s(425), function() return string.format(__tc_s(426), Lighting.ClockTime) end)
+addInfo(world, __tc_s(427), function() return worldOriginals and __tc_s(428) or __tc_s(429) end)
 end
 
 local function buildVisuals(L, R)
 
-local esp = makeCard(L, __tc_s(442))
-addCheck(esp, __tc_s(443), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
-addHeader(esp, __tc_s(444))
-addCheck(esp, __tc_s(445), function() return Config.esp.box end, function(v) Config.esp.box = v end)
-addCheck(esp, __tc_s(446), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
-addCheck(esp, __tc_s(447), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
-addCheck(esp, __tc_s(448), function() return Config.esp.name end, function(v) Config.esp.name = v end)
-addCheck(esp, __tc_s(449), function() return Config.esp.health end, function(v) Config.esp.health = v end)
-addCheck(esp, __tc_s(450), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
-addCheck(esp, __tc_s(451), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
-addCheck(esp, __tc_s(452), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
-addCheck(esp, __tc_s(453), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
+local esp = makeCard(L, __tc_s(430))
+addCheck(esp, __tc_s(431), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
+addHeader(esp, __tc_s(432))
+addCheck(esp, __tc_s(433), function() return Config.esp.box end, function(v) Config.esp.box = v end)
+addCheck(esp, __tc_s(434), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
+addCheck(esp, __tc_s(435), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
+addCheck(esp, __tc_s(436), function() return Config.esp.name end, function(v) Config.esp.name = v end)
+addCheck(esp, __tc_s(437), function() return Config.esp.health end, function(v) Config.esp.health = v end)
+addCheck(esp, __tc_s(438), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
+addCheck(esp, __tc_s(439), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
+addCheck(esp, __tc_s(440), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
+addCheck(esp, __tc_s(441), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
 
-local opt = makeCard(R, __tc_s(454))
-addCheck(opt, __tc_s(455), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addCheck(opt, __tc_s(456), function() return Config.esp.hideDead end, function(v) Config.esp.hideDead = v end)
-addCheck(opt, __tc_s(457), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
-addHeader(opt, __tc_s(458))
-addDrop(opt, __tc_s(459), { __tc_s(460), __tc_s(461), __tc_s(462) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
-addSlider(opt, __tc_s(463), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(464))
-addInfo(opt, __tc_s(465), function() return Config.esp.useScreenPoint and __tc_s(466) or __tc_s(467) end)
+local opt = makeCard(R, __tc_s(442))
+addCheck(opt, __tc_s(443), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addCheck(opt, __tc_s(444), function() return Config.esp.hideDead end, function(v) Config.esp.hideDead = v end)
+addCheck(opt, __tc_s(445), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
+addHeader(opt, __tc_s(446))
+addDrop(opt, __tc_s(447), { __tc_s(448), __tc_s(449), __tc_s(450) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
+addSlider(opt, __tc_s(451), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(452))
+addInfo(opt, __tc_s(453), function() return Config.esp.useScreenPoint and __tc_s(454) or __tc_s(455) end)
 
-local colors = makeCard(R, __tc_s(468))
+local colors = makeCard(R, __tc_s(456))
 
-addColorRGB(colors, __tc_s(469), function() return Config.esp.boxColor end, function(c) Config.esp.boxColor = c end)
-addColorRGB(colors, __tc_s(470), function() return Config.esp.fillColor end, function(c) Config.esp.fillColor = c end)
-addColorRGB(colors, __tc_s(471), function() return Config.esp.nameColor end, function(c) Config.esp.nameColor = c end)
-addColorRGB(colors, __tc_s(472), function() return Config.esp.distColor end, function(c) Config.esp.distColor = c end)
-addColorRGB(colors, __tc_s(473), function() return Config.esp.tracerColor end, function(c) Config.esp.tracerColor = c end)
-addColorRGB(colors, __tc_s(474), function() return Config.esp.skeletonColor end, function(c) Config.esp.skeletonColor = c end)
-addColorRGB(colors, __tc_s(475), function() return Config.esp.headDotColor end, function(c) Config.esp.headDotColor = c end)
-addHeader(colors, __tc_s(476))
-addSlider(colors, __tc_s(477), 0.4, 1.5, 0.05, function() return Config.esp.boxWidth end, function(v) Config.esp.boxWidth = v end, __tc_s(478))
-addSlider(colors, __tc_s(479), 0.5, 4, 0.5, function() return Config.esp.boxThickness end, function(v) Config.esp.boxThickness = v end, __tc_s(480))
-addInfo(colors, __tc_s(481), function() return __tc_s(482) end)
-addButton(colors, __tc_s(483), false, function()
-for _, key in ipairs({ __tc_s(484), __tc_s(485), __tc_s(486), __tc_s(487),
-__tc_s(488), __tc_s(489), __tc_s(490) }) do
+addColorRGB(colors, __tc_s(457), function() return Config.esp.boxColor end, function(c) Config.esp.boxColor = c end)
+addColorRGB(colors, __tc_s(458), function() return Config.esp.fillColor end, function(c) Config.esp.fillColor = c end)
+addColorRGB(colors, __tc_s(459), function() return Config.esp.nameColor end, function(c) Config.esp.nameColor = c end)
+addColorRGB(colors, __tc_s(460), function() return Config.esp.distColor end, function(c) Config.esp.distColor = c end)
+addColorRGB(colors, __tc_s(461), function() return Config.esp.tracerColor end, function(c) Config.esp.tracerColor = c end)
+addColorRGB(colors, __tc_s(462), function() return Config.esp.skeletonColor end, function(c) Config.esp.skeletonColor = c end)
+addColorRGB(colors, __tc_s(463), function() return Config.esp.headDotColor end, function(c) Config.esp.headDotColor = c end)
+addHeader(colors, __tc_s(464))
+addSlider(colors, __tc_s(465), 0.4, 1.5, 0.05, function() return Config.esp.boxWidth end, function(v) Config.esp.boxWidth = v end, __tc_s(466))
+addSlider(colors, __tc_s(467), 0.5, 4, 0.5, function() return Config.esp.boxThickness end, function(v) Config.esp.boxThickness = v end, __tc_s(468))
+addInfo(colors, __tc_s(469), function() return __tc_s(470) end)
+addButton(colors, __tc_s(471), false, function()
+for _, key in ipairs({ __tc_s(472), __tc_s(473), __tc_s(474), __tc_s(475),
+__tc_s(476), __tc_s(477), __tc_s(478) }) do
 Config.esp[key] = Color3.fromRGB(255, 255, 255)
 end
 end)
 
-local stream = makeCard(R, __tc_s(491))
-addCheck(stream, __tc_s(492), function() return Config.esp.streamPush end
-, function(v) Config.esp.streamPush = v end)
-addSlider(stream, __tc_s(493), 200, 2000, 100, function() return Config.esp.streamRadius end
-, function(v) Config.esp.streamRadius = v end, __tc_s(494))
-addSlider(stream, __tc_s(495), 100, 600, 50, function() return Config.esp.streamStep end
-, function(v) Config.esp.streamStep = v end, __tc_s(496))
-addInfo(stream, __tc_s(497), function()
-local r = math.clamp(tonumber(Config.esp.streamRadius) or 600, 200, 4000)
-local st = math.clamp(tonumber(Config.esp.streamStep) or 300, 100, r)
-local n = math.floor(r / st) * 2 + 1
-return string.format(__tc_s(498), n, n, n * n)
-end)
-addInfo(stream, __tc_s(499), function()
+local diag = makeCard(R, __tc_s(479))
+addInfo(diag, __tc_s(480), function() return string.format(__tc_s(481), espStats.players, espStats.bodies) end)
+addInfo(diag, __tc_s(482), function() return string.format(__tc_s(483), espStats.nostream) end)
+addInfo(diag, __tc_s(484), function() return tostring(espStats.dead) end)
+addInfo(diag, __tc_s(485), function() return string.format(__tc_s(486), espStats.drawn, espStats.hidden) end)
+addInfo(diag, __tc_s(487), function() return tostring(espStats.fallback) end)
+addInfo(diag, __tc_s(488), function()
 local ok, on = pcall(function() return Workspace.StreamingEnabled end)
-if not ok then return __tc_s(500) end
-if not on then return __tc_s(501) end
-return STREAM_API and __tc_s(502) or __tc_s(503)
-end)
-addInfo(stream, __tc_s(504), function() return streamThread and tostring(streamPushes) or __tc_s(505) end)
-
-local diag = makeCard(R, __tc_s(506))
-addInfo(diag, __tc_s(507), function() return string.format(__tc_s(508), espStats.players, espStats.bodies) end)
-addInfo(diag, __tc_s(509), function() return string.format(__tc_s(510), espStats.nostream) end)
-addInfo(diag, __tc_s(511), function() return string.format(__tc_s(512), espStats.rescued) end)
-addInfo(diag, __tc_s(513), function() return tostring(espStats.dead) end)
-addInfo(diag, __tc_s(514), function() return string.format(__tc_s(515), espStats.drawn, espStats.hidden) end)
-addInfo(diag, __tc_s(516), function() return tostring(espStats.fallback) end)
-addInfo(diag, __tc_s(517), function() return tostring(espStats.recycled) end)
-addInfo(diag, __tc_s(518), function() return tostring(espStats.noalloc) end)
-addInfo(diag, __tc_s(519), function()
-local ok, on = pcall(function() return Workspace.StreamingEnabled end)
-if not ok then return __tc_s(520) end
-if not on then return __tc_s(521) end
-local s = __tc_s(522)
+if not ok then return __tc_s(489) end
+if not on then return __tc_s(490) end
+local s = __tc_s(491)
 local okr, r = pcall(function() return Workspace.StreamingTargetRadius end)
-if okr and tonumber(r) then s = string.format(__tc_s(523), r) end
+if okr and tonumber(r) then s = string.format(__tc_s(492), r) end
 return s
 end)
-addInfo(diag, __tc_s(524), function() return Config.esp.useScreenPoint and __tc_s(525) or __tc_s(526) end)
-addInfo(diag, __tc_s(527), function() return espError or __tc_s(528) end)
-addButton(diag, __tc_s(529), false, function() espError = nil end)
+addInfo(diag, __tc_s(493), function() return Config.esp.useScreenPoint and __tc_s(494) or __tc_s(495) end)
+addInfo(diag, __tc_s(496), function() return espError or __tc_s(497) end)
+addButton(diag, __tc_s(498), false, function() espError = nil end)
 end
 
 local function buildMouselock(L, R)
 
-local state = makeCard(L, __tc_s(530))
-addInfo(state, __tc_s(531), function()
-if not Config.aim.mouselock then return __tc_s(532) end
-if mouselockState == __tc_s(533) then return __tc_s(534) end
+local state = makeCard(L, __tc_s(499))
+addInfo(state, __tc_s(500), function()
+if not Config.aim.mouselock then return __tc_s(501) end
+if mouselockState == __tc_s(502) then return __tc_s(503) end
 return mouselockState
 end)
-addInfo(state, __tc_s(535), function()
-if mouselockState == __tc_s(536) then return mouselockMsg or __tc_s(537) end
-if mouselockState == __tc_s(538) then return __tc_s(539) end
-return __tc_s(540)
+addInfo(state, __tc_s(504), function()
+if mouselockState == __tc_s(505) then return mouselockMsg or __tc_s(506) end
+if mouselockState == __tc_s(507) then return __tc_s(508) end
+return __tc_s(509)
 end)
-addInfo(state, __tc_s(541), function() return __tc_s(542) end)
-addButton(state, __tc_s(543), true, function() reloadMouselock() end)
-addCheck(state, __tc_s(544), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
+addInfo(state, __tc_s(510), function() return __tc_s(511) end)
+addButton(state, __tc_s(512), true, function() reloadMouselock() end)
+addCheck(state, __tc_s(513), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
 
-local aim = makeCard(L, __tc_s(545))
-addBind(aim, __tc_s(546), function() return Config.aim.mouselockKey end, function(k) Config.aim.mouselockKey = k end)
-addDrop(aim, __tc_s(547), { __tc_s(548), __tc_s(549), __tc_s(550), __tc_s(551), __tc_s(552) },
+local aim = makeCard(L, __tc_s(514))
+addBind(aim, __tc_s(515), function() return Config.aim.mouselockKey end, function(k) Config.aim.mouselockKey = k end)
+addDrop(aim, __tc_s(516), { __tc_s(517), __tc_s(518), __tc_s(519), __tc_s(520), __tc_s(521) },
 function() return Config.aim.mouselockPart end, function(v) Config.aim.mouselockPart = v end)
-addCheck(aim, __tc_s(553), function() return Config.aim.mouselockPredictionOn end, function(v) Config.aim.mouselockPredictionOn = v end)
-addSlider(aim, __tc_s(554), 0, 1, 0.01, function() return Config.aim.mouselockPrediction end, function(v) Config.aim.mouselockPrediction = v end, __tc_s(555))
-addCheck(aim, __tc_s(556), function() return Config.aim.mouselockSmooth end, function(v) Config.aim.mouselockSmooth = v end)
-addSlider(aim, __tc_s(557), 1, 20, 1, function() return Config.aim.mouselockSmoothPower end, function(v) Config.aim.mouselockSmoothPower = v end, __tc_s(558))
+addCheck(aim, __tc_s(522), function() return Config.aim.mouselockPredictionOn end, function(v) Config.aim.mouselockPredictionOn = v end)
+addSlider(aim, __tc_s(523), 0, 1, 0.01, function() return Config.aim.mouselockPrediction end, function(v) Config.aim.mouselockPrediction = v end, __tc_s(524))
+addCheck(aim, __tc_s(525), function() return Config.aim.mouselockSmooth end, function(v) Config.aim.mouselockSmooth = v end)
+addSlider(aim, __tc_s(526), 1, 20, 1, function() return Config.aim.mouselockSmoothPower end, function(v) Config.aim.mouselockSmoothPower = v end, __tc_s(527))
 
-local fov = makeCard(R, __tc_s(559))
-addCheck(fov, __tc_s(560), function() return Config.aim.mouselockFovVisible end, function(v) Config.aim.mouselockFovVisible = v end)
-addSlider(fov, __tc_s(561), 10, 600, 5, function() return Config.aim.mouselockFov end, function(v) Config.aim.mouselockFov = v end, __tc_s(562))
-addColor(fov, __tc_s(563), function() return Config.aim.mouselockFovColor end, function(c) Config.aim.mouselockFovColor = c end)
-addSlider(fov, __tc_s(564), 0.5, 5, 0.1, function() return Config.aim.mouselockFovThickness end, function(v) Config.aim.mouselockFovThickness = v end, __tc_s(565))
-addSlider(fov, __tc_s(566), 0, 1, 0.05, function() return Config.aim.mouselockFovTransparency end, function(v) Config.aim.mouselockFovTransparency = v end, __tc_s(567))
-addSlider(fov, __tc_s(568), 8, 120, 4, function() return Config.aim.mouselockFovSides end, function(v) Config.aim.mouselockFovSides = v end, __tc_s(569))
+local fov = makeCard(R, __tc_s(528))
+addCheck(fov, __tc_s(529), function() return Config.aim.mouselockFovVisible end, function(v) Config.aim.mouselockFovVisible = v end)
+addSlider(fov, __tc_s(530), 10, 600, 5, function() return Config.aim.mouselockFov end, function(v) Config.aim.mouselockFov = v end, __tc_s(531))
+addColor(fov, __tc_s(532), function() return Config.aim.mouselockFovColor end, function(c) Config.aim.mouselockFovColor = c end)
+addSlider(fov, __tc_s(533), 0.5, 5, 0.1, function() return Config.aim.mouselockFovThickness end, function(v) Config.aim.mouselockFovThickness = v end, __tc_s(534))
+addSlider(fov, __tc_s(535), 0, 1, 0.05, function() return Config.aim.mouselockFovTransparency end, function(v) Config.aim.mouselockFovTransparency = v end, __tc_s(536))
+addSlider(fov, __tc_s(537), 8, 120, 4, function() return Config.aim.mouselockFovSides end, function(v) Config.aim.mouselockFovSides = v end, __tc_s(538))
 
-local applied = makeCard(R, __tc_s(570))
-addInfo(applied, __tc_s(571), function() return __tc_s(572) end)
-addInfo(applied, __tc_s(573), function() return __tc_s(574) end)
+local applied = makeCard(R, __tc_s(539))
+addInfo(applied, __tc_s(540), function() return __tc_s(541) end)
+addInfo(applied, __tc_s(542), function() return __tc_s(543) end)
 end
 
 local function buildExtras(L, R)
 
-local menu = makeCard(L, __tc_s(575))
-addCheck(menu, __tc_s(576), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
-addHeader(menu, __tc_s(577))
-addBind(menu, __tc_s(578), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
-addInfo(menu, __tc_s(579), function() return string.format(__tc_s(580), WINDOW.X, WINDOW.Y) end)
+local menu = makeCard(L, __tc_s(544))
+addCheck(menu, __tc_s(545), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
+addHeader(menu, __tc_s(546))
+addBind(menu, __tc_s(547), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
+addInfo(menu, __tc_s(548), function() return string.format(__tc_s(549), WINDOW.X, WINDOW.Y) end)
 
-local save = makeCard(L, __tc_s(581))
-local dir = __tc_s(582)
-local nameBuf = __tc_s(583)
+local save = makeCard(L, __tc_s(550))
+local dir = __tc_s(551)
+local nameBuf = __tc_s(552)
 local profileNote = nil
 
-local input = addTextInput(save, __tc_s(584), __tc_s(585))
-input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(586) and input.Text or __tc_s(587) end)
+local input = addTextInput(save, __tc_s(553), __tc_s(554))
+input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(555) and input.Text or __tc_s(556) end)
 
-local function fileOf(n) return dir .. __tc_s(588) .. n .. __tc_s(589) end
+local function fileOf(n) return dir .. __tc_s(557) .. n .. __tc_s(558) end
 local function snapshot()
 local t = {}
 for k, v in pairs(Config) do
-if typeof(v) == __tc_s(590) then t[k] = v.Name
-elseif type(v) ~= __tc_s(591) then t[k] = v
+if typeof(v) == __tc_s(559) then t[k] = v.Name
+elseif type(v) ~= __tc_s(560) then t[k] = v
 else
 t[k] = {}
 for k2, v2 in pairs(v) do
-t[k][k2] = (typeof(v2) == __tc_s(592)) and v2.Name or v2
+t[k][k2] = (typeof(v2) == __tc_s(561)) and v2.Name or v2
 end
 end
 end
 for k, v in pairs(t) do
-if type(v) == __tc_s(593) then
+if type(v) == __tc_s(562) then
 for k2, v2 in pairs(v) do
-if typeof(v2) == __tc_s(594) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
+if typeof(v2) == __tc_s(563) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
 end
 end
 end
 return t
 end
 
-addButton(save, __tc_s(595), true, function()
+addButton(save, __tc_s(564), true, function()
 if not (writefile and isfolder and makefolder) then return end
 if not isfolder(dir) then makefolder(dir) end
 writefile(fileOf(nameBuf), HttpService:JSONEncode(snapshot()))
 end)
 
-addButton(save, __tc_s(596), false, function()
+addButton(save, __tc_s(565), false, function()
 if not (readfile and isfile and isfile(fileOf(nameBuf))) then
-profileNote = __tc_s(597) .. fileOf(nameBuf)
+profileNote = __tc_s(566) .. fileOf(nameBuf)
 return
 end
 local ok, data = pcall(function() return HttpService:JSONDecode(readfile(fileOf(nameBuf))) end)
-if not ok or type(data) ~= __tc_s(598) then
-profileNote = __tc_s(599)
+if not ok or type(data) ~= __tc_s(567) then
+profileNote = __tc_s(568)
 return
 end
 
 local applied, rejected = 0, 0
 for k, v in pairs(data) do
-if type(v) == __tc_s(600) and type(Config[k]) == __tc_s(601) then
+if type(v) == __tc_s(569) and type(Config[k]) == __tc_s(570) then
 for k2, v2 in pairs(v) do
 
-local legacy = (k == __tc_s(602) and (k2 == __tc_s(603) or k2 == __tc_s(604)))
+local legacy = (k == __tc_s(571) and (k2 == __tc_s(572) or k2 == __tc_s(573)))
 if not legacy then
 local cur = Config[k][k2]
 local done = false
-if typeof(cur) == __tc_s(605) then
-if type(v2) == __tc_s(606) and type(v2.r) == __tc_s(607)
-and type(v2.g) == __tc_s(608) and type(v2.b) == __tc_s(609) then
+if typeof(cur) == __tc_s(574) then
+if type(v2) == __tc_s(575) and type(v2.r) == __tc_s(576)
+and type(v2.g) == __tc_s(577) and type(v2.b) == __tc_s(578) then
 Config[k][k2] = Color3.new(v2.r, v2.g, v2.b)
 done = true
 end
-elseif typeof(cur) == __tc_s(610) then
+elseif typeof(cur) == __tc_s(579) then
 local enum = cur.EnumType
 local ok2, item = pcall(function() return enum[v2] end)
 if ok2 and item then Config[k][k2] = item; done = true end
@@ -2331,35 +2218,35 @@ end
 end
 end
 end
-profileNote = string.format(__tc_s(611), applied, rejected)
+profileNote = string.format(__tc_s(580), applied, rejected)
 end)
 
-local ctrl = makeCard(R, __tc_s(612))
-addInfo(ctrl, __tc_s(613), function() return bindName(Config.hud.menu) end)
-addInfo(ctrl, __tc_s(614), function() return bindName(Config.aim.key) end)
-addInfo(ctrl, __tc_s(615), function() return bindName(Config.silent.key) end)
-addInfo(ctrl, __tc_s(616), function() return bindName(Config.character.speedKey) end)
-addInfo(ctrl, __tc_s(617), function() return bindName(Config.character.flyKey) end)
-addInfo(ctrl, __tc_s(618), function() return Config.aim.part end)
-addInfo(ctrl, __tc_s(619), function() return __tc_s(620) end)
+local ctrl = makeCard(R, __tc_s(581))
+addInfo(ctrl, __tc_s(582), function() return bindName(Config.hud.menu) end)
+addInfo(ctrl, __tc_s(583), function() return bindName(Config.aim.key) end)
+addInfo(ctrl, __tc_s(584), function() return bindName(Config.silent.key) end)
+addInfo(ctrl, __tc_s(585), function() return bindName(Config.character.speedKey) end)
+addInfo(ctrl, __tc_s(586), function() return bindName(Config.character.flyKey) end)
+addInfo(ctrl, __tc_s(587), function() return Config.aim.part end)
+addInfo(ctrl, __tc_s(588), function() return __tc_s(589) end)
 
-local list = makeCard(R, __tc_s(621))
-addInfo(list, __tc_s(622), function() return dir end)
-addInfo(list, __tc_s(623), function() return (writefile and readfile) and __tc_s(624) or __tc_s(625) end)
-addInfo(list, __tc_s(626), function() return nameBuf end)
-addInfo(list, __tc_s(627), function() return profileNote or __tc_s(628) end)
+local list = makeCard(R, __tc_s(590))
+addInfo(list, __tc_s(591), function() return dir end)
+addInfo(list, __tc_s(592), function() return (writefile and readfile) and __tc_s(593) or __tc_s(594) end)
+addInfo(list, __tc_s(595), function() return nameBuf end)
+addInfo(list, __tc_s(596), function() return profileNote or __tc_s(597) end)
 end
 
-makePage(__tc_s(629), 1, buildHome)
-makePage(__tc_s(630), 2, buildCombat)
-makePage(__tc_s(631), 5, buildGame)
-makePage(__tc_s(632), 4, buildExploits)
-makePage(__tc_s(633), 3, buildVisuals)
-makePage(__tc_s(634), 6, buildExtras)
-makePage(__tc_s(635), MOUSELOCK_TAB, buildMouselock)
+makePage(__tc_s(598), 1, buildHome)
+makePage(__tc_s(599), 2, buildCombat)
+makePage(__tc_s(600), 5, buildGame)
+makePage(__tc_s(601), 4, buildExploits)
+makePage(__tc_s(602), 3, buildVisuals)
+makePage(__tc_s(603), 6, buildExtras)
+makePage(__tc_s(604), MOUSELOCK_TAB, buildMouselock)
 
 showTab(1)
-print(string.format(__tc_s(636),
+print(string.format(__tc_s(605),
 (os.clock() - menuBuiltAt) * 1000, #refreshers, #TABS))
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
@@ -2416,7 +2303,7 @@ if not espOk then
 espError = tostring(espErr)
 if espError ~= lastEspError then
 lastEspError = espError
-warn(__tc_s(637) .. espError)
+warn(__tc_s(606) .. espError)
 end
 end
 local t1 = os.clock()
@@ -2425,7 +2312,7 @@ local t2 = os.clock()
 local ms = (t2 - t0) * 1000
 if ms > 30 and os.clock() - lastDrawWarn > 5 then
 lastDrawWarn = os.clock()
-warn(string.format(__tc_s(638),
+warn(string.format(__tc_s(607),
 ms, (t1 - t0) * 1000, (t2 - t1) * 1000,
 tostring(Config.esp.enabled), tostring(Config.npc.enabled), tostring(Config.hud.enabled)))
 end
@@ -2434,14 +2321,12 @@ pcall(applyFly)
 pcall(applyWorld)
 pcall(runSilent)
 
-pcall(syncStreamPush)
-
-if Config.aim.mouselock and mouselockState == __tc_s(639) then
+if Config.aim.mouselock and mouselockState == __tc_s(608) then
 task.spawn(loadMouselock)
 end
 end)
 
-RunService:BindToRenderStep(__tc_s(640), Enum.RenderPriority.Camera.Value + 1, function()
+RunService:BindToRenderStep(__tc_s(609), Enum.RenderPriority.Camera.Value + 1, function()
 pcall(runAim)
 end)
 
@@ -2458,8 +2343,8 @@ end
 local ms = (os.clock() - t0) * 1000
 if (ms > 40 or failed > 0) and os.clock() - lastSweepWarn > 5 then
 lastSweepWarn = os.clock()
-warn(string.format(__tc_s(641), ms, #refreshers, failed))
+warn(string.format(__tc_s(610), ms, #refreshers, failed))
 end
 end)
 
-print(__tc_s(642))
+print(__tc_s(611))
