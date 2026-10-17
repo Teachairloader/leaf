@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=1556751600,0,0,{}
+ local __e='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'
+ local __o,__q,__z,__u=1135079664,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,8,8,13,9,8,7,9,5,9,5,8,5,10,0,5,5,9,0,10,1,1,5,5,5,10,0,10,11,12,1,1,8,10,3,5,9,10,0,9,5,12,5,0,7,10,0,9,0,5,9,12,9,12,5,12,5,6,5,3,5,6,5,9,12,10,1,4,6,7,8,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,10,9,5,4,8,5,6,4,7,4,1,5,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,4,6,6,5,5,12,6,5,8,11,14,23,6,6,9,6,6,14,8,4,5,4,11,10,10,4,9,23,10,14,7,8,4,5,4,6,9,11,13,4,8,4,10,6,10,4,11,10,13,5,3,15,16,8,9,6,6,1,6,10,9,3,4,10,8,4,11,9,8,11,10,13,12,6,6,1,5,5,9,9,10,7,6,7,6,10,7,3,12,10,4,6,8,6,8,8,14,13,6,6,3,12,4,10,23,10,18,20,6,3,4,8,9,5,8,10,6,10,4,4,16,6,10,4,7,2,5,4,8,2,3,8,9,5,4,9,4,4,9,3,4,4,13,3,9,4,8,19,6,9,8,9,8,8,6,5,8,4,10,10,8,3,11,11,11,7,7,7,12,0,7,1,5,8,5,8,5,6,10,12,10,12,5,5,3,7,4,5,6,8,8,6,16,9,11,7,4,3,5,7,7,4,9,12,4,5,10,7,3,10,1,15,50}
+ local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,8,8,13,9,8,7,9,5,9,9,5,8,5,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,1,1,8,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,21,10,1,4,6,4,8,7,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,12,10,9,5,4,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,5,12,6,5,8,11,14,23,6,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,11,10,11,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,16,8,9,6,10,4,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,8,9,5,4,9,4,4,9,3,4,8,10,6,10,4,4,16,4,13,3,9,4,8,19,12,10,4,7,2,5,4,8,2,3,7,10,7,8,3,12,10,4,6,8,6,8,8,14,10,23,10,13,6,6,3,12,4,6,18,20,6,3,4,6,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,5,5,3,7,4,5,6,8,8,4,10,10,8,3,11,8,6,16,9,11,7,15,50}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 1556751600
+-- seed 1135079664
 
 if not Drawing then
 error(__tc_s(0))
@@ -806,15 +806,15 @@ end
 end
 
 local Theme = {
-bg = Color3.fromRGB(11, 11, 13),
-card = Color3.fromRGB(16, 16, 19),
-row = Color3.fromRGB(23, 23, 28),
-text = Color3.fromRGB(185, 185, 194),
-dim = Color3.fromRGB(90, 90, 99),
+bg = Color3.fromRGB(9, 9, 12),
+card = Color3.fromRGB(16, 16, 20),
+line = Color3.fromRGB(30, 30, 36),
+row = Color3.fromRGB(25, 25, 30),
+text = Color3.fromRGB(198, 198, 208),
+dim = Color3.fromRGB(104, 104, 116),
 accent = Color3.fromRGB(255, 179, 209),
-line = Color3.fromRGB(28, 28, 33),
-off = Color3.fromRGB(63, 63, 71),
-knob = Color3.fromRGB(232, 232, 238),
+off = Color3.fromRGB(56, 56, 64),
+knob = Color3.fromRGB(236, 236, 242),
 }
 
 local function inst(class, props, parent)
@@ -862,6 +862,12 @@ end
 return gui
 end
 
+local ROW_H = 22
+local SLIDER_H = 34
+local FIELD_H = 46
+local HEADER_H = 26
+local COLOR_H = 46
+
 local function rowFrame(card, height)
 return inst(__tc_s(102), {
 Size = UDim2.new(1, 0, 0, height),
@@ -871,7 +877,7 @@ end
 
 local function rowText(parent, text, x, rightPad, color)
 return inst(__tc_s(103), {
-Text = text, Font = Enum.Font.Gotham, TextSize = 12,
+Text = text, Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = color or Theme.text,
 BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Left,
 Position = UDim2.fromOffset(x, 0),
@@ -879,24 +885,35 @@ Size = UDim2.new(1, -(x + rightPad), 1, 0),
 }, parent)
 end
 
+local function addHeader(card, label)
+local r = rowFrame(card, HEADER_H)
+inst(__tc_s(104), {
+Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+TextYAlignment = Enum.TextYAlignment.Center,
+Size = UDim2.new(1, 0, 1, 0),
+}, r)
+end
+
 local function checkBox(parent, on)
-local box = inst(__tc_s(104), {
-Size = UDim2.fromOffset(11, 11),
-Position = UDim2.new(0, 6, 0.5, -5.5),
+local box = inst(__tc_s(105), {
+Size = UDim2.fromOffset(13, 13),
+Position = UDim2.new(0, 0, 0.5, -6.5),
 BackgroundColor3 = on and Theme.accent or Theme.bg,
 BorderSizePixel = 0,
 }, parent)
-round(box, 2)
-local edge = Instance.new(__tc_s(105))
+round(box, 3)
+local edge = Instance.new(__tc_s(106))
 edge.Color = on and Theme.accent or Theme.line
 edge.Thickness = 1
 edge.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 edge.Parent = box
 
 local bars = {}
-local SPEC = { { 5, 1, 5, 45 }, { 8, 2, 5, -45 } }
+local SPEC = { { 6, 1, 6, 45 }, { 9, 2, 6, -45 } }
 for i, spec in ipairs(SPEC) do
-bars[i] = inst(__tc_s(106), {
+bars[i] = inst(__tc_s(107), {
 Size = UDim2.fromOffset(spec[1], 2),
 Position = UDim2.fromOffset(spec[2], spec[3]),
 BackgroundColor3 = Theme.bg,
@@ -909,13 +926,13 @@ return box, edge, bars[1], bars[2]
 end
 
 local function addCheck(card, label, get, set)
-local r = rowFrame(card, 17)
+local r = rowFrame(card, ROW_H)
 local box, edge, tickA, tickB = checkBox(r, get())
-rowText(r, label, 24, 8)
+rowText(r, label, 21, 0)
 
-local btn = inst(__tc_s(107), {
+local btn = inst(__tc_s(108), {
 Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1,
-Text = __tc_s(108), AutoButtonColor = false,
+Text = __tc_s(109), AutoButtonColor = false,
 }, r)
 btn.MouseButton1Click:Connect(function() set(not get()) end)
 
@@ -928,22 +945,18 @@ end)
 end
 
 local function addSlider(card, label, min, max, step, get, set, fmt, accentValue)
-local block = inst(__tc_s(109), {
-Size = UDim2.new(1, 0, 0, 34),
-BackgroundTransparency = 1,
-}, card)
+local block = rowFrame(card, SLIDER_H)
 
 local head = inst(__tc_s(110), {
-Size = UDim2.new(1, -6, 0, 14),
-Position = UDim2.fromOffset(6, 8),
+Size = UDim2.new(1, 0, 0, 16),
 BackgroundTransparency = 1,
 }, block)
-rowText(head, label, 0, 96)
+rowText(head, label, 0, 0)
 local valueLbl = inst(__tc_s(111), {
-Text = __tc_s(112), Font = Enum.Font.Gotham, TextSize = 12,
+Text = __tc_s(112), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = accentValue and Theme.accent or Theme.text,
-BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Right,
-Size = UDim2.new(0, 70, 1, 0), Position = UDim2.new(1, -88, 0, 0),
+BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Center,
+Size = UDim2.new(0, 64, 1, 0), Position = UDim2.new(0.6, -32, 0, 0),
 }, head)
 
 local span = (max - min) ~= 0 and (max - min) or 1
@@ -961,16 +974,16 @@ local b = inst(__tc_s(113), {
 Text = dir > 0 and __tc_s(114) or __tc_s(115), Font = Enum.Font.Gotham,
 TextSize = 11, TextColor3 = Theme.dim, BackgroundTransparency = 1,
 AutoButtonColor = false,
-Size = UDim2.fromOffset(14, 7),
-Position = UDim2.new(1, -16, 0, (i - 1) * 7),
+Size = UDim2.fromOffset(12, 8),
+Position = UDim2.new(1, -12, 0, (i - 1) * 8),
 }, head)
 b.MouseButton1Click:Connect(function() nudge(dir) end)
 end
 
 local track = inst(__tc_s(116), {
-Size = UDim2.new(1, -20, 0, 4),
-Position = UDim2.fromOffset(6, 26),
-BackgroundColor3 = Theme.row,
+Size = UDim2.new(1, 0, 0, 4),
+Position = UDim2.fromOffset(0, 26),
+BackgroundColor3 = Theme.off,
 BorderSizePixel = 0,
 }, block)
 round(track, 2)
@@ -981,17 +994,17 @@ BorderSizePixel = 0,
 }, track)
 round(fill, 2)
 local knob = inst(__tc_s(118), {
-Size = UDim2.fromOffset(10, 10),
+Size = UDim2.fromOffset(11, 11),
 AnchorPoint = Vector2.new(0.5, 0.5),
 Position = UDim2.new(0, 0, 0.5, 0),
 BackgroundColor3 = Theme.knob,
 BorderSizePixel = 0,
 }, track)
-round(knob, 5)
+round(knob, 6)
 
 local grab = inst(__tc_s(119), {
-Size = UDim2.new(1, -20, 0, 16),
-Position = UDim2.fromOffset(6, 18),
+Size = UDim2.new(1, 0, 0, 18),
+Position = UDim2.fromOffset(0, 17),
 BackgroundTransparency = 1, Text = __tc_s(120), AutoButtonColor = false,
 }, block)
 
@@ -1051,26 +1064,29 @@ local CAPTURE_TYPES = {
 [Enum.UserInputType.MouseButton3] = true,
 }
 
-local function keyChip(parent, text, width)
-local b = inst(__tc_s(127), {
-Text = text, Font = Enum.Font.Gotham, TextSize = 10,
-TextColor3 = Theme.dim, BackgroundColor3 = Theme.bg,
-BorderSizePixel = 0, AutoButtonColor = false,
-Size = UDim2.fromOffset(width, 13),
-Position = UDim2.new(1, -(width + 2), 0.5, -6.5),
-}, parent)
-round(b, 2)
-border(b)
-return b
-end
-
 local function addBind(card, label, get, set)
-local r = rowFrame(card, 17)
-rowText(r, label, 6, 84)
-local btn = keyChip(r, bindName(get()), 76)
+local block = rowFrame(card, FIELD_H)
+inst(__tc_s(127), {
+Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
+}, block)
+
+local btn = inst(__tc_s(128), {
+Text = bindName(get()), Font = Enum.Font.Gotham, TextSize = 13,
+TextColor3 = Theme.text, BackgroundColor3 = Theme.row,
+BorderSizePixel = 0, AutoButtonColor = false,
+TextXAlignment = Enum.TextXAlignment.Left,
+Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 18),
+}, block)
+round(btn, 4)
+border(btn, Theme.line)
+inst(__tc_s(129), { PaddingLeft = UDim.new(0, 10) }, btn)
+
 btn.MouseButton1Click:Connect(function()
 bindCapture = { btn = btn, set = set, get = get }
-btn.Text = __tc_s(128)
+btn.Text = __tc_s(130)
 end)
 table.insert(refreshers, function()
 if bindCapture and bindCapture.btn == btn then return end
@@ -1079,36 +1095,34 @@ end)
 end
 
 local function addDrop(card, label, items, get, set)
-local block = inst(__tc_s(129), {
-Size = UDim2.new(1, 0, 0, 40),
-BackgroundTransparency = 1,
-}, card)
-inst(__tc_s(130), {
-Text = label, Font = Enum.Font.Gotham, TextSize = 12,
+local block = rowFrame(card, FIELD_H)
+inst(__tc_s(131), {
+Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
-Position = UDim2.fromOffset(6, 6), Size = UDim2.new(1, -12, 0, 14),
+Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
 }, block)
 
-local btn = inst(__tc_s(131), {
-Text = __tc_s(132), BackgroundColor3 = Theme.bg, BorderSizePixel = 0,
+local btn = inst(__tc_s(132), {
+Text = __tc_s(133), BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 AutoButtonColor = false,
-Size = UDim2.new(1, -12, 0, 20), Position = UDim2.fromOffset(6, 20),
+Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 18),
 }, block)
-round(btn, 2)
-border(btn)
-local cur = inst(__tc_s(133), {
-Text = get(), Font = Enum.Font.Gotham, TextSize = 12,
-TextColor3 = Theme.dim, BackgroundTransparency = 1,
+round(btn, 4)
+border(btn, Theme.line)
+local cur = inst(__tc_s(134), {
+Text = get(), Font = Enum.Font.Gotham, TextSize = 13,
+TextColor3 = Theme.text, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
-Position = UDim2.fromOffset(8, 0), Size = UDim2.new(1, -30, 1, 0),
+Position = UDim2.fromOffset(10, 0), Size = UDim2.new(1, -34, 1, 0),
+TextTruncate = Enum.TextTruncate.AtEnd,
 }, btn)
 
 for i, rot in ipairs({ 45, -45 }) do
-inst(__tc_s(134), {
-Size = UDim2.fromOffset(5, 2),
-Position = UDim2.new(1, -18 + (i - 1) * 3, 0.5, -2),
-BackgroundColor3 = Theme.off, BorderSizePixel = 0, Rotation = rot,
+inst(__tc_s(135), {
+Size = UDim2.fromOffset(6, 2),
+Position = UDim2.new(1, -20 + (i - 1) * 4, 0.5, -1),
+BackgroundColor3 = Theme.dim, BorderSizePixel = 0, Rotation = rot,
 }, btn)
 end
 
@@ -1127,36 +1141,41 @@ Color3.fromRGB(120, 120, 120), Color3.fromRGB(0, 0, 0),
 }
 
 local function toHex(c)
-return string.format(__tc_s(135),
+return string.format(__tc_s(136),
 math.floor(c.R * 255 + 0.5), math.floor(c.G * 255 + 0.5), math.floor(c.B * 255 + 0.5))
 end
 
 local function fromHex(s)
-local h = tostring(s):gsub(__tc_s(136), __tc_s(137))
+local h = tostring(s):gsub(__tc_s(137), __tc_s(138))
 if #h == 3 then h = h:sub(1, 1):rep(2) .. h:sub(2, 2):rep(2) .. h:sub(3, 3):rep(2) end
 if #h < 6 then return nil end
 return Color3.fromRGB(tonumber(h:sub(1, 2), 16), tonumber(h:sub(3, 4), 16), tonumber(h:sub(5, 6), 16))
 end
 
 local function addColor(card, label, get, set)
-local r = rowFrame(card, 20)
-rowText(r, label, 6, 92)
+local block = rowFrame(card, COLOR_H)
+inst(__tc_s(139), {
+Text = label, Font = Enum.Font.GothamMedium, TextSize = 11,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, 0, 0, 13),
+}, block)
 
-local hex = inst(__tc_s(138), {
-Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 11,
-TextColor3 = Theme.text, BackgroundColor3 = Theme.bg, BorderSizePixel = 0,
-Size = UDim2.fromOffset(52, 16), Position = UDim2.new(1, -74, 0.5, -8),
+local hex = inst(__tc_s(140), {
+Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Theme.text, BackgroundColor3 = Theme.row, BorderSizePixel = 0,
+Size = UDim2.new(1, -36, 0, 26), Position = UDim2.fromOffset(0, 18),
 TextXAlignment = Enum.TextXAlignment.Center, ClearTextOnFocus = false,
-}, r)
-round(hex, 2)
-border(hex)
+}, block)
+round(hex, 4)
+border(hex, Theme.line)
 
-local swatch = inst(__tc_s(139), {
-Text = __tc_s(140), Size = UDim2.fromOffset(16, 12),
-Position = UDim2.new(1, -18, 0.5, -6),
+local swatch = inst(__tc_s(141), {
+Text = __tc_s(142), Size = UDim2.fromOffset(26, 26),
+Position = UDim2.new(1, -26, 0, 18),
 BackgroundColor3 = get(), BorderSizePixel = 0, AutoButtonColor = false,
-}, r)
-round(swatch, 2)
+}, block)
+round(swatch, 4)
 border(swatch)
 
 swatch.MouseButton1Click:Connect(function()
@@ -1175,99 +1194,105 @@ end)
 end
 
 local function addInfo(card, label, valueFn)
-local r = rowFrame(card, 17)
-rowText(r, label, 6, 8)
-local v = inst(__tc_s(141), {
-Text = __tc_s(142), Font = Enum.Font.Gotham, TextSize = 12,
+local r = rowFrame(card, ROW_H)
+inst(__tc_s(143), {
+Text = label, Font = Enum.Font.Gotham, TextSize = 13,
+TextColor3 = Theme.text, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+Size = UDim2.new(0.55, -6, 1, 0),
+}, r)
+local v = inst(__tc_s(144), {
+Text = __tc_s(145), Font = Enum.Font.Gotham, TextSize = 13,
 TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
-Size = UDim2.new(0, 150, 1, 0), Position = UDim2.new(1, -156, 0, 0),
+Size = UDim2.new(0.45, 0, 1, 0), Position = UDim2.new(0.55, 0, 0, 0),
+TextTruncate = Enum.TextTruncate.AtEnd,
 }, r)
 table.insert(refreshers, function() v.Text = valueFn() end)
 end
 
+local function addButton(card, label, primary, onClick)
+local btn = inst(__tc_s(146), {
+Text = label, Font = Enum.Font.GothamMedium, TextSize = 13,
+TextColor3 = primary and Theme.bg or Theme.text,
+BackgroundColor3 = primary and Theme.accent or Theme.row,
+BorderSizePixel = 0, AutoButtonColor = false,
+Size = UDim2.new(1, 0, 0, 30),
+}, card)
+round(btn, 4)
+if not primary then border(btn, Theme.line) end
+btn.MouseButton1Click:Connect(function() pcall(onClick) end)
+return btn
+end
+
+local function addTextInput(card, placeholder, default)
+local box = inst(__tc_s(147), {
+Text = default or __tc_s(148), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
+BackgroundColor3 = Theme.row, BorderSizePixel = 0,
+Size = UDim2.new(1, 0, 0, 30),
+PlaceholderText = placeholder or __tc_s(149), ClearTextOnFocus = false,
+TextXAlignment = Enum.TextXAlignment.Left,
+}, card)
+round(box, 4)
+border(box, Theme.line)
+inst(__tc_s(150), { PaddingLeft = UDim.new(0, 10) }, box)
+return box
+end
+
 local function makeCard(column, title)
-local card = inst(__tc_s(143), {
+local card = inst(__tc_s(151), {
 Size = UDim2.new(1, 0, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundColor3 = Theme.card,
 BorderSizePixel = 0,
 }, column)
-round(card, 2)
-border(card)
-inst(__tc_s(144), {
-PaddingLeft = UDim.new(0, 10), PaddingRight = UDim.new(0, 10),
-PaddingTop = UDim.new(0, 8), PaddingBottom = UDim.new(0, 8),
+round(card, 6)
+border(card, Theme.line)
+inst(__tc_s(152), {
+PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12),
+PaddingTop = UDim.new(0, 10), PaddingBottom = UDim.new(0, 12),
 }, card)
-inst(__tc_s(145), { SortOrder = Enum.SortOrder.LayoutOrder }, card)
+inst(__tc_s(153), { Padding = UDim.new(0, 2), SortOrder = Enum.SortOrder.LayoutOrder }, card)
 
-inst(__tc_s(146), {
+inst(__tc_s(154), {
 Text = title,
-Font = Enum.Font.Gotham,
+Font = Enum.Font.GothamMedium,
 TextSize = 13,
 TextColor3 = Theme.text,
 BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 25),
+Size = UDim2.new(1, 0, 0, 24),
 TextXAlignment = Enum.TextXAlignment.Left,
-TextYAlignment = Enum.TextYAlignment.Top,
-LayoutOrder = -1,
+TextYAlignment = Enum.TextYAlignment.Center,
+LayoutOrder = -1000,
 }, card)
 return card
-end
-
-local function makeColumns(page)
-local layout = inst(__tc_s(147), {
-FillDirection = Enum.FillDirection.Horizontal,
-Padding = UDim.new(0, 8),
-SortOrder = Enum.SortOrder.LayoutOrder,
-}, page)
-local function col(order)
-local f = inst(__tc_s(148), {
-Size = UDim2.new(0.5, -4, 0, 0),
-AutomaticSize = Enum.AutomaticSize.Y,
-BackgroundTransparency = 1,
-LayoutOrder = order,
-}, page)
-inst(__tc_s(149), { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder }, f)
-return f
-end
-return col(1), col(2)
 end
 
 local gui = makeGui()
 local menuOpen = true
 
-local WINDOW = Vector2.new(530, 408)
+local WINDOW = Vector2.new(560, 600)
+local BAR_H = 34
+local FOOTER_H = 26
 
-local win = inst(__tc_s(150), {
-Name = __tc_s(151),
+local win = inst(__tc_s(155), {
+Name = __tc_s(156),
 Size = UDim2.fromOffset(WINDOW.X, WINDOW.Y),
 Position = UDim2.new(0.5, -WINDOW.X / 2, 0.5, -WINDOW.Y / 2),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 Active = true,
 }, gui)
+round(win, 8)
 border(win, Theme.line)
 
-local HEADER_H = 30
-local FOOTER_H = 26
-
-inst(__tc_s(152), {
-Name = __tc_s(153),
-Size = UDim2.new(1, 0, 0, 2),
-BackgroundColor3 = Theme.accent,
-BorderSizePixel = 0,
-ZIndex = 2,
-}, win)
-
-local header = inst(__tc_s(154), {
-Name = __tc_s(155),
-Size = UDim2.new(1, 0, 0, HEADER_H),
-Position = UDim2.fromOffset(0, 2),
+local header = inst(__tc_s(157), {
+Name = __tc_s(158),
+Size = UDim2.new(1, 0, 0, BAR_H),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(156), {
+inst(__tc_s(159), {
 Size = UDim2.new(1, 0, 0, 1),
 Position = UDim2.new(0, 0, 1, -1),
 BackgroundColor3 = Theme.line,
@@ -1275,18 +1300,18 @@ BorderSizePixel = 0,
 ZIndex = 2,
 }, header)
 
-inst(__tc_s(157), {
-Text = __tc_s(158),
-Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.accent,
+inst(__tc_s(160), {
+Text = __tc_s(161) .. hexStr(Theme.accent) .. __tc_s(162),
+RichText = true, Font = Enum.Font.GothamBold, TextSize = 14, TextColor3 = Theme.text,
 BackgroundTransparency = 1,
-Size = UDim2.fromOffset(88, HEADER_H), Position = UDim2.fromOffset(10, 0),
+Size = UDim2.fromOffset(100, BAR_H), Position = UDim2.fromOffset(14, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, header)
 
-local closeBtn = inst(__tc_s(159), {
-Text = __tc_s(160), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
-BackgroundTransparency = 1, Size = UDim2.fromOffset(24, HEADER_H),
-Position = UDim2.new(1, -28, 0, 0),
+local closeBtn = inst(__tc_s(163), {
+Text = __tc_s(164), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
+BackgroundTransparency = 1, Size = UDim2.fromOffset(26, BAR_H),
+Position = UDim2.new(1, -30, 0, 0),
 }, header)
 closeBtn.MouseButton1Click:Connect(function()
 menuOpen = false
@@ -1313,87 +1338,83 @@ if input.UserInputType == Enum.UserInputType.MouseButton1 then dragStart = nil e
 end)
 end
 
-local TABS = { __tc_s(161), __tc_s(162), __tc_s(163), __tc_s(164), __tc_s(165) }
-local tabBar = inst(__tc_s(166), {
-Name = __tc_s(167),
+local TABS = { __tc_s(165), __tc_s(166), __tc_s(167), __tc_s(168), __tc_s(169), __tc_s(170) }
+local tabBar = inst(__tc_s(171), {
+Name = __tc_s(172),
 Size = UDim2.new(1, -140, 1, 0),
-Position = UDim2.fromOffset(100, 0),
+Position = UDim2.fromOffset(106, 0),
 BackgroundTransparency = 1,
 }, header)
-inst(__tc_s(168), {
+inst(__tc_s(173), {
 FillDirection = Enum.FillDirection.Horizontal,
 SortOrder = Enum.SortOrder.LayoutOrder,
 VerticalAlignment = Enum.VerticalAlignment.Center,
 }, tabBar)
 
-local bodyHost = inst(__tc_s(169), {
-Name = __tc_s(170),
-Size = UDim2.new(1, 0, 1, -(HEADER_H + FOOTER_H + 2)),
-Position = UDim2.fromOffset(0, HEADER_H + 2),
+local bodyHost = inst(__tc_s(174), {
+Name = __tc_s(175),
+Size = UDim2.new(1, 0, 1, -(BAR_H + FOOTER_H)),
+Position = UDim2.fromOffset(0, BAR_H),
 BackgroundTransparency = 1,
 }, win)
 
-local footer = inst(__tc_s(171), {
-Name = __tc_s(172),
+local footer = inst(__tc_s(176), {
+Name = __tc_s(177),
 Size = UDim2.new(1, 0, 0, FOOTER_H),
 Position = UDim2.new(0, 0, 1, -FOOTER_H),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(173), {
+inst(__tc_s(178), {
 Size = UDim2.new(1, 0, 0, 1),
 BackgroundColor3 = Theme.line,
 BorderSizePixel = 0,
 ZIndex = 2,
 }, footer)
-inst(__tc_s(174), {
-Text = __tc_s(175) .. hexStr(Theme.accent) .. __tc_s(176),
-RichText = true, Font = Enum.Font.Gotham, TextSize = 11, TextColor3 = Theme.dim,
-BackgroundTransparency = 1, Size = UDim2.new(1, -20, 1, 0),
-Position = UDim2.fromOffset(10, 0),
+inst(__tc_s(179), {
+Text = __tc_s(180) .. hexStr(Theme.accent) .. __tc_s(181),
+RichText = true, Font = Enum.Font.Gotham, TextSize = 12, TextColor3 = Theme.dim,
+BackgroundTransparency = 1, Size = UDim2.new(1, -28, 1, 0),
+Position = UDim2.fromOffset(14, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, footer)
 
 local pages = {}
-local rowOrder = 0
-local function makePage(name, sections, tab)
-local page = pages[tab]
-if not page then
-page = inst(__tc_s(177), {
+local function makePage(name, tab)
+local page = inst(__tc_s(182), {
 Name = name,
 Size = UDim2.fromScale(1, 1),
 BackgroundTransparency = 1,
 BorderSizePixel = 0,
 CanvasSize = UDim2.new(),
 AutomaticCanvasSize = Enum.AutomaticSize.Y,
-ScrollBarThickness = 4,
-ScrollBarImageColor3 = Theme.accent,
-ScrollBarImageTransparency = 0.4,
+ScrollBarThickness = 3,
+ScrollBarImageColor3 = Theme.off,
+ScrollBarImageTransparency = 0.5,
 Visible = false,
 }, bodyHost)
-inst(__tc_s(178), {
-Padding = UDim.new(0, 8),
+inst(__tc_s(183), {
+FillDirection = Enum.FillDirection.Horizontal,
+Padding = UDim.new(0, 10),
 SortOrder = Enum.SortOrder.LayoutOrder,
 }, page)
-inst(__tc_s(179), {
-PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8),
-PaddingTop = UDim.new(0, 8), PaddingBottom = UDim.new(0, 8),
+inst(__tc_s(184), {
+PaddingLeft = UDim.new(0, 10), PaddingRight = UDim.new(0, 10),
+PaddingTop = UDim.new(0, 10), PaddingBottom = UDim.new(0, 10),
 }, page)
-pages[tab] = page
-end
 
-local rows = {}
-for i, label in ipairs(sections) do
-rowOrder = rowOrder + 1
-rows[i] = inst(__tc_s(180), {
-Name = label,
-Size = UDim2.new(1, 0, 0, 0),
+local function column(order)
+local f = inst(__tc_s(185), {
+Size = UDim2.new(0.5, -5, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundTransparency = 1,
-LayoutOrder = rowOrder,
+LayoutOrder = order,
 }, page)
+inst(__tc_s(186), { Padding = UDim.new(0, 10), SortOrder = Enum.SortOrder.LayoutOrder }, f)
+return f
 end
-return rows
+pages[tab] = page
+return column(1), column(2)
 end
 
 local tabButtons, tabMarks = {}, {}
@@ -1409,16 +1430,16 @@ end
 
 for i, tabName in ipairs(TABS) do
 local idx = i
-local b = inst(__tc_s(181), {
+local b = inst(__tc_s(187), {
 Text = tabName,
-Font = Enum.Font.Gotham, TextSize = 12, TextColor3 = Theme.dim,
+Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, BorderSizePixel = 0, AutoButtonColor = false,
 AutomaticSize = Enum.AutomaticSize.X,
 Size = UDim2.new(0, 0, 1, 0),
 LayoutOrder = i,
 }, tabBar)
-inst(__tc_s(182), { PaddingLeft = UDim.new(0, 13), PaddingRight = UDim.new(0, 13) }, b)
-tabMarks[i] = inst(__tc_s(183), {
+inst(__tc_s(188), { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) }, b)
+tabMarks[i] = inst(__tc_s(189), {
 Size = UDim2.new(1, 0, 0, 2),
 Position = UDim2.new(0, 0, 1, -2),
 BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
@@ -1427,268 +1448,249 @@ Visible = false, ZIndex = 2,
 b.MouseButton1Click:Connect(function() showTab(idx) end)
 tabButtons[i] = b
 end
-showTab(1)
 
 do
-local s = makePage(__tc_s(184), { __tc_s(185), __tc_s(186) }, 1)
+local L, R = makePage(__tc_s(190), 1)
 
-local L, R = makeColumns(s[1])
-local who = makeCard(L, __tc_s(187))
-addInfo(who, __tc_s(188), function() return LP.Name end)
-addInfo(who, __tc_s(189), function() return LP.DisplayName end)
-addInfo(who, __tc_s(190), function() return LP.Team and LP.Team.Name or __tc_s(191) end)
-addInfo(who, __tc_s(192), function() return tostring(game.PlaceId) end)
+local who = makeCard(L, __tc_s(191))
+addInfo(who, __tc_s(192), function() return LP.Name end)
+addInfo(who, __tc_s(193), function() return LP.DisplayName end)
+addInfo(who, __tc_s(194), function() return LP.Team and LP.Team.Name or __tc_s(195) end)
+addInfo(who, __tc_s(196), function() return tostring(game.PlaceId) end)
 
-local live = makeCard(R, __tc_s(193))
-addInfo(live, __tc_s(194), function()
-if not aimActive then return __tc_s(195) end
-return locked and __tc_s(196) or __tc_s(197)
+local keys = makeCard(L, __tc_s(197))
+addInfo(keys, __tc_s(198), function() return bindName(Config.hud.menu) end)
+addInfo(keys, __tc_s(199), function() return bindName(Config.aim.key) end)
+addInfo(keys, __tc_s(200), function() return bindName(Config.silent.key) end)
+
+local live = makeCard(R, __tc_s(201))
+addInfo(live, __tc_s(202), function()
+if not aimActive then return __tc_s(203) end
+return locked and __tc_s(204) or __tc_s(205)
 end)
-addInfo(live, __tc_s(198), function()
-if not Config.silent.enabled then return __tc_s(199) end
-if not silentReady then return __tc_s(200) end
-if not silentActive then return __tc_s(201) end
-return silentSpoof and __tc_s(202) or __tc_s(203)
+addInfo(live, __tc_s(206), function()
+if not Config.silent.enabled then return __tc_s(207) end
+if not silentReady then return __tc_s(208) end
+if not silentActive then return __tc_s(209) end
+return silentSpoof and __tc_s(210) or __tc_s(211)
 end)
-addInfo(live, __tc_s(204), function() return Config.esp.enabled and __tc_s(205) or __tc_s(206) end)
-addInfo(live, __tc_s(207), function() return Config.hud.enabled and __tc_s(208) or __tc_s(209) end)
+addInfo(live, __tc_s(212), function() return Config.esp.enabled and __tc_s(213) or __tc_s(214) end)
+addInfo(live, __tc_s(215), function() return Config.hud.enabled and __tc_s(216) or __tc_s(217) end)
 
-local L2, R2 = makeColumns(s[2])
-local keys = makeCard(L2, __tc_s(210))
-addInfo(keys, __tc_s(211), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(212), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(213), function() return bindName(Config.silent.key) end)
-
-local build = makeCard(R2, __tc_s(214))
-addInfo(build, __tc_s(215), function() return __tc_s(216) end)
-addInfo(build, __tc_s(217), function() return string.format(__tc_s(218), WINDOW.X, WINDOW.Y) end)
-addInfo(build, __tc_s(219), function() return Config.aim.part end)
-addInfo(build, __tc_s(220), function() return silentReady and __tc_s(221) or __tc_s(222) end)
+local build = makeCard(R, __tc_s(218))
+addInfo(build, __tc_s(219), function() return __tc_s(220) end)
+addInfo(build, __tc_s(221), function() return string.format(__tc_s(222), WINDOW.X, WINDOW.Y) end)
+addInfo(build, __tc_s(223), function() return Config.aim.part end)
+addInfo(build, __tc_s(224), function() return silentReady and __tc_s(225) or __tc_s(226) end)
 end
 
 do
-local s = makePage(__tc_s(223), { __tc_s(224), __tc_s(225), __tc_s(226) }, 2)
+local L, R = makePage(__tc_s(227), 2)
 
-local L = makeColumns(s[1])
-local aim = makeCard(L, __tc_s(227))
-addBind(aim, __tc_s(228), function() return Config.aim.key end, function(k) Config.aim.key = k end)
-addDrop(aim, __tc_s(229), { __tc_s(230), __tc_s(231), __tc_s(232) }, function() return Config.aim.part end,
-function(v) Config.aim.part = v end)
-addCheck(aim, __tc_s(233), function() return Config.aim.cameraLock end, function(v) Config.aim.cameraLock = v end)
-addCheck(aim, __tc_s(234), function() return Config.aim.mouseLock end, function(v) Config.aim.mouseLock = v end)
-addSlider(aim, __tc_s(235), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(236))
-addInfo(aim, __tc_s(237), function() return __tc_s(238) end)
+local silent = makeCard(L, __tc_s(228))
+addCheck(silent, __tc_s(229), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
+addCheck(silent, __tc_s(230), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
+addCheck(silent, __tc_s(231), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
+addCheck(silent, __tc_s(232), function() return Config.silent.healthCheck end, function(v) Config.silent.healthCheck = v end)
+addCheck(silent, __tc_s(233), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
+addHeader(silent, __tc_s(234))
+addSlider(silent, __tc_s(235), 0, 600, 5, function() return Config.silent.fov end, function(v) Config.silent.fov = v end, __tc_s(236))
+addSlider(silent, __tc_s(237), 50, 5000, 50, function() return Config.silent.maxDistance end, function(v) Config.silent.maxDistance = v end, __tc_s(238))
+addSlider(silent, __tc_s(239), 0, 100, 1, function() return Config.silent.hitChance end, function(v) Config.silent.hitChance = v end, __tc_s(240), true)
+addSlider(silent, __tc_s(241), 0, 1, 0.01, function() return Config.silent.prediction end, function(v) Config.silent.prediction = v end, __tc_s(242))
+addHeader(silent, __tc_s(243))
+addDrop(silent, __tc_s(244), { __tc_s(245), __tc_s(246), __tc_s(247) }, function() return Config.silent.part end, function(v) Config.silent.part = v end)
+addDrop(silent, __tc_s(248), { __tc_s(249), __tc_s(250) }, function() return Config.silent.method end, function(v) Config.silent.method = v end)
+addBind(silent, __tc_s(251), function() return Config.silent.key end, function(k) Config.silent.key = k end)
 
-local L3, R3 = makeColumns(s[3])
-local silent = makeCard(L3, __tc_s(239))
-addBind(silent, __tc_s(240), function() return Config.silent.key end, function(k) Config.silent.key = k end)
-addCheck(silent, __tc_s(241), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
-addDrop(silent, __tc_s(242), { __tc_s(243), __tc_s(244), __tc_s(245) }, function() return Config.silent.part end,
-function(v) Config.silent.part = v end)
-addDrop(silent, __tc_s(246), { __tc_s(247), __tc_s(248) }, function() return Config.silent.method end,
-function(v) Config.silent.method = v end)
-addSlider(silent, __tc_s(249), 0, 600, 5, function() return Config.silent.fov end,
-function(v) Config.silent.fov = v end, __tc_s(250))
-addSlider(silent, __tc_s(251), 50, 5000, 50, function() return Config.silent.maxDistance end,
-function(v) Config.silent.maxDistance = v end, __tc_s(252))
-addSlider(silent, __tc_s(253), 0, 100, 1, function() return Config.silent.hitChance end,
-function(v) Config.silent.hitChance = v end, __tc_s(254), true)
-addSlider(silent, __tc_s(255), 0, 1, 0.01, function() return Config.silent.prediction end,
-function(v) Config.silent.prediction = v end, __tc_s(256))
-addCheck(silent, __tc_s(257), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
-addCheck(silent, __tc_s(258), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
-addCheck(silent, __tc_s(259), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
-addInfo(silent, __tc_s(260), function()
-if not Config.silent.enabled then return __tc_s(261) end
-if not silentActive then return __tc_s(262) .. bindName(Config.silent.key) end
-if not silentReady then return __tc_s(263) end
-return silentSpoof and __tc_s(264) or __tc_s(265)
-end)
+local aim = makeCard(R, __tc_s(252))
+addCheck(aim, __tc_s(253), function() return Config.aim.cameraLock end, function(v) Config.aim.cameraLock = v end)
+addCheck(aim, __tc_s(254), function() return Config.aim.mouseLock end, function(v) Config.aim.mouseLock = v end)
+addCheck(aim, __tc_s(255), function() return Config.aim.sticky end, function(v) Config.aim.sticky = v end)
+addCheck(aim, __tc_s(256), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
+addHeader(aim, __tc_s(257))
+addCheck(aim, __tc_s(258), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(aim, __tc_s(259), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
+addCheck(aim, __tc_s(260), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
+addHeader(aim, __tc_s(261))
+addSlider(aim, __tc_s(262), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(263))
+addSlider(aim, __tc_s(264), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(265))
+addSlider(aim, __tc_s(266), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(267))
+addHeader(aim, __tc_s(268))
+addDrop(aim, __tc_s(269), { __tc_s(270), __tc_s(271), __tc_s(272) }, function() return Config.aim.part end, function(v) Config.aim.part = v end)
+addDrop(aim, __tc_s(273), { __tc_s(274), __tc_s(275) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
+addBind(aim, __tc_s(276), function() return Config.aim.key end, function(k) Config.aim.key = k end)
 
-local sinfo = makeCard(R3, __tc_s(266))
-addInfo(sinfo, __tc_s(267), function()
-local t = silentLock
-if not t or not t.Parent then return __tc_s(268) end
-return t.DisplayName
-end)
-addInfo(sinfo, __tc_s(269), function() return Config.silent.method end)
-addInfo(sinfo, __tc_s(270), function() return bindName(Config.silent.key) end)
-
-local L2, R2 = makeColumns(s[2])
-local target = makeCard(L2, __tc_s(271))
-addSlider(target, __tc_s(272), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(273))
-addCheck(target, __tc_s(274), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
-addSlider(target, __tc_s(275), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(276))
-addDrop(target, __tc_s(277), { __tc_s(278), __tc_s(279) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
-addCheck(target, __tc_s(280), function() return Config.aim.sticky end, function(v) Config.aim.sticky = v end)
-addCheck(target, __tc_s(281), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(target, __tc_s(282), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
-addCheck(target, __tc_s(283), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
-
-local status = makeCard(R2, __tc_s(284))
-addInfo(status, __tc_s(285), function()
+local astat = makeCard(L, __tc_s(277))
+addInfo(astat, __tc_s(278), function()
 local t = locked
-if not t or not t.Parent then return __tc_s(286) end
+if not t or not t.Parent then return __tc_s(279) end
 return t.DisplayName
 end)
-addInfo(status, __tc_s(287), function()
-if not aimActive then return __tc_s(288) end
-return locked and __tc_s(289) or __tc_s(290)
+addInfo(astat, __tc_s(280), function()
+if not aimActive then return __tc_s(281) end
+return locked and __tc_s(282) or __tc_s(283)
 end)
-addInfo(status, __tc_s(291), function() return bindName(Config.aim.key) end)
+addInfo(astat, __tc_s(284), function() return Config.aim.targetMode end)
+addInfo(astat, __tc_s(285), function() return bindName(Config.aim.key) end)
+
+local sstat = makeCard(R, __tc_s(286))
+addInfo(sstat, __tc_s(287), function()
+local t = silentLock
+if not t or not t.Parent then return __tc_s(288) end
+return t.DisplayName
+end)
+addInfo(sstat, __tc_s(289), function()
+if not Config.silent.enabled then return __tc_s(290) end
+if not silentActive then return __tc_s(291) end
+if not silentReady then return __tc_s(292) end
+return silentSpoof and __tc_s(293) or __tc_s(294)
+end)
+addInfo(sstat, __tc_s(295), function() return Config.silent.method end)
+addInfo(sstat, __tc_s(296), function() return bindName(Config.silent.key) end)
 end
 
 do
-local s = makePage(__tc_s(292), { __tc_s(293), __tc_s(294), __tc_s(295) }, 3)
-local L = makeColumns(s[1])
+local L, R = makePage(__tc_s(297), 3)
 
-local esp = makeCard(L, __tc_s(296))
-addCheck(esp, __tc_s(297), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
-addCheck(esp, __tc_s(298), function() return Config.esp.box end, function(v) Config.esp.box = v end)
-addCheck(esp, __tc_s(299), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
-addCheck(esp, __tc_s(300), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
-addCheck(esp, __tc_s(301), function() return Config.esp.name end, function(v) Config.esp.name = v end)
-addCheck(esp, __tc_s(302), function() return Config.esp.health end, function(v) Config.esp.health = v end)
-addCheck(esp, __tc_s(303), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
-addCheck(esp, __tc_s(304), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
-addCheck(esp, __tc_s(305), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
-addCheck(esp, __tc_s(306), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
+local npc = makeCard(L, __tc_s(298))
+addCheck(npc, __tc_s(299), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
+addCheck(npc, __tc_s(300), function() return Config.npc.name end, function(v) Config.npc.name = v end)
+addCheck(npc, __tc_s(301), function() return Config.npc.health end, function(v) Config.npc.health = v end)
+addHeader(npc, __tc_s(302))
+addSlider(npc, __tc_s(303), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(304))
+addHeader(npc, __tc_s(305))
+addColor(npc, __tc_s(306), function() return Config.npc.color end, function(c) Config.npc.color = c end)
 
-local L2 = makeColumns(s[2])
-local opt = makeCard(L2, __tc_s(307))
-addDrop(opt, __tc_s(308), { __tc_s(309), __tc_s(310), __tc_s(311) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
-addSlider(opt, __tc_s(312), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(313))
-addCheck(opt, __tc_s(314), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addCheck(opt, __tc_s(315), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
-addInfo(opt, __tc_s(316), function() return Config.esp.useScreenPoint and __tc_s(317) or __tc_s(318) end)
+local teams = makeCard(R, __tc_s(307))
+addCheck(teams, __tc_s(308), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(teams, __tc_s(309), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addInfo(teams, __tc_s(310), function() return LP.Team and LP.Team.Name or __tc_s(311) end)
 
-local L3 = makeColumns(s[3])
-local colors = makeCard(L3, __tc_s(319))
-addColor(colors, __tc_s(320), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
-addColor(colors, __tc_s(321), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
-end
-
-local exploitSec = makePage(__tc_s(322), { __tc_s(323), __tc_s(324) }, 4)
-
-do
-local L, R = makeColumns(exploitSec[2])
-local w = makeCard(L, __tc_s(325))
-addCheck(w, __tc_s(326), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
-addCheck(w, __tc_s(327), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
-addCheck(w, __tc_s(328), function() return Config.world.clock end, function(v) Config.world.clock = v end)
-addSlider(w, __tc_s(329), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(330))
-addCheck(w, __tc_s(331), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
-local info = makeCard(R, __tc_s(332))
-addInfo(info, __tc_s(333), function() return string.format(__tc_s(334), Lighting.Brightness) end)
-addInfo(info, __tc_s(335), function() return string.format(__tc_s(336), Lighting.FogEnd) end)
-addInfo(info, __tc_s(337), function() return string.format(__tc_s(338), Lighting.ClockTime) end)
-addInfo(info, __tc_s(339), function() return worldOriginals and __tc_s(340) or __tc_s(341) end)
+local status = makeCard(R, __tc_s(312))
+addInfo(status, __tc_s(313), function() return tostring(game.PlaceId) end)
+addInfo(status, __tc_s(314), function() return tostring(#Players:GetPlayers()) end)
+addInfo(status, __tc_s(315), function() return Config.silent.method end)
 end
 
 do
-local L, R = makeColumns(exploitSec[1])
-local move = makeCard(L, __tc_s(342))
-addCheck(move, __tc_s(343), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
-addSlider(move, __tc_s(344), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(345))
-addCheck(move, __tc_s(346), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
-addSlider(move, __tc_s(347), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(348))
-addCheck(move, __tc_s(349), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
-addSlider(move, __tc_s(350), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(351))
+local L, R = makePage(__tc_s(316), 4)
 
-local misc = makeCard(R, __tc_s(352))
-addCheck(misc, __tc_s(353), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
-addCheck(misc, __tc_s(354), function() return Config.character.fly end, function(v) Config.character.fly = v end)
-addSlider(misc, __tc_s(355), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(356))
-addInfo(misc, __tc_s(357), function() return __tc_s(358) end)
-end
+local move = makeCard(L, __tc_s(317))
+addCheck(move, __tc_s(318), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
+addSlider(move, __tc_s(319), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(320))
+addCheck(move, __tc_s(321), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
+addSlider(move, __tc_s(322), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(323))
+addCheck(move, __tc_s(324), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
+addSlider(move, __tc_s(325), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(326))
 
-local extrasSec = makePage(__tc_s(359), { __tc_s(360), __tc_s(361) }, 5)
+local light = makeCard(L, __tc_s(327))
+addCheck(light, __tc_s(328), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
+addCheck(light, __tc_s(329), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
+addCheck(light, __tc_s(330), function() return Config.world.clock end, function(v) Config.world.clock = v end)
+addSlider(light, __tc_s(331), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(332))
+addCheck(light, __tc_s(333), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
 
-do
-local L, R = makeColumns(extrasSec[1])
-local menu = makeCard(L, __tc_s(362))
-addBind(menu, __tc_s(363), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
-addCheck(menu, __tc_s(364), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
-addInfo(menu, __tc_s(365), function() return string.format(__tc_s(366), WINDOW.X, WINDOW.Y) end)
+local misc = makeCard(R, __tc_s(334))
+addCheck(misc, __tc_s(335), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
+addCheck(misc, __tc_s(336), function() return Config.character.fly end, function(v) Config.character.fly = v end)
+addSlider(misc, __tc_s(337), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(338))
+addInfo(misc, __tc_s(339), function() return __tc_s(340) end)
 
-local keys = makeCard(R, __tc_s(367))
-addInfo(keys, __tc_s(368), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(369), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(370), function() return bindName(Config.silent.key) end)
-addInfo(keys, __tc_s(371), function() return Config.aim.part end)
-addInfo(keys, __tc_s(372), function() return __tc_s(373) end)
+local world = makeCard(R, __tc_s(341))
+addInfo(world, __tc_s(342), function() return string.format(__tc_s(343), Lighting.Brightness) end)
+addInfo(world, __tc_s(344), function() return string.format(__tc_s(345), Lighting.FogEnd) end)
+addInfo(world, __tc_s(346), function() return string.format(__tc_s(347), Lighting.ClockTime) end)
+addInfo(world, __tc_s(348), function() return worldOriginals and __tc_s(349) or __tc_s(350) end)
 end
 
 do
-local L, R = makeColumns(extrasSec[2])
-local save = makeCard(L, __tc_s(374))
-local dir = __tc_s(375)
-local nameBuf = __tc_s(376)
+local L, R = makePage(__tc_s(351), 5)
 
-local input = inst(__tc_s(377), {
-Text = __tc_s(378), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
-BackgroundColor3 = Theme.row, BorderSizePixel = 0,
-Size = UDim2.new(1, 0, 0, 26),
-PlaceholderText = __tc_s(379), ClearTextOnFocus = false,
-}, save)
-round(input, 4)
-border(input)
-input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(380) and input.Text or __tc_s(381) end)
+local esp = makeCard(L, __tc_s(352))
+addCheck(esp, __tc_s(353), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
+addHeader(esp, __tc_s(354))
+addCheck(esp, __tc_s(355), function() return Config.esp.box end, function(v) Config.esp.box = v end)
+addCheck(esp, __tc_s(356), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
+addCheck(esp, __tc_s(357), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
+addCheck(esp, __tc_s(358), function() return Config.esp.name end, function(v) Config.esp.name = v end)
+addCheck(esp, __tc_s(359), function() return Config.esp.health end, function(v) Config.esp.health = v end)
+addCheck(esp, __tc_s(360), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
+addCheck(esp, __tc_s(361), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
+addCheck(esp, __tc_s(362), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
+addCheck(esp, __tc_s(363), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
 
-local function fileOf(n) return dir .. __tc_s(382) .. n .. __tc_s(383) end
+local opt = makeCard(R, __tc_s(364))
+addCheck(opt, __tc_s(365), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addCheck(opt, __tc_s(366), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
+addHeader(opt, __tc_s(367))
+addDrop(opt, __tc_s(368), { __tc_s(369), __tc_s(370), __tc_s(371) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
+addSlider(opt, __tc_s(372), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(373))
+addInfo(opt, __tc_s(374), function() return Config.esp.useScreenPoint and __tc_s(375) or __tc_s(376) end)
+
+local colors = makeCard(R, __tc_s(377))
+addColor(colors, __tc_s(378), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
+addColor(colors, __tc_s(379), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
+end
+
+do
+local L, R = makePage(__tc_s(380), 6)
+
+local menu = makeCard(L, __tc_s(381))
+addCheck(menu, __tc_s(382), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
+addHeader(menu, __tc_s(383))
+addBind(menu, __tc_s(384), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
+addInfo(menu, __tc_s(385), function() return string.format(__tc_s(386), WINDOW.X, WINDOW.Y) end)
+
+local save = makeCard(L, __tc_s(387))
+local dir = __tc_s(388)
+local nameBuf = __tc_s(389)
+
+local input = addTextInput(save, __tc_s(390), __tc_s(391))
+input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(392) and input.Text or __tc_s(393) end)
+
+local function fileOf(n) return dir .. __tc_s(394) .. n .. __tc_s(395) end
 local function snapshot()
 local t = {}
 for k, v in pairs(Config) do
-if typeof(v) == __tc_s(384) then t[k] = v.Name
-elseif type(v) ~= __tc_s(385) then t[k] = v
+if typeof(v) == __tc_s(396) then t[k] = v.Name
+elseif type(v) ~= __tc_s(397) then t[k] = v
 else
 t[k] = {}
 for k2, v2 in pairs(v) do
-t[k][k2] = (typeof(v2) == __tc_s(386)) and v2.Name or v2
+t[k][k2] = (typeof(v2) == __tc_s(398)) and v2.Name or v2
 end
 end
 end
 for k, v in pairs(t) do
-if type(v) == __tc_s(387) then
+if type(v) == __tc_s(399) then
 for k2, v2 in pairs(v) do
-if typeof(v2) == __tc_s(388) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
+if typeof(v2) == __tc_s(400) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
 end
 end
 end
 return t
 end
 
-local saveBtn = inst(__tc_s(389), {
-Text = __tc_s(390), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.bg,
-BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
-Size = UDim2.new(1, 0, 0, 26),
-}, save)
-round(saveBtn, 4)
-saveBtn.MouseButton1Click:Connect(function()
+addButton(save, __tc_s(401), true, function()
 if not (writefile and isfolder and makefolder) then return end
 if not isfolder(dir) then makefolder(dir) end
 writefile(fileOf(nameBuf), HttpService:JSONEncode(snapshot()))
 end)
 
-local loadBtn = inst(__tc_s(391), {
-Text = __tc_s(392), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
-BackgroundColor3 = Theme.row, BorderSizePixel = 0,
-Size = UDim2.new(1, 0, 0, 26),
-}, save)
-round(loadBtn, 4)
-loadBtn.MouseButton1Click:Connect(function()
+addButton(save, __tc_s(402), false, function()
 if not (readfile and isfile and isfile(fileOf(nameBuf))) then return end
 local ok, data = pcall(function() return HttpService:JSONDecode(readfile(fileOf(nameBuf))) end)
 if not ok then return end
 for k, v in pairs(data) do
-if type(v) == __tc_s(393) and type(Config[k]) == __tc_s(394) then
+if type(v) == __tc_s(403) and type(Config[k]) == __tc_s(404) then
 for k2, v2 in pairs(v) do
 
-local legacy = (k == __tc_s(395) and (k2 == __tc_s(396) or k2 == __tc_s(397)))
+local legacy = (k == __tc_s(405) and (k2 == __tc_s(406) or k2 == __tc_s(407)))
 if not legacy then
-if type(v2) == __tc_s(398) and v2.r then
+if type(v2) == __tc_s(408) and v2.r then
 Config[k][k2] = Color3.new(v2.r, v2.g, v2.b)
-elseif type(v2) == __tc_s(399) and typeof(Config[k][k2]) == __tc_s(400) then
+elseif type(v2) == __tc_s(409) and typeof(Config[k][k2]) == __tc_s(410) then
 
 local enum = Config[k][k2].EnumType
 pcall(function() Config[k][k2] = enum[v2] end)
@@ -1701,30 +1703,17 @@ end
 end
 end)
 
-local list = makeCard(R, __tc_s(401))
-addInfo(list, __tc_s(402), function() return dir end)
-addInfo(list, __tc_s(403), function() return (writefile and readfile) and __tc_s(404) or __tc_s(405) end)
-addInfo(list, __tc_s(406), function() return nameBuf end)
-end
+local ctrl = makeCard(R, __tc_s(411))
+addInfo(ctrl, __tc_s(412), function() return bindName(Config.hud.menu) end)
+addInfo(ctrl, __tc_s(413), function() return bindName(Config.aim.key) end)
+addInfo(ctrl, __tc_s(414), function() return bindName(Config.silent.key) end)
+addInfo(ctrl, __tc_s(415), function() return Config.aim.part end)
+addInfo(ctrl, __tc_s(416), function() return __tc_s(417) end)
 
-local gameSec = makePage(__tc_s(407), { __tc_s(408), __tc_s(409) }, 2)
-
-do
-local L = makeColumns(gameSec[1])
-local npc = makeCard(L, __tc_s(410))
-addCheck(npc, __tc_s(411), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
-addCheck(npc, __tc_s(412), function() return Config.npc.name end, function(v) Config.npc.name = v end)
-addCheck(npc, __tc_s(413), function() return Config.npc.health end, function(v) Config.npc.health = v end)
-addSlider(npc, __tc_s(414), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(415))
-addColor(npc, __tc_s(416), function() return Config.npc.color end, function(c) Config.npc.color = c end)
-end
-
-do
-local L = makeColumns(gameSec[2])
-local teams = makeCard(L, __tc_s(417))
-addCheck(teams, __tc_s(418), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(teams, __tc_s(419), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addInfo(teams, __tc_s(420), function() return LP.Team and LP.Team.Name or __tc_s(421) end)
+local list = makeCard(R, __tc_s(418))
+addInfo(list, __tc_s(419), function() return dir end)
+addInfo(list, __tc_s(420), function() return (writefile and readfile) and __tc_s(421) or __tc_s(422) end)
+addInfo(list, __tc_s(423), function() return nameBuf end)
 end
 
 showTab(1)
@@ -1777,11 +1766,11 @@ pcall(applyWorld)
 pcall(runSilent)
 end)
 
-RunService:BindToRenderStep(__tc_s(422), Enum.RenderPriority.Camera.Value + 1, function()
+RunService:BindToRenderStep(__tc_s(424), Enum.RenderPriority.Camera.Value + 1, function()
 pcall(runAim)
 end)
 RunService.RenderStepped:Connect(function()
 for _, fn in ipairs(refreshers) do pcall(fn) end
 end)
 
-print(__tc_s(423))
+print(__tc_s(425))
