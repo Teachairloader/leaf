@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=1709407228,0,0,{}
+ local __e='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'
+ local __o,__q,__z,__u=1432269002,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={76,6,7,10,16,9,8,11,10,13,6,4,9,16,4,9,6,6,4,4,6,5,5,8,8,16,10,5,4,8,8,4,10,5,16,8,9,4,6,0,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,70,3,8,5,8,6,0,16,3,4,7,8,8,6,36,7,6,34,8,30,4,6,28,3,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,17,7,5,2,3,7,6,6,5,5,1,8,8,13,9,8,7,9,5,9,9,5,8,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,7,7,8,6,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,7,10,0,5,1,1,1,5,9,5,5,5,9,1,10,0,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,20,10,1,4,6,7,8,4,6,9,5,4,12,5,4,5,6,5,9,22,2,7,14,12,9,5,12,16,19,10,9,5,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,5,8,9,15,3,2,3,3,2,3,5,5,11,7,6,5,8,11,14,15,10,9,7,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,9,6,11,15,3,6,8,1,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,8,9,15,6,10,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,9,5,4,9,4,4,9,3,4,4,16,15,2,3,8,10,6,10,4,4,16,4,13,3,9,4,4,10,8,19,9,2,3,12,10,4,7,2,5,4,8,2,3,10,7,8,3,12,10,4,6,8,6,8,8,14,10,9,23,10,13,6,6,3,12,4,6,18,20,6,3,4,4,8,6,8,8,5,13,4,10,33,12,8,9,9,9,11,13,12,15,7,17,6,19,12,5,21,13,9,7,3,2,15,10,18,20,10,4,11,9,5,8,6,6,4,6,1,4,14,24,6,20,13,10,3,3,11,16,4,10,5,10,10,15,4,9,12,4,10,7,6,4,6,9,4,12,4,5,4,15,6,18,8,19,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,9,5,15,5,5,3,7,4,6,5,6,6,6,8,22,8,4,10,10,9,3,8,3,11,8,6,16,9,11,7,9,1,4,6,4,8,7,6,9,64,26,67,3,15,57,50}
+ local __w={76,6,7,10,16,9,8,11,10,13,6,4,9,16,4,9,6,6,4,4,6,5,5,8,8,16,10,5,4,8,8,4,10,5,16,8,9,4,6,0,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,70,3,8,5,8,6,0,16,3,4,7,8,8,6,36,7,6,34,8,30,4,6,28,3,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,17,7,5,2,3,7,6,6,5,5,1,8,8,13,9,8,7,9,5,9,9,5,8,10,0,5,9,0,10,1,1,5,5,5,10,0,10,11,12,7,7,8,6,9,10,9,3,9,10,0,9,5,12,5,0,9,7,10,0,9,7,10,0,5,1,1,1,5,9,5,5,5,9,1,10,0,10,0,9,9,0,10,7,0,0,9,5,9,12,9,5,6,5,6,5,9,13,20,10,1,4,6,7,8,4,6,9,5,4,12,5,4,5,6,5,9,22,2,7,14,12,9,5,12,16,19,10,9,5,6,4,7,4,1,5,5,4,6,6,10,6,5,9,9,6,3,5,8,9,15,3,2,3,3,2,3,5,5,11,7,6,5,8,11,14,15,10,9,7,10,7,13,10,12,11,6,13,4,8,4,10,6,10,4,6,8,4,5,4,6,9,11,14,6,9,6,11,15,3,6,8,1,10,6,10,13,12,3,13,4,8,4,9,4,6,8,4,5,4,11,9,8,14,13,6,1,5,5,9,9,4,10,13,6,1,5,3,5,8,9,15,6,10,7,7,4,9,5,12,4,5,5,10,7,3,10,1,6,5,7,6,8,9,5,4,9,4,4,9,3,4,4,16,15,2,3,8,10,6,10,4,4,16,4,13,3,9,4,4,10,8,19,9,2,3,12,10,4,7,2,5,4,8,2,3,10,7,8,3,12,10,4,6,8,6,8,8,14,10,9,23,10,13,6,6,3,12,4,6,18,20,6,3,4,4,8,6,8,8,5,9,4,13,4,10,33,12,8,9,9,9,11,13,12,15,7,17,6,19,12,5,21,13,9,7,3,2,15,10,18,20,10,4,11,9,5,8,6,6,4,6,1,4,14,24,6,20,13,10,3,3,11,16,4,10,5,10,10,15,4,9,12,4,10,7,6,4,6,9,4,12,4,5,4,15,6,18,8,19,9,8,4,8,6,5,11,11,7,12,7,0,7,1,5,8,5,8,5,6,12,12,9,5,15,5,5,3,7,4,6,5,6,6,6,8,22,8,4,10,10,9,3,8,3,11,8,6,16,9,11,7,9,1,4,6,4,8,7,6,9,64,26,67,3,15,57,50}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 1709407228
+-- seed 1432269002
 
 if not Drawing then
 error(__tc_s(0))
@@ -81,6 +81,8 @@ skeletonColor = Color3.fromRGB(255, 255, 255),
 headDotColor = Color3.fromRGB(255, 255, 255),
 
 boxThickness = 1,
+
+boxWidth = 0.75,
 useScreenPoint = false,
 },
 aim = {
@@ -430,6 +432,15 @@ if not tl then hide(o); espStats.hidden = espStats.hidden + 1; return end
 
 local w = math.max(br.X - tl.X, 3)
 local h = math.max(br.Y - tl.Y, 3)
+
+local wScale = math.clamp(tonumber(Config.esp.boxWidth) or 1, 0.4, 1.5)
+if wScale ~= 1 then
+local sw = math.max(w * wScale, 3)
+tl = Vector2.new(tl.X + (w - sw) * 0.5, tl.Y)
+w = sw
+br = Vector2.new(tl.X + w, br.Y)
+end
+
 espStats.drawn = espStats.drawn + 1
 
 if Config.esp.box then
@@ -2049,146 +2060,147 @@ addColorRGB(colors, __tc_s(461), function() return Config.esp.tracerColor end, f
 addColorRGB(colors, __tc_s(462), function() return Config.esp.skeletonColor end, function(c) Config.esp.skeletonColor = c end)
 addColorRGB(colors, __tc_s(463), function() return Config.esp.headDotColor end, function(c) Config.esp.headDotColor = c end)
 addHeader(colors, __tc_s(464))
-addSlider(colors, __tc_s(465), 0.5, 4, 0.5, function() return Config.esp.boxThickness end, function(v) Config.esp.boxThickness = v end, __tc_s(466))
-addInfo(colors, __tc_s(467), function() return __tc_s(468) end)
-addButton(colors, __tc_s(469), false, function()
-for _, key in ipairs({ __tc_s(470), __tc_s(471), __tc_s(472), __tc_s(473),
-__tc_s(474), __tc_s(475), __tc_s(476) }) do
+addSlider(colors, __tc_s(465), 0.4, 1.5, 0.05, function() return Config.esp.boxWidth end, function(v) Config.esp.boxWidth = v end, __tc_s(466))
+addSlider(colors, __tc_s(467), 0.5, 4, 0.5, function() return Config.esp.boxThickness end, function(v) Config.esp.boxThickness = v end, __tc_s(468))
+addInfo(colors, __tc_s(469), function() return __tc_s(470) end)
+addButton(colors, __tc_s(471), false, function()
+for _, key in ipairs({ __tc_s(472), __tc_s(473), __tc_s(474), __tc_s(475),
+__tc_s(476), __tc_s(477), __tc_s(478) }) do
 Config.esp[key] = Color3.fromRGB(255, 255, 255)
 end
 end)
 
-local diag = makeCard(R, __tc_s(477))
-addInfo(diag, __tc_s(478), function() return string.format(__tc_s(479), espStats.players, espStats.bodies) end)
-addInfo(diag, __tc_s(480), function() return string.format(__tc_s(481), espStats.nostream) end)
-addInfo(diag, __tc_s(482), function() return tostring(espStats.dead) end)
-addInfo(diag, __tc_s(483), function() return string.format(__tc_s(484), espStats.drawn, espStats.hidden) end)
-addInfo(diag, __tc_s(485), function() return tostring(espStats.fallback) end)
-addInfo(diag, __tc_s(486), function()
+local diag = makeCard(R, __tc_s(479))
+addInfo(diag, __tc_s(480), function() return string.format(__tc_s(481), espStats.players, espStats.bodies) end)
+addInfo(diag, __tc_s(482), function() return string.format(__tc_s(483), espStats.nostream) end)
+addInfo(diag, __tc_s(484), function() return tostring(espStats.dead) end)
+addInfo(diag, __tc_s(485), function() return string.format(__tc_s(486), espStats.drawn, espStats.hidden) end)
+addInfo(diag, __tc_s(487), function() return tostring(espStats.fallback) end)
+addInfo(diag, __tc_s(488), function()
 local ok, on = pcall(function() return Workspace.StreamingEnabled end)
-if not ok then return __tc_s(487) end
-if not on then return __tc_s(488) end
-local s = __tc_s(489)
+if not ok then return __tc_s(489) end
+if not on then return __tc_s(490) end
+local s = __tc_s(491)
 local okr, r = pcall(function() return Workspace.StreamingTargetRadius end)
-if okr and tonumber(r) then s = string.format(__tc_s(490), r) end
+if okr and tonumber(r) then s = string.format(__tc_s(492), r) end
 return s
 end)
-addInfo(diag, __tc_s(491), function() return Config.esp.useScreenPoint and __tc_s(492) or __tc_s(493) end)
-addInfo(diag, __tc_s(494), function() return espError or __tc_s(495) end)
-addButton(diag, __tc_s(496), false, function() espError = nil end)
+addInfo(diag, __tc_s(493), function() return Config.esp.useScreenPoint and __tc_s(494) or __tc_s(495) end)
+addInfo(diag, __tc_s(496), function() return espError or __tc_s(497) end)
+addButton(diag, __tc_s(498), false, function() espError = nil end)
 end
 
 local function buildMouselock(L, R)
 
-local state = makeCard(L, __tc_s(497))
-addInfo(state, __tc_s(498), function()
-if not Config.aim.mouselock then return __tc_s(499) end
-if mouselockState == __tc_s(500) then return __tc_s(501) end
+local state = makeCard(L, __tc_s(499))
+addInfo(state, __tc_s(500), function()
+if not Config.aim.mouselock then return __tc_s(501) end
+if mouselockState == __tc_s(502) then return __tc_s(503) end
 return mouselockState
 end)
-addInfo(state, __tc_s(502), function()
-if mouselockState == __tc_s(503) then return mouselockMsg or __tc_s(504) end
-if mouselockState == __tc_s(505) then return __tc_s(506) end
-return __tc_s(507)
+addInfo(state, __tc_s(504), function()
+if mouselockState == __tc_s(505) then return mouselockMsg or __tc_s(506) end
+if mouselockState == __tc_s(507) then return __tc_s(508) end
+return __tc_s(509)
 end)
-addInfo(state, __tc_s(508), function() return __tc_s(509) end)
-addButton(state, __tc_s(510), true, function() reloadMouselock() end)
-addCheck(state, __tc_s(511), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
+addInfo(state, __tc_s(510), function() return __tc_s(511) end)
+addButton(state, __tc_s(512), true, function() reloadMouselock() end)
+addCheck(state, __tc_s(513), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
 
-local aim = makeCard(L, __tc_s(512))
-addBind(aim, __tc_s(513), function() return Config.aim.mouselockKey end, function(k) Config.aim.mouselockKey = k end)
-addDrop(aim, __tc_s(514), { __tc_s(515), __tc_s(516), __tc_s(517), __tc_s(518), __tc_s(519) },
+local aim = makeCard(L, __tc_s(514))
+addBind(aim, __tc_s(515), function() return Config.aim.mouselockKey end, function(k) Config.aim.mouselockKey = k end)
+addDrop(aim, __tc_s(516), { __tc_s(517), __tc_s(518), __tc_s(519), __tc_s(520), __tc_s(521) },
 function() return Config.aim.mouselockPart end, function(v) Config.aim.mouselockPart = v end)
-addCheck(aim, __tc_s(520), function() return Config.aim.mouselockPredictionOn end, function(v) Config.aim.mouselockPredictionOn = v end)
-addSlider(aim, __tc_s(521), 0, 1, 0.01, function() return Config.aim.mouselockPrediction end, function(v) Config.aim.mouselockPrediction = v end, __tc_s(522))
-addCheck(aim, __tc_s(523), function() return Config.aim.mouselockSmooth end, function(v) Config.aim.mouselockSmooth = v end)
-addSlider(aim, __tc_s(524), 1, 20, 1, function() return Config.aim.mouselockSmoothPower end, function(v) Config.aim.mouselockSmoothPower = v end, __tc_s(525))
+addCheck(aim, __tc_s(522), function() return Config.aim.mouselockPredictionOn end, function(v) Config.aim.mouselockPredictionOn = v end)
+addSlider(aim, __tc_s(523), 0, 1, 0.01, function() return Config.aim.mouselockPrediction end, function(v) Config.aim.mouselockPrediction = v end, __tc_s(524))
+addCheck(aim, __tc_s(525), function() return Config.aim.mouselockSmooth end, function(v) Config.aim.mouselockSmooth = v end)
+addSlider(aim, __tc_s(526), 1, 20, 1, function() return Config.aim.mouselockSmoothPower end, function(v) Config.aim.mouselockSmoothPower = v end, __tc_s(527))
 
-local fov = makeCard(R, __tc_s(526))
-addCheck(fov, __tc_s(527), function() return Config.aim.mouselockFovVisible end, function(v) Config.aim.mouselockFovVisible = v end)
-addSlider(fov, __tc_s(528), 10, 600, 5, function() return Config.aim.mouselockFov end, function(v) Config.aim.mouselockFov = v end, __tc_s(529))
-addColor(fov, __tc_s(530), function() return Config.aim.mouselockFovColor end, function(c) Config.aim.mouselockFovColor = c end)
-addSlider(fov, __tc_s(531), 0.5, 5, 0.1, function() return Config.aim.mouselockFovThickness end, function(v) Config.aim.mouselockFovThickness = v end, __tc_s(532))
-addSlider(fov, __tc_s(533), 0, 1, 0.05, function() return Config.aim.mouselockFovTransparency end, function(v) Config.aim.mouselockFovTransparency = v end, __tc_s(534))
-addSlider(fov, __tc_s(535), 8, 120, 4, function() return Config.aim.mouselockFovSides end, function(v) Config.aim.mouselockFovSides = v end, __tc_s(536))
+local fov = makeCard(R, __tc_s(528))
+addCheck(fov, __tc_s(529), function() return Config.aim.mouselockFovVisible end, function(v) Config.aim.mouselockFovVisible = v end)
+addSlider(fov, __tc_s(530), 10, 600, 5, function() return Config.aim.mouselockFov end, function(v) Config.aim.mouselockFov = v end, __tc_s(531))
+addColor(fov, __tc_s(532), function() return Config.aim.mouselockFovColor end, function(c) Config.aim.mouselockFovColor = c end)
+addSlider(fov, __tc_s(533), 0.5, 5, 0.1, function() return Config.aim.mouselockFovThickness end, function(v) Config.aim.mouselockFovThickness = v end, __tc_s(534))
+addSlider(fov, __tc_s(535), 0, 1, 0.05, function() return Config.aim.mouselockFovTransparency end, function(v) Config.aim.mouselockFovTransparency = v end, __tc_s(536))
+addSlider(fov, __tc_s(537), 8, 120, 4, function() return Config.aim.mouselockFovSides end, function(v) Config.aim.mouselockFovSides = v end, __tc_s(538))
 
-local applied = makeCard(R, __tc_s(537))
-addInfo(applied, __tc_s(538), function() return __tc_s(539) end)
+local applied = makeCard(R, __tc_s(539))
 addInfo(applied, __tc_s(540), function() return __tc_s(541) end)
+addInfo(applied, __tc_s(542), function() return __tc_s(543) end)
 end
 
 local function buildExtras(L, R)
 
-local menu = makeCard(L, __tc_s(542))
-addCheck(menu, __tc_s(543), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
-addHeader(menu, __tc_s(544))
-addBind(menu, __tc_s(545), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
-addInfo(menu, __tc_s(546), function() return string.format(__tc_s(547), WINDOW.X, WINDOW.Y) end)
+local menu = makeCard(L, __tc_s(544))
+addCheck(menu, __tc_s(545), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
+addHeader(menu, __tc_s(546))
+addBind(menu, __tc_s(547), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
+addInfo(menu, __tc_s(548), function() return string.format(__tc_s(549), WINDOW.X, WINDOW.Y) end)
 
-local save = makeCard(L, __tc_s(548))
-local dir = __tc_s(549)
-local nameBuf = __tc_s(550)
+local save = makeCard(L, __tc_s(550))
+local dir = __tc_s(551)
+local nameBuf = __tc_s(552)
 local profileNote = nil
 
-local input = addTextInput(save, __tc_s(551), __tc_s(552))
-input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(553) and input.Text or __tc_s(554) end)
+local input = addTextInput(save, __tc_s(553), __tc_s(554))
+input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(555) and input.Text or __tc_s(556) end)
 
-local function fileOf(n) return dir .. __tc_s(555) .. n .. __tc_s(556) end
+local function fileOf(n) return dir .. __tc_s(557) .. n .. __tc_s(558) end
 local function snapshot()
 local t = {}
 for k, v in pairs(Config) do
-if typeof(v) == __tc_s(557) then t[k] = v.Name
-elseif type(v) ~= __tc_s(558) then t[k] = v
+if typeof(v) == __tc_s(559) then t[k] = v.Name
+elseif type(v) ~= __tc_s(560) then t[k] = v
 else
 t[k] = {}
 for k2, v2 in pairs(v) do
-t[k][k2] = (typeof(v2) == __tc_s(559)) and v2.Name or v2
+t[k][k2] = (typeof(v2) == __tc_s(561)) and v2.Name or v2
 end
 end
 end
 for k, v in pairs(t) do
-if type(v) == __tc_s(560) then
+if type(v) == __tc_s(562) then
 for k2, v2 in pairs(v) do
-if typeof(v2) == __tc_s(561) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
+if typeof(v2) == __tc_s(563) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
 end
 end
 end
 return t
 end
 
-addButton(save, __tc_s(562), true, function()
+addButton(save, __tc_s(564), true, function()
 if not (writefile and isfolder and makefolder) then return end
 if not isfolder(dir) then makefolder(dir) end
 writefile(fileOf(nameBuf), HttpService:JSONEncode(snapshot()))
 end)
 
-addButton(save, __tc_s(563), false, function()
+addButton(save, __tc_s(565), false, function()
 if not (readfile and isfile and isfile(fileOf(nameBuf))) then
-profileNote = __tc_s(564) .. fileOf(nameBuf)
+profileNote = __tc_s(566) .. fileOf(nameBuf)
 return
 end
 local ok, data = pcall(function() return HttpService:JSONDecode(readfile(fileOf(nameBuf))) end)
-if not ok or type(data) ~= __tc_s(565) then
-profileNote = __tc_s(566)
+if not ok or type(data) ~= __tc_s(567) then
+profileNote = __tc_s(568)
 return
 end
 
 local applied, rejected = 0, 0
 for k, v in pairs(data) do
-if type(v) == __tc_s(567) and type(Config[k]) == __tc_s(568) then
+if type(v) == __tc_s(569) and type(Config[k]) == __tc_s(570) then
 for k2, v2 in pairs(v) do
 
-local legacy = (k == __tc_s(569) and (k2 == __tc_s(570) or k2 == __tc_s(571)))
+local legacy = (k == __tc_s(571) and (k2 == __tc_s(572) or k2 == __tc_s(573)))
 if not legacy then
 local cur = Config[k][k2]
 local done = false
-if typeof(cur) == __tc_s(572) then
-if type(v2) == __tc_s(573) and type(v2.r) == __tc_s(574)
-and type(v2.g) == __tc_s(575) and type(v2.b) == __tc_s(576) then
+if typeof(cur) == __tc_s(574) then
+if type(v2) == __tc_s(575) and type(v2.r) == __tc_s(576)
+and type(v2.g) == __tc_s(577) and type(v2.b) == __tc_s(578) then
 Config[k][k2] = Color3.new(v2.r, v2.g, v2.b)
 done = true
 end
-elseif typeof(cur) == __tc_s(577) then
+elseif typeof(cur) == __tc_s(579) then
 local enum = cur.EnumType
 local ok2, item = pcall(function() return enum[v2] end)
 if ok2 and item then Config[k][k2] = item; done = true end
@@ -2206,35 +2218,35 @@ end
 end
 end
 end
-profileNote = string.format(__tc_s(578), applied, rejected)
+profileNote = string.format(__tc_s(580), applied, rejected)
 end)
 
-local ctrl = makeCard(R, __tc_s(579))
-addInfo(ctrl, __tc_s(580), function() return bindName(Config.hud.menu) end)
-addInfo(ctrl, __tc_s(581), function() return bindName(Config.aim.key) end)
-addInfo(ctrl, __tc_s(582), function() return bindName(Config.silent.key) end)
-addInfo(ctrl, __tc_s(583), function() return bindName(Config.character.speedKey) end)
-addInfo(ctrl, __tc_s(584), function() return bindName(Config.character.flyKey) end)
-addInfo(ctrl, __tc_s(585), function() return Config.aim.part end)
-addInfo(ctrl, __tc_s(586), function() return __tc_s(587) end)
+local ctrl = makeCard(R, __tc_s(581))
+addInfo(ctrl, __tc_s(582), function() return bindName(Config.hud.menu) end)
+addInfo(ctrl, __tc_s(583), function() return bindName(Config.aim.key) end)
+addInfo(ctrl, __tc_s(584), function() return bindName(Config.silent.key) end)
+addInfo(ctrl, __tc_s(585), function() return bindName(Config.character.speedKey) end)
+addInfo(ctrl, __tc_s(586), function() return bindName(Config.character.flyKey) end)
+addInfo(ctrl, __tc_s(587), function() return Config.aim.part end)
+addInfo(ctrl, __tc_s(588), function() return __tc_s(589) end)
 
-local list = makeCard(R, __tc_s(588))
-addInfo(list, __tc_s(589), function() return dir end)
-addInfo(list, __tc_s(590), function() return (writefile and readfile) and __tc_s(591) or __tc_s(592) end)
-addInfo(list, __tc_s(593), function() return nameBuf end)
-addInfo(list, __tc_s(594), function() return profileNote or __tc_s(595) end)
+local list = makeCard(R, __tc_s(590))
+addInfo(list, __tc_s(591), function() return dir end)
+addInfo(list, __tc_s(592), function() return (writefile and readfile) and __tc_s(593) or __tc_s(594) end)
+addInfo(list, __tc_s(595), function() return nameBuf end)
+addInfo(list, __tc_s(596), function() return profileNote or __tc_s(597) end)
 end
 
-makePage(__tc_s(596), 1, buildHome)
-makePage(__tc_s(597), 2, buildCombat)
-makePage(__tc_s(598), 5, buildGame)
-makePage(__tc_s(599), 4, buildExploits)
-makePage(__tc_s(600), 3, buildVisuals)
-makePage(__tc_s(601), 6, buildExtras)
-makePage(__tc_s(602), MOUSELOCK_TAB, buildMouselock)
+makePage(__tc_s(598), 1, buildHome)
+makePage(__tc_s(599), 2, buildCombat)
+makePage(__tc_s(600), 5, buildGame)
+makePage(__tc_s(601), 4, buildExploits)
+makePage(__tc_s(602), 3, buildVisuals)
+makePage(__tc_s(603), 6, buildExtras)
+makePage(__tc_s(604), MOUSELOCK_TAB, buildMouselock)
 
 showTab(1)
-print(string.format(__tc_s(603),
+print(string.format(__tc_s(605),
 (os.clock() - menuBuiltAt) * 1000, #refreshers, #TABS))
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
@@ -2291,7 +2303,7 @@ if not espOk then
 espError = tostring(espErr)
 if espError ~= lastEspError then
 lastEspError = espError
-warn(__tc_s(604) .. espError)
+warn(__tc_s(606) .. espError)
 end
 end
 local t1 = os.clock()
@@ -2300,7 +2312,7 @@ local t2 = os.clock()
 local ms = (t2 - t0) * 1000
 if ms > 30 and os.clock() - lastDrawWarn > 5 then
 lastDrawWarn = os.clock()
-warn(string.format(__tc_s(605),
+warn(string.format(__tc_s(607),
 ms, (t1 - t0) * 1000, (t2 - t1) * 1000,
 tostring(Config.esp.enabled), tostring(Config.npc.enabled), tostring(Config.hud.enabled)))
 end
@@ -2309,12 +2321,12 @@ pcall(applyFly)
 pcall(applyWorld)
 pcall(runSilent)
 
-if Config.aim.mouselock and mouselockState == __tc_s(606) then
+if Config.aim.mouselock and mouselockState == __tc_s(608) then
 task.spawn(loadMouselock)
 end
 end)
 
-RunService:BindToRenderStep(__tc_s(607), Enum.RenderPriority.Camera.Value + 1, function()
+RunService:BindToRenderStep(__tc_s(609), Enum.RenderPriority.Camera.Value + 1, function()
 pcall(runAim)
 end)
 
@@ -2331,8 +2343,8 @@ end
 local ms = (os.clock() - t0) * 1000
 if (ms > 40 or failed > 0) and os.clock() - lastSweepWarn > 5 then
 lastSweepWarn = os.clock()
-warn(string.format(__tc_s(608), ms, #refreshers, failed))
+warn(string.format(__tc_s(610), ms, #refreshers, failed))
 end
 end)
 
-print(__tc_s(609))
+print(__tc_s(611))
