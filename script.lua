@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='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'
- local __o,__q,__z,__u=545288649,0,0,{}
+ local __e='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'
+ local __o,__q,__z,__u=1560878164,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,16,64,8,8,7,7,16,16,8,8,9,13,9,8,7,9,5,9,5,5,10,0,5,5,9,10,0,10,11,12,1,1,8,10,3,10,2,2,2,2,12,5,0,10,0,7,9,5,12,9,12,5,12,5,6,5,3,5,6,5,9,12,10,1,4,6,7,8,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,10,9,5,4,8,5,6,4,7,4,1,5,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,4,6,6,5,5,12,6,5,8,11,14,23,6,6,9,6,6,14,8,4,5,4,11,10,10,4,9,23,10,14,7,8,4,5,4,6,9,11,13,4,8,4,10,6,10,4,11,10,13,5,3,15,16,8,9,6,6,1,6,10,9,3,4,10,8,4,11,9,8,11,10,13,12,6,6,1,5,5,9,9,10,7,6,7,6,10,7,3,12,10,4,6,8,6,8,8,14,13,6,6,3,12,4,10,23,10,18,20,6,3,4,8,9,5,8,10,6,10,4,4,16,6,10,4,7,2,5,4,8,2,3,8,9,5,4,9,4,4,9,3,4,4,13,3,9,4,8,19,6,9,8,9,8,8,6,5,8,4,10,10,8,3,11,11,11,7,7,7,12,0,7,1,5,8,5,8,5,6,10,12,10,12,5,5,3,7,4,5,6,8,8,6,16,9,11,7,4,3,5,7,7,4,9,12,4,5,10,7,3,10,1,12,9,13,7,9,5,5,5,5,8,5,10,5,5,9,13,12,13,18,9,16,5,5,5,5,5,9,12,9,2,5,5,9,22,15,9,6,12,17,15,17,20,18,5,4,4,9,10,10,5,8,15,50}
+ local __w={76,7,10,16,9,8,11,10,13,6,4,9,4,9,6,4,4,6,5,5,8,16,4,10,5,16,8,9,4,8,3,6,4,10,10,10,10,12,12,12,12,8,10,13,13,13,13,9,10,12,12,12,12,8,10,13,13,13,13,9,4,5,5,8,5,9,5,8,5,9,5,8,16,5,4,8,8,8,8,3,6,11,8,16,8,12,8,4,6,35,2,3,6,6,5,8,8,13,9,8,7,9,5,9,5,8,5,10,0,5,5,9,0,10,1,1,5,5,5,10,0,10,11,12,1,1,8,10,3,5,9,10,0,9,5,12,5,0,7,10,0,9,0,5,9,12,9,12,5,12,5,6,5,3,5,6,5,9,13,12,13,18,10,1,4,6,7,8,6,5,4,12,5,4,5,6,5,9,22,15,14,12,9,5,10,9,5,4,8,5,6,4,7,4,1,5,10,6,5,9,9,6,3,16,5,8,9,3,2,3,3,2,3,5,4,6,6,5,5,12,6,5,8,11,14,23,6,6,9,6,6,14,8,4,5,4,11,10,10,4,9,23,10,14,7,8,4,5,4,6,9,11,13,4,8,4,10,6,10,4,11,10,13,5,3,15,16,8,9,6,6,1,6,10,9,3,4,10,8,4,11,9,8,11,10,13,12,6,6,1,5,5,9,9,10,7,6,7,6,10,7,3,12,10,4,6,8,6,8,8,14,13,6,6,3,12,4,10,23,10,18,20,6,3,4,8,9,5,8,10,6,10,4,4,16,6,10,4,7,2,5,4,8,2,3,8,9,5,4,9,4,4,9,3,4,4,13,3,9,4,8,19,6,9,8,9,8,8,6,5,8,4,10,10,8,3,11,11,11,7,7,7,12,0,7,1,5,8,5,8,5,6,10,12,10,12,5,5,3,7,4,5,6,8,8,6,16,9,11,7,4,3,5,7,7,4,9,12,4,5,10,7,3,10,1,15,50}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,7 +31,7 @@ do
   return __h
  end
 end
--- seed 545288649
+-- seed 1560878164
 
 if not Drawing then
 error(__tc_s(0))
@@ -812,152 +812,10 @@ row = Color3.fromRGB(23, 23, 28),
 text = Color3.fromRGB(185, 185, 194),
 dim = Color3.fromRGB(90, 90, 99),
 accent = Color3.fromRGB(255, 179, 209),
-accentSoft = Color3.fromRGB(52, 30, 39),
 line = Color3.fromRGB(28, 28, 33),
 off = Color3.fromRGB(63, 63, 71),
+knob = Color3.fromRGB(232, 232, 238),
 }
-
-local LOGO_B64 =
-__tc_s(95) ..
-__tc_s(96) ..
-__tc_s(97) ..
-__tc_s(98) ..
-__tc_s(99) ..
-__tc_s(100) ..
-__tc_s(101) ..
-__tc_s(102) ..
-__tc_s(103) ..
-__tc_s(104) ..
-__tc_s(105) ..
-__tc_s(106) ..
-__tc_s(107) ..
-__tc_s(108) ..
-__tc_s(109) ..
-__tc_s(110) ..
-__tc_s(111) ..
-__tc_s(112) ..
-__tc_s(113) ..
-__tc_s(114) ..
-__tc_s(115) ..
-__tc_s(116) ..
-__tc_s(117) ..
-__tc_s(118) ..
-__tc_s(119) ..
-__tc_s(120) ..
-__tc_s(121) ..
-__tc_s(122) ..
-__tc_s(123) ..
-__tc_s(124) ..
-__tc_s(125) ..
-__tc_s(126) ..
-__tc_s(127) ..
-__tc_s(128) ..
-__tc_s(129) ..
-__tc_s(130) ..
-__tc_s(131) ..
-__tc_s(132) ..
-__tc_s(133) ..
-__tc_s(134) ..
-__tc_s(135) ..
-__tc_s(136) ..
-__tc_s(137) ..
-__tc_s(138) ..
-__tc_s(139) ..
-__tc_s(140) ..
-__tc_s(141) ..
-__tc_s(142) ..
-__tc_s(143) ..
-__tc_s(144) ..
-__tc_s(145) ..
-__tc_s(146) ..
-__tc_s(147) ..
-__tc_s(148) ..
-__tc_s(149) ..
-__tc_s(150) ..
-__tc_s(151) ..
-__tc_s(152) ..
-__tc_s(153) ..
-__tc_s(154) ..
-__tc_s(155) ..
-__tc_s(156) ..
-__tc_s(157) ..
-__tc_s(158) ..
-__tc_s(159) ..
-__tc_s(160) ..
-__tc_s(161) ..
-__tc_s(162) ..
-__tc_s(163) ..
-__tc_s(164) ..
-__tc_s(165) ..
-__tc_s(166) ..
-__tc_s(167) ..
-__tc_s(168) ..
-__tc_s(169) ..
-__tc_s(170) ..
-__tc_s(171) ..
-__tc_s(172) ..
-__tc_s(173) ..
-__tc_s(174) ..
-__tc_s(175) ..
-__tc_s(176) ..
-__tc_s(177) ..
-__tc_s(178) ..
-__tc_s(179) ..
-__tc_s(180) ..
-__tc_s(181) ..
-__tc_s(182) ..
-__tc_s(183) ..
-__tc_s(184) ..
-__tc_s(185) ..
-__tc_s(186) ..
-__tc_s(187) ..
-__tc_s(188) ..
-__tc_s(189) ..
-__tc_s(190) ..
-__tc_s(191) ..
-__tc_s(192) ..
-__tc_s(193) ..
-__tc_s(194) ..
-__tc_s(195) ..
-__tc_s(196) ..
-__tc_s(197) ..
-__tc_s(198) ..
-__tc_s(199) ..
-__tc_s(200) ..
-__tc_s(201) ..
-__tc_s(202) ..
-__tc_s(203) ..
-__tc_s(204)
-
-local function b64decode(s)
-local alphabet = __tc_s(205)
-local map, out, acc, bits = {}, {}, 0, 0
-for i = 1, #alphabet do map[alphabet:sub(i, i)] = i - 1 end
-for i = 1, #s do
-local v = map[s:sub(i, i)]
-if v then
-acc, bits = acc * 64 + v, bits + 6
-while bits >= 8 do
-bits = bits - 8
-out[#out + 1] = string.char(math.floor(acc / 2 ^ bits) % 256)
-acc = acc % 2 ^ bits
-end
-end
-end
-return table.concat(out)
-end
-
-local function loadLogo()
-if type(writefile) ~= __tc_s(206) or type(getcustomasset) ~= __tc_s(207) then return nil end
-local decode = base64decode or b64decode
-local ok = pcall(function()
-if isfolder and not isfolder(__tc_s(208)) then makefolder(__tc_s(209)) end
-writefile(__tc_s(210), decode(LOGO_B64))
-end)
-if not ok then return nil end
-local ok2, src = pcall(getcustomasset, __tc_s(211))
-return ok2 and src or nil
-end
 
 local function inst(class, props, parent)
 local o = Instance.new(class)
@@ -967,28 +825,21 @@ return o
 end
 
 local function round(obj, r)
-local c = Instance.new(__tc_s(212))
+local c = Instance.new(__tc_s(95))
 c.CornerRadius = UDim.new(0, r or 6)
 c.Parent = obj
 end
 
 local function border(obj, color, thickness)
-local s = Instance.new(__tc_s(213))
+local s = Instance.new(__tc_s(96))
 s.Color = color or Theme.line
 s.Thickness = thickness or 1
 s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 s.Parent = obj
 end
 
-local function padding(obj, px)
-local p = Instance.new(__tc_s(214))
-local u = UDim.new(0, px)
-p.PaddingLeft, p.PaddingRight, p.PaddingTop, p.PaddingBottom = u, u, u, u
-p.Parent = obj
-end
-
 local function hexStr(c)
-return string.format(__tc_s(215),
+return string.format(__tc_s(97),
 math.floor(c.R * 255 + 0.5), math.floor(c.G * 255 + 0.5), math.floor(c.B * 255 + 0.5))
 end
 
@@ -996,101 +847,166 @@ local refreshers = {}
 local bindCapture = nil
 
 local function makeGui()
-local gui = inst(__tc_s(216), {
-Name = __tc_s(217) .. tostring(math.random(100000, 999999)),
+local gui = inst(__tc_s(98), {
+Name = __tc_s(99) .. tostring(math.random(100000, 999999)),
 ResetOnSpawn = false,
 ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 IgnoreGuiInset = true,
 DisplayOrder = 9999,
 })
 if syn and syn.protect_gui then pcall(syn.protect_gui, gui) end
-local parent = (gethui and gethui()) or game:GetService(__tc_s(218))
+local parent = (gethui and gethui()) or game:GetService(__tc_s(100))
 if not pcall(function() gui.Parent = parent end) then
-gui.Parent = LP:WaitForChild(__tc_s(219))
+gui.Parent = LP:WaitForChild(__tc_s(101))
 end
 return gui
 end
 
-local function rowFrame(card, height, label)
-local r = inst(__tc_s(220), {
+local function rowFrame(card, height)
+return inst(__tc_s(102), {
 Size = UDim2.new(1, 0, 0, height),
-BackgroundColor3 = Theme.row,
-BorderSizePixel = 0,
-}, card)
-round(r, 4)
-inst(__tc_s(221), {
-Text = label,
-Font = Enum.Font.Gotham,
-TextSize = 13,
-TextColor3 = Theme.text,
 BackgroundTransparency = 1,
-TextXAlignment = Enum.TextXAlignment.Left,
-Position = UDim2.fromOffset(8, 0),
-Size = UDim2.new(1, -100, 1, 0),
-}, r)
-return r
+}, card)
+end
+
+local function rowText(parent, text, x, rightPad, color)
+return inst(__tc_s(103), {
+Text = text, Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = color or Theme.text,
+BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Left,
+Position = UDim2.fromOffset(x, 0),
+Size = UDim2.new(1, -(x + rightPad), 1, 0),
+}, parent)
+end
+
+local function checkBox(parent, on)
+local box = inst(__tc_s(104), {
+Size = UDim2.fromOffset(11, 11),
+Position = UDim2.new(0, 6, 0.5, -5.5),
+BackgroundColor3 = on and Theme.accent or Theme.bg,
+BorderSizePixel = 0,
+}, parent)
+round(box, 2)
+local edge = Instance.new(__tc_s(105))
+edge.Color = on and Theme.accent or Theme.line
+edge.Thickness = 1
+edge.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+edge.Parent = box
+
+local bars = {}
+local SPEC = { { 5, 1, 5, 45 }, { 8, 2, 5, -45 } }
+for i, spec in ipairs(SPEC) do
+bars[i] = inst(__tc_s(106), {
+Size = UDim2.fromOffset(spec[1], 2),
+Position = UDim2.fromOffset(spec[2], spec[3]),
+BackgroundColor3 = Theme.bg,
+BorderSizePixel = 0,
+Rotation = spec[4],
+Visible = on,
+}, box)
+end
+return box, edge, bars[1], bars[2]
 end
 
 local function addCheck(card, label, get, set)
-local r = rowFrame(card, 26, label)
-local box = inst(__tc_s(222), {
-Size = UDim2.fromOffset(16, 16),
-Position = UDim2.new(1, -24, 0.5, -8),
-BackgroundColor3 = Theme.off,
-BorderSizePixel = 0,
-}, r)
-round(box, 3)
-local tick = inst(__tc_s(223), {
-Size = UDim2.new(1, -6, 1, -6),
-Position = UDim2.fromOffset(3, 3),
-BackgroundColor3 = Theme.accent,
-BorderSizePixel = 0,
-Visible = false,
-}, box)
-round(tick, 2)
+local r = rowFrame(card, 17)
+local box, edge, tickA, tickB = checkBox(r, get())
+rowText(r, label, 24, 8)
 
-local btn = inst(__tc_s(224), { Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, Text = __tc_s(225) }, r)
+local btn = inst(__tc_s(107), {
+Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1,
+Text = __tc_s(108), AutoButtonColor = false,
+}, r)
 btn.MouseButton1Click:Connect(function() set(not get()) end)
+
 table.insert(refreshers, function()
-box.BackgroundColor3 = get() and Theme.accent or Theme.off
-tick.Visible = get()
+local on = get()
+box.BackgroundColor3 = on and Theme.accent or Theme.bg
+edge.Color = on and Theme.accent or Theme.line
+tickA.Visible, tickB.Visible = on, on
 end)
 end
 
-local function addSlider(card, label, min, max, step, get, set, fmt)
-local r = rowFrame(card, 26, label)
-local track = inst(__tc_s(226), {
-Size = UDim2.fromOffset(130, 6),
-Position = UDim2.new(1, -138, 0.5, -3),
-BackgroundColor3 = Theme.off,
+local function addSlider(card, label, min, max, step, get, set, fmt, accentValue)
+local block = inst(__tc_s(109), {
+Size = UDim2.new(1, 0, 0, 34),
+BackgroundTransparency = 1,
+}, card)
+
+local head = inst(__tc_s(110), {
+Size = UDim2.new(1, -6, 0, 14),
+Position = UDim2.fromOffset(6, 8),
+BackgroundTransparency = 1,
+}, block)
+rowText(head, label, 0, 96)
+local valueLbl = inst(__tc_s(111), {
+Text = __tc_s(112), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = accentValue and Theme.accent or Theme.text,
+BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Right,
+Size = UDim2.new(0, 70, 1, 0), Position = UDim2.new(1, -88, 0, 0),
+}, head)
+
+local span = (max - min) ~= 0 and (max - min) or 1
+local function quantise(v)
+v = math.clamp(v, min, max)
+if step then v = math.floor(v / step + 0.5) * step end
+return math.clamp(v, min, max)
+end
+local function nudge(direction)
+set(quantise(get() + direction * (step or span / 100)))
+end
+
+for i, dir in ipairs({ 1, -1 }) do
+local b = inst(__tc_s(113), {
+Text = dir > 0 and __tc_s(114) or __tc_s(115), Font = Enum.Font.Gotham,
+TextSize = 11, TextColor3 = Theme.dim, BackgroundTransparency = 1,
+AutoButtonColor = false,
+Size = UDim2.fromOffset(14, 7),
+Position = UDim2.new(1, -16, 0, (i - 1) * 7),
+}, head)
+b.MouseButton1Click:Connect(function() nudge(dir) end)
+end
+
+local track = inst(__tc_s(116), {
+Size = UDim2.new(1, -20, 0, 4),
+Position = UDim2.fromOffset(6, 26),
+BackgroundColor3 = Theme.row,
 BorderSizePixel = 0,
-}, r)
-round(track, 3)
-local fill = inst(__tc_s(227), {
+}, block)
+round(track, 2)
+local fill = inst(__tc_s(117), {
 Size = UDim2.fromScale(0, 1),
 BackgroundColor3 = Theme.accent,
 BorderSizePixel = 0,
 }, track)
-round(fill, 3)
-local valueLbl = inst(__tc_s(228), {
-Size = UDim2.fromOffset(46, 26),
-Position = UDim2.new(1, -188, 0, 0),
-BackgroundTransparency = 1,
-Font = Enum.Font.Gotham,
-TextSize = 12,
-TextColor3 = Theme.dim,
-TextXAlignment = Enum.TextXAlignment.Right,
-}, r)
+round(fill, 2)
+local knob = inst(__tc_s(118), {
+Size = UDim2.fromOffset(10, 10),
+AnchorPoint = Vector2.new(0.5, 0.5),
+Position = UDim2.new(0, 0, 0.5, 0),
+BackgroundColor3 = Theme.knob,
+BorderSizePixel = 0,
+}, track)
+round(knob, 5)
+
+local grab = inst(__tc_s(119), {
+Size = UDim2.new(1, -20, 0, 16),
+Position = UDim2.fromOffset(6, 18),
+BackgroundTransparency = 1, Text = __tc_s(120), AutoButtonColor = false,
+}, block)
 
 local dragging = false
 local function apply(inputX)
-local rel = math.clamp((inputX - track.AbsolutePosition.X) / track.AbsoluteSize.X, 0, 1)
-local v = min + (max - min) * rel
+local w = math.max(1, track.AbsoluteSize.X)
+local rel = math.clamp((inputX - track.AbsolutePosition.X) / w, 0, 1)
+local v = min + span * rel
 if step then v = math.floor(v / step + 0.5) * step end
-set(v)
+set(math.clamp(v, min, max))
 end
-local grab = inst(__tc_s(229), { Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, Text = __tc_s(230) }, track)
-grab.MouseButton1Down:Connect(function() dragging = true; apply(UserInputService:GetMouseLocation().X) end)
+grab.MouseButton1Down:Connect(function()
+dragging = true
+apply(UserInputService:GetMouseLocation().X)
+end)
 UserInputService.InputChanged:Connect(function(input)
 if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
 apply(input.Position.X)
@@ -1102,24 +1018,26 @@ end)
 
 table.insert(refreshers, function()
 local v = get()
-fill.Size = UDim2.fromScale(math.clamp((v - min) / (max - min), 0, 1), 1)
+local rel = math.clamp((v - min) / span, 0, 1)
+fill.Size = UDim2.fromScale(rel, 1)
+knob.Position = UDim2.new(rel, 0, 0.5, 0)
 valueLbl.Text = fmt and string.format(fmt, v) or tostring(math.floor(v * 100) / 100)
 end)
 end
 
 local BIND_NAMES = {
-MouseButton1 = __tc_s(231),
-MouseButton2 = __tc_s(232),
-MouseButton3 = __tc_s(233),
+MouseButton1 = __tc_s(121),
+MouseButton2 = __tc_s(122),
+MouseButton3 = __tc_s(123),
 }
 
 local function bindName(v)
-if not v then return __tc_s(234) end
-return BIND_NAMES[v.Name] or v.Name or __tc_s(235)
+if not v then return __tc_s(124) end
+return BIND_NAMES[v.Name] or v.Name or __tc_s(125)
 end
 
 local function inputMatches(bind, input)
-if typeof(bind) ~= __tc_s(236) then return false end
+if typeof(bind) ~= __tc_s(126) then return false end
 if bind.EnumType == Enum.UserInputType then
 return input.UserInputType == bind
 end
@@ -1133,23 +1051,26 @@ local CAPTURE_TYPES = {
 [Enum.UserInputType.MouseButton3] = true,
 }
 
+local function keyChip(parent, text, width)
+local b = inst(__tc_s(127), {
+Text = text, Font = Enum.Font.Gotham, TextSize = 10,
+TextColor3 = Theme.dim, BackgroundColor3 = Theme.bg,
+BorderSizePixel = 0, AutoButtonColor = false,
+Size = UDim2.fromOffset(width, 13),
+Position = UDim2.new(1, -(width + 2), 0.5, -6.5),
+}, parent)
+round(b, 2)
+border(b)
+return b
+end
+
 local function addBind(card, label, get, set)
-local r = rowFrame(card, 26, label)
-local btn = inst(__tc_s(237), {
-Size = UDim2.fromOffset(96, 20),
-Position = UDim2.new(1, -104, 0.5, -10),
-BackgroundColor3 = Theme.row,
-BorderSizePixel = 0,
-Font = Enum.Font.Gotham,
-TextSize = 12,
-TextColor3 = Theme.text,
-Text = bindName(get()),
-}, r)
-round(btn, 4)
-border(btn)
+local r = rowFrame(card, 17)
+rowText(r, label, 6, 84)
+local btn = keyChip(r, bindName(get()), 76)
 btn.MouseButton1Click:Connect(function()
 bindCapture = { btn = btn, set = set, get = get }
-btn.Text = __tc_s(238)
+btn.Text = __tc_s(128)
 end)
 table.insert(refreshers, function()
 if bindCapture and bindCapture.btn == btn then return end
@@ -1158,25 +1079,44 @@ end)
 end
 
 local function addDrop(card, label, items, get, set)
-local r = rowFrame(card, 26, label)
-local btn = inst(__tc_s(239), {
-Size = UDim2.fromOffset(130, 20),
-Position = UDim2.new(1, -138, 0.5, -10),
-BackgroundColor3 = Theme.row,
-BorderSizePixel = 0,
-Font = Enum.Font.Gotham,
-TextSize = 12,
-TextColor3 = Theme.text,
-Text = __tc_s(240) .. get() .. __tc_s(241),
-}, r)
-round(btn, 4)
+local block = inst(__tc_s(129), {
+Size = UDim2.new(1, 0, 0, 40),
+BackgroundTransparency = 1,
+}, card)
+inst(__tc_s(130), {
+Text = label, Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+Position = UDim2.fromOffset(6, 6), Size = UDim2.new(1, -12, 0, 14),
+}, block)
+
+local btn = inst(__tc_s(131), {
+Text = __tc_s(132), BackgroundColor3 = Theme.bg, BorderSizePixel = 0,
+AutoButtonColor = false,
+Size = UDim2.new(1, -12, 0, 20), Position = UDim2.fromOffset(6, 20),
+}, block)
+round(btn, 2)
 border(btn)
+local cur = inst(__tc_s(133), {
+Text = get(), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
+TextXAlignment = Enum.TextXAlignment.Left,
+Position = UDim2.fromOffset(8, 0), Size = UDim2.new(1, -30, 1, 0),
+}, btn)
+
+for i, rot in ipairs({ 45, -45 }) do
+inst(__tc_s(134), {
+Size = UDim2.fromOffset(5, 2),
+Position = UDim2.new(1, -18 + (i - 1) * 3, 0.5, -2),
+BackgroundColor3 = Theme.off, BorderSizePixel = 0, Rotation = rot,
+}, btn)
+end
+
 btn.MouseButton1Click:Connect(function()
-local cur = get()
-local idx = table.find(items, cur) or 0
+local idx = table.find(items, get()) or 0
 set(items[(idx % #items) + 1])
 end)
-table.insert(refreshers, function() btn.Text = __tc_s(242) .. get() .. __tc_s(243) end)
+table.insert(refreshers, function() cur.Text = get() end)
 end
 
 local COLOR_PRESETS = {
@@ -1187,36 +1127,37 @@ Color3.fromRGB(120, 120, 120), Color3.fromRGB(0, 0, 0),
 }
 
 local function toHex(c)
-return string.format(__tc_s(244),
+return string.format(__tc_s(135),
 math.floor(c.R * 255 + 0.5), math.floor(c.G * 255 + 0.5), math.floor(c.B * 255 + 0.5))
 end
 
 local function fromHex(s)
-local h = tostring(s):gsub(__tc_s(245), __tc_s(246))
+local h = tostring(s):gsub(__tc_s(136), __tc_s(137))
 if #h == 3 then h = h:sub(1, 1):rep(2) .. h:sub(2, 2):rep(2) .. h:sub(3, 3):rep(2) end
 if #h < 6 then return nil end
 return Color3.fromRGB(tonumber(h:sub(1, 2), 16), tonumber(h:sub(3, 4), 16), tonumber(h:sub(5, 6), 16))
 end
 
 local function addColor(card, label, get, set)
-local r = rowFrame(card, 26, label)
+local r = rowFrame(card, 20)
+rowText(r, label, 6, 92)
 
-local swatch = inst(__tc_s(247), {
-Text = __tc_s(248), Size = UDim2.fromOffset(24, 16),
-Position = UDim2.new(1, -30, 0.5, -8),
-BackgroundColor3 = get(), BorderSizePixel = 0,
-}, r)
-round(swatch, 3)
-border(swatch)
-
-local hex = inst(__tc_s(249), {
-Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 12,
-TextColor3 = Theme.text, BackgroundColor3 = Theme.row, BorderSizePixel = 0,
-Size = UDim2.fromOffset(70, 20), Position = UDim2.new(1, -104, 0.5, -10),
+local hex = inst(__tc_s(138), {
+Text = toHex(get()), Font = Enum.Font.Gotham, TextSize = 11,
+TextColor3 = Theme.text, BackgroundColor3 = Theme.bg, BorderSizePixel = 0,
+Size = UDim2.fromOffset(52, 16), Position = UDim2.new(1, -74, 0.5, -8),
 TextXAlignment = Enum.TextXAlignment.Center, ClearTextOnFocus = false,
 }, r)
-round(hex, 4)
+round(hex, 2)
 border(hex)
+
+local swatch = inst(__tc_s(139), {
+Text = __tc_s(140), Size = UDim2.fromOffset(16, 12),
+Position = UDim2.new(1, -18, 0.5, -6),
+BackgroundColor3 = get(), BorderSizePixel = 0, AutoButtonColor = false,
+}, r)
+round(swatch, 2)
+border(swatch)
 
 swatch.MouseButton1Click:Connect(function()
 local idx = table.find(COLOR_PRESETS, get()) or 0
@@ -1234,60 +1175,60 @@ end)
 end
 
 local function addInfo(card, label, valueFn)
-local r = rowFrame(card, 26, label)
-local v = inst(__tc_s(250), {
-Size = UDim2.fromOffset(150, 26),
-Position = UDim2.new(1, -158, 0, 0),
-BackgroundTransparency = 1,
-Font = Enum.Font.Gotham,
-TextSize = 12,
-TextColor3 = Theme.dim,
+local r = rowFrame(card, 17)
+rowText(r, label, 6, 8)
+local v = inst(__tc_s(141), {
+Text = __tc_s(142), Font = Enum.Font.Gotham, TextSize = 12,
+TextColor3 = Theme.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
+Size = UDim2.new(0, 150, 1, 0), Position = UDim2.new(1, -156, 0, 0),
 }, r)
 table.insert(refreshers, function() v.Text = valueFn() end)
 end
 
 local function makeCard(column, title)
-local card = inst(__tc_s(251), {
+local card = inst(__tc_s(143), {
 Size = UDim2.new(1, 0, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundColor3 = Theme.card,
 BorderSizePixel = 0,
 }, column)
-round(card, 8)
+round(card, 2)
 border(card)
-padding(card, 8)
-local layout = inst(__tc_s(252), {
-Padding = UDim.new(0, 4),
-SortOrder = Enum.SortOrder.LayoutOrder,
+inst(__tc_s(144), {
+PaddingLeft = UDim.new(0, 10), PaddingRight = UDim.new(0, 10),
+PaddingTop = UDim.new(0, 8), PaddingBottom = UDim.new(0, 8),
 }, card)
-inst(__tc_s(253), {
+inst(__tc_s(145), { SortOrder = Enum.SortOrder.LayoutOrder }, card)
+
+inst(__tc_s(146), {
 Text = title,
-Font = Enum.Font.GothamBold,
+Font = Enum.Font.Gotham,
 TextSize = 13,
-TextColor3 = Theme.accent,
+TextColor3 = Theme.text,
 BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 20),
+Size = UDim2.new(1, 0, 0, 25),
 TextXAlignment = Enum.TextXAlignment.Left,
+TextYAlignment = Enum.TextYAlignment.Top,
 LayoutOrder = -1,
 }, card)
 return card
 end
 
 local function makeColumns(page)
-local layout = inst(__tc_s(254), {
+local layout = inst(__tc_s(147), {
 FillDirection = Enum.FillDirection.Horizontal,
 Padding = UDim.new(0, 8),
 SortOrder = Enum.SortOrder.LayoutOrder,
 }, page)
 local function col(order)
-local f = inst(__tc_s(255), {
+local f = inst(__tc_s(148), {
 Size = UDim2.new(0.5, -4, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
 BackgroundTransparency = 1,
 LayoutOrder = order,
 }, page)
-inst(__tc_s(256), { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder }, f)
+inst(__tc_s(149), { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder }, f)
 return f
 end
 return col(1), col(2)
@@ -1298,8 +1239,8 @@ local menuOpen = true
 
 local WINDOW = Vector2.new(530, 408)
 
-local win = inst(__tc_s(257), {
-Name = __tc_s(258),
+local win = inst(__tc_s(150), {
+Name = __tc_s(151),
 Size = UDim2.fromOffset(WINDOW.X, WINDOW.Y),
 Position = UDim2.new(0.5, -WINDOW.X / 2, 0.5, -WINDOW.Y / 2),
 BackgroundColor3 = Theme.bg,
@@ -1311,22 +1252,22 @@ border(win, Theme.line)
 local HEADER_H = 30
 local FOOTER_H = 26
 
-inst(__tc_s(259), {
-Name = __tc_s(260),
+inst(__tc_s(152), {
+Name = __tc_s(153),
 Size = UDim2.new(1, 0, 0, 2),
 BackgroundColor3 = Theme.accent,
 BorderSizePixel = 0,
 ZIndex = 2,
 }, win)
 
-local header = inst(__tc_s(261), {
-Name = __tc_s(262),
+local header = inst(__tc_s(154), {
+Name = __tc_s(155),
 Size = UDim2.new(1, 0, 0, HEADER_H),
 Position = UDim2.fromOffset(0, 2),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(263), {
+inst(__tc_s(156), {
 Size = UDim2.new(1, 0, 0, 1),
 Position = UDim2.new(0, 0, 1, -1),
 BackgroundColor3 = Theme.line,
@@ -1334,16 +1275,18 @@ BorderSizePixel = 0,
 ZIndex = 2,
 }, header)
 
-inst(__tc_s(264), {
-Text = __tc_s(265),
-Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.accent,
+inst(__tc_s(157), {
+Text = __tc_s(158) .. hexStr(Theme.accent) .. __tc_s(159)
+.. __tc_s(160) .. hexStr(Theme.dim) .. __tc_s(161),
+RichText = true,
+Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.text,
 BackgroundTransparency = 1,
-Size = UDim2.fromOffset(112, HEADER_H), Position = UDim2.fromOffset(10, 0),
+Size = UDim2.fromOffset(88, HEADER_H), Position = UDim2.fromOffset(10, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, header)
 
-local closeBtn = inst(__tc_s(266), {
-Text = __tc_s(267), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
+local closeBtn = inst(__tc_s(162), {
+Text = __tc_s(163), Font = Enum.Font.GothamBold, TextSize = 13, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, Size = UDim2.fromOffset(24, HEADER_H),
 Position = UDim2.new(1, -28, 0, 0),
 }, header)
@@ -1372,41 +1315,41 @@ if input.UserInputType == Enum.UserInputType.MouseButton1 then dragStart = nil e
 end)
 end
 
-local TABS = { __tc_s(268), __tc_s(269), __tc_s(270), __tc_s(271), __tc_s(272) }
-local tabBar = inst(__tc_s(273), {
-Name = __tc_s(274),
-Size = UDim2.new(1, -154, 1, 0),
-Position = UDim2.fromOffset(124, 0),
+local TABS = { __tc_s(164), __tc_s(165), __tc_s(166), __tc_s(167), __tc_s(168) }
+local tabBar = inst(__tc_s(169), {
+Name = __tc_s(170),
+Size = UDim2.new(1, -140, 1, 0),
+Position = UDim2.fromOffset(100, 0),
 BackgroundTransparency = 1,
 }, header)
-inst(__tc_s(275), {
+inst(__tc_s(171), {
 FillDirection = Enum.FillDirection.Horizontal,
 SortOrder = Enum.SortOrder.LayoutOrder,
 VerticalAlignment = Enum.VerticalAlignment.Center,
 }, tabBar)
 
-local bodyHost = inst(__tc_s(276), {
-Name = __tc_s(277),
+local bodyHost = inst(__tc_s(172), {
+Name = __tc_s(173),
 Size = UDim2.new(1, 0, 1, -(HEADER_H + FOOTER_H + 2)),
 Position = UDim2.fromOffset(0, HEADER_H + 2),
 BackgroundTransparency = 1,
 }, win)
 
-local footer = inst(__tc_s(278), {
-Name = __tc_s(279),
+local footer = inst(__tc_s(174), {
+Name = __tc_s(175),
 Size = UDim2.new(1, 0, 0, FOOTER_H),
 Position = UDim2.new(0, 0, 1, -FOOTER_H),
 BackgroundColor3 = Theme.bg,
 BorderSizePixel = 0,
 }, win)
-inst(__tc_s(280), {
+inst(__tc_s(176), {
 Size = UDim2.new(1, 0, 0, 1),
 BackgroundColor3 = Theme.line,
 BorderSizePixel = 0,
 ZIndex = 2,
 }, footer)
-inst(__tc_s(281), {
-Text = __tc_s(282) .. hexStr(Theme.accent) .. __tc_s(283),
+inst(__tc_s(177), {
+Text = __tc_s(178) .. hexStr(Theme.accent) .. __tc_s(179),
 RichText = true, Font = Enum.Font.Gotham, TextSize = 11, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, Size = UDim2.new(1, -20, 1, 0),
 Position = UDim2.fromOffset(10, 0),
@@ -1418,7 +1361,7 @@ local rowOrder = 0
 local function makePage(name, sections, tab)
 local page = pages[tab]
 if not page then
-page = inst(__tc_s(284), {
+page = inst(__tc_s(180), {
 Name = name,
 Size = UDim2.fromScale(1, 1),
 BackgroundTransparency = 1,
@@ -1430,11 +1373,11 @@ ScrollBarImageColor3 = Theme.accent,
 ScrollBarImageTransparency = 0.4,
 Visible = false,
 }, bodyHost)
-inst(__tc_s(285), {
+inst(__tc_s(181), {
 Padding = UDim.new(0, 8),
 SortOrder = Enum.SortOrder.LayoutOrder,
 }, page)
-inst(__tc_s(286), {
+inst(__tc_s(182), {
 PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8),
 PaddingTop = UDim.new(0, 8), PaddingBottom = UDim.new(0, 8),
 }, page)
@@ -1444,7 +1387,7 @@ end
 local rows = {}
 for i, label in ipairs(sections) do
 rowOrder = rowOrder + 1
-rows[i] = inst(__tc_s(287), {
+rows[i] = inst(__tc_s(183), {
 Name = label,
 Size = UDim2.new(1, 0, 0, 0),
 AutomaticSize = Enum.AutomaticSize.Y,
@@ -1468,7 +1411,7 @@ end
 
 for i, tabName in ipairs(TABS) do
 local idx = i
-local b = inst(__tc_s(288), {
+local b = inst(__tc_s(184), {
 Text = tabName,
 Font = Enum.Font.Gotham, TextSize = 12, TextColor3 = Theme.dim,
 BackgroundTransparency = 1, BorderSizePixel = 0, AutoButtonColor = false,
@@ -1476,8 +1419,8 @@ AutomaticSize = Enum.AutomaticSize.X,
 Size = UDim2.new(0, 0, 1, 0),
 LayoutOrder = i,
 }, tabBar)
-inst(__tc_s(289), { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) }, b)
-tabMarks[i] = inst(__tc_s(290), {
+inst(__tc_s(185), { PaddingLeft = UDim.new(0, 13), PaddingRight = UDim.new(0, 13) }, b)
+tabMarks[i] = inst(__tc_s(186), {
 Size = UDim2.new(1, 0, 0, 2),
 Position = UDim2.new(0, 0, 1, -2),
 BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
@@ -1489,236 +1432,236 @@ end
 showTab(1)
 
 do
-local s = makePage(__tc_s(291), { __tc_s(292), __tc_s(293) }, 1)
+local s = makePage(__tc_s(187), { __tc_s(188), __tc_s(189) }, 1)
 
 local L, R = makeColumns(s[1])
-local who = makeCard(L, __tc_s(294))
-addInfo(who, __tc_s(295), function() return LP.Name end)
-addInfo(who, __tc_s(296), function() return LP.DisplayName end)
-addInfo(who, __tc_s(297), function() return LP.Team and LP.Team.Name or __tc_s(298) end)
-addInfo(who, __tc_s(299), function() return tostring(game.PlaceId) end)
+local who = makeCard(L, __tc_s(190))
+addInfo(who, __tc_s(191), function() return LP.Name end)
+addInfo(who, __tc_s(192), function() return LP.DisplayName end)
+addInfo(who, __tc_s(193), function() return LP.Team and LP.Team.Name or __tc_s(194) end)
+addInfo(who, __tc_s(195), function() return tostring(game.PlaceId) end)
 
-local live = makeCard(R, __tc_s(300))
-addInfo(live, __tc_s(301), function()
-if not aimActive then return __tc_s(302) end
-return locked and __tc_s(303) or __tc_s(304)
+local live = makeCard(R, __tc_s(196))
+addInfo(live, __tc_s(197), function()
+if not aimActive then return __tc_s(198) end
+return locked and __tc_s(199) or __tc_s(200)
 end)
-addInfo(live, __tc_s(305), function()
-if not Config.silent.enabled then return __tc_s(306) end
-if not silentReady then return __tc_s(307) end
-if not silentActive then return __tc_s(308) end
-return silentSpoof and __tc_s(309) or __tc_s(310)
+addInfo(live, __tc_s(201), function()
+if not Config.silent.enabled then return __tc_s(202) end
+if not silentReady then return __tc_s(203) end
+if not silentActive then return __tc_s(204) end
+return silentSpoof and __tc_s(205) or __tc_s(206)
 end)
-addInfo(live, __tc_s(311), function() return Config.esp.enabled and __tc_s(312) or __tc_s(313) end)
-addInfo(live, __tc_s(314), function() return Config.hud.enabled and __tc_s(315) or __tc_s(316) end)
+addInfo(live, __tc_s(207), function() return Config.esp.enabled and __tc_s(208) or __tc_s(209) end)
+addInfo(live, __tc_s(210), function() return Config.hud.enabled and __tc_s(211) or __tc_s(212) end)
 
 local L2, R2 = makeColumns(s[2])
-local keys = makeCard(L2, __tc_s(317))
-addInfo(keys, __tc_s(318), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(319), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(320), function() return bindName(Config.silent.key) end)
+local keys = makeCard(L2, __tc_s(213))
+addInfo(keys, __tc_s(214), function() return bindName(Config.hud.menu) end)
+addInfo(keys, __tc_s(215), function() return bindName(Config.aim.key) end)
+addInfo(keys, __tc_s(216), function() return bindName(Config.silent.key) end)
 
-local build = makeCard(R2, __tc_s(321))
-addInfo(build, __tc_s(322), function() return __tc_s(323) end)
-addInfo(build, __tc_s(324), function() return string.format(__tc_s(325), WINDOW.X, WINDOW.Y) end)
-addInfo(build, __tc_s(326), function() return Config.aim.part end)
-addInfo(build, __tc_s(327), function() return silentReady and __tc_s(328) or __tc_s(329) end)
+local build = makeCard(R2, __tc_s(217))
+addInfo(build, __tc_s(218), function() return __tc_s(219) end)
+addInfo(build, __tc_s(220), function() return string.format(__tc_s(221), WINDOW.X, WINDOW.Y) end)
+addInfo(build, __tc_s(222), function() return Config.aim.part end)
+addInfo(build, __tc_s(223), function() return silentReady and __tc_s(224) or __tc_s(225) end)
 end
 
 do
-local s = makePage(__tc_s(330), { __tc_s(331), __tc_s(332), __tc_s(333) }, 2)
+local s = makePage(__tc_s(226), { __tc_s(227), __tc_s(228), __tc_s(229) }, 2)
 
 local L = makeColumns(s[1])
-local aim = makeCard(L, __tc_s(334))
-addBind(aim, __tc_s(335), function() return Config.aim.key end, function(k) Config.aim.key = k end)
-addDrop(aim, __tc_s(336), { __tc_s(337), __tc_s(338), __tc_s(339) }, function() return Config.aim.part end,
+local aim = makeCard(L, __tc_s(230))
+addBind(aim, __tc_s(231), function() return Config.aim.key end, function(k) Config.aim.key = k end)
+addDrop(aim, __tc_s(232), { __tc_s(233), __tc_s(234), __tc_s(235) }, function() return Config.aim.part end,
 function(v) Config.aim.part = v end)
-addCheck(aim, __tc_s(340), function() return Config.aim.cameraLock end, function(v) Config.aim.cameraLock = v end)
-addCheck(aim, __tc_s(341), function() return Config.aim.mouseLock end, function(v) Config.aim.mouseLock = v end)
-addSlider(aim, __tc_s(342), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(343))
-addInfo(aim, __tc_s(344), function() return __tc_s(345) end)
+addCheck(aim, __tc_s(236), function() return Config.aim.cameraLock end, function(v) Config.aim.cameraLock = v end)
+addCheck(aim, __tc_s(237), function() return Config.aim.mouseLock end, function(v) Config.aim.mouseLock = v end)
+addSlider(aim, __tc_s(238), 0, 0.95, 0.05, function() return Config.aim.smoothness end, function(v) Config.aim.smoothness = v end, __tc_s(239))
+addInfo(aim, __tc_s(240), function() return __tc_s(241) end)
 
 local L3, R3 = makeColumns(s[3])
-local silent = makeCard(L3, __tc_s(346))
-addBind(silent, __tc_s(347), function() return Config.silent.key end, function(k) Config.silent.key = k end)
-addCheck(silent, __tc_s(348), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
-addDrop(silent, __tc_s(349), { __tc_s(350), __tc_s(351), __tc_s(352) }, function() return Config.silent.part end,
+local silent = makeCard(L3, __tc_s(242))
+addBind(silent, __tc_s(243), function() return Config.silent.key end, function(k) Config.silent.key = k end)
+addCheck(silent, __tc_s(244), function() return Config.silent.enabled end, function(v) Config.silent.enabled = v end)
+addDrop(silent, __tc_s(245), { __tc_s(246), __tc_s(247), __tc_s(248) }, function() return Config.silent.part end,
 function(v) Config.silent.part = v end)
-addDrop(silent, __tc_s(353), { __tc_s(354), __tc_s(355) }, function() return Config.silent.method end,
+addDrop(silent, __tc_s(249), { __tc_s(250), __tc_s(251) }, function() return Config.silent.method end,
 function(v) Config.silent.method = v end)
-addSlider(silent, __tc_s(356), 0, 600, 5, function() return Config.silent.fov end,
-function(v) Config.silent.fov = v end, __tc_s(357))
-addSlider(silent, __tc_s(358), 50, 5000, 50, function() return Config.silent.maxDistance end,
-function(v) Config.silent.maxDistance = v end, __tc_s(359))
-addSlider(silent, __tc_s(360), 0, 100, 1, function() return Config.silent.hitChance end,
-function(v) Config.silent.hitChance = v end, __tc_s(361))
-addSlider(silent, __tc_s(362), 0, 1, 0.01, function() return Config.silent.prediction end,
-function(v) Config.silent.prediction = v end, __tc_s(363))
-addCheck(silent, __tc_s(364), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
-addCheck(silent, __tc_s(365), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
-addCheck(silent, __tc_s(366), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
-addInfo(silent, __tc_s(367), function()
-if not Config.silent.enabled then return __tc_s(368) end
-if not silentActive then return __tc_s(369) .. bindName(Config.silent.key) end
-if not silentReady then return __tc_s(370) end
-return silentSpoof and __tc_s(371) or __tc_s(372)
+addSlider(silent, __tc_s(252), 0, 600, 5, function() return Config.silent.fov end,
+function(v) Config.silent.fov = v end, __tc_s(253))
+addSlider(silent, __tc_s(254), 50, 5000, 50, function() return Config.silent.maxDistance end,
+function(v) Config.silent.maxDistance = v end, __tc_s(255))
+addSlider(silent, __tc_s(256), 0, 100, 1, function() return Config.silent.hitChance end,
+function(v) Config.silent.hitChance = v end, __tc_s(257), true)
+addSlider(silent, __tc_s(258), 0, 1, 0.01, function() return Config.silent.prediction end,
+function(v) Config.silent.prediction = v end, __tc_s(259))
+addCheck(silent, __tc_s(260), function() return Config.silent.sticky end, function(v) Config.silent.sticky = v end)
+addCheck(silent, __tc_s(261), function() return Config.silent.teamCheck end, function(v) Config.silent.teamCheck = v end)
+addCheck(silent, __tc_s(262), function() return Config.silent.wallCheck end, function(v) Config.silent.wallCheck = v end)
+addInfo(silent, __tc_s(263), function()
+if not Config.silent.enabled then return __tc_s(264) end
+if not silentActive then return __tc_s(265) .. bindName(Config.silent.key) end
+if not silentReady then return __tc_s(266) end
+return silentSpoof and __tc_s(267) or __tc_s(268)
 end)
 
-local sinfo = makeCard(R3, __tc_s(373))
-addInfo(sinfo, __tc_s(374), function()
+local sinfo = makeCard(R3, __tc_s(269))
+addInfo(sinfo, __tc_s(270), function()
 local t = silentLock
-if not t or not t.Parent then return __tc_s(375) end
+if not t or not t.Parent then return __tc_s(271) end
 return t.DisplayName
 end)
-addInfo(sinfo, __tc_s(376), function() return Config.silent.method end)
-addInfo(sinfo, __tc_s(377), function() return bindName(Config.silent.key) end)
+addInfo(sinfo, __tc_s(272), function() return Config.silent.method end)
+addInfo(sinfo, __tc_s(273), function() return bindName(Config.silent.key) end)
 
 local L2, R2 = makeColumns(s[2])
-local target = makeCard(L2, __tc_s(378))
-addSlider(target, __tc_s(379), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(380))
-addCheck(target, __tc_s(381), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
-addSlider(target, __tc_s(382), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(383))
-addDrop(target, __tc_s(384), { __tc_s(385), __tc_s(386) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
-addCheck(target, __tc_s(387), function() return Config.aim.sticky end, function(v) Config.aim.sticky = v end)
-addCheck(target, __tc_s(388), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(target, __tc_s(389), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
-addCheck(target, __tc_s(390), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
+local target = makeCard(L2, __tc_s(274))
+addSlider(target, __tc_s(275), 10, 600, 5, function() return Config.aim.fov end, function(v) Config.aim.fov = v end, __tc_s(276))
+addCheck(target, __tc_s(277), function() return Config.aim.showFov end, function(v) Config.aim.showFov = v end)
+addSlider(target, __tc_s(278), 50, 2000, 50, function() return Config.aim.maxDistance end, function(v) Config.aim.maxDistance = v end, __tc_s(279))
+addDrop(target, __tc_s(280), { __tc_s(281), __tc_s(282) }, function() return Config.aim.targetMode end, function(v) Config.aim.targetMode = v end)
+addCheck(target, __tc_s(283), function() return Config.aim.sticky end, function(v) Config.aim.sticky = v end)
+addCheck(target, __tc_s(284), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(target, __tc_s(285), function() return Config.aim.wallCheck end, function(v) Config.aim.wallCheck = v end)
+addCheck(target, __tc_s(286), function() return Config.aim.healthCheck end, function(v) Config.aim.healthCheck = v end)
 
-local status = makeCard(R2, __tc_s(391))
-addInfo(status, __tc_s(392), function()
+local status = makeCard(R2, __tc_s(287))
+addInfo(status, __tc_s(288), function()
 local t = locked
-if not t or not t.Parent then return __tc_s(393) end
+if not t or not t.Parent then return __tc_s(289) end
 return t.DisplayName
 end)
-addInfo(status, __tc_s(394), function()
-if not aimActive then return __tc_s(395) end
-return locked and __tc_s(396) or __tc_s(397)
+addInfo(status, __tc_s(290), function()
+if not aimActive then return __tc_s(291) end
+return locked and __tc_s(292) or __tc_s(293)
 end)
-addInfo(status, __tc_s(398), function() return bindName(Config.aim.key) end)
+addInfo(status, __tc_s(294), function() return bindName(Config.aim.key) end)
 end
 
 do
-local s = makePage(__tc_s(399), { __tc_s(400), __tc_s(401), __tc_s(402) }, 3)
+local s = makePage(__tc_s(295), { __tc_s(296), __tc_s(297), __tc_s(298) }, 3)
 local L = makeColumns(s[1])
 
-local esp = makeCard(L, __tc_s(403))
-addCheck(esp, __tc_s(404), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
-addCheck(esp, __tc_s(405), function() return Config.esp.box end, function(v) Config.esp.box = v end)
-addCheck(esp, __tc_s(406), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
-addCheck(esp, __tc_s(407), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
-addCheck(esp, __tc_s(408), function() return Config.esp.name end, function(v) Config.esp.name = v end)
-addCheck(esp, __tc_s(409), function() return Config.esp.health end, function(v) Config.esp.health = v end)
-addCheck(esp, __tc_s(410), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
-addCheck(esp, __tc_s(411), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
-addCheck(esp, __tc_s(412), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
-addCheck(esp, __tc_s(413), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
+local esp = makeCard(L, __tc_s(299))
+addCheck(esp, __tc_s(300), function() return Config.esp.enabled end, function(v) Config.esp.enabled = v end)
+addCheck(esp, __tc_s(301), function() return Config.esp.box end, function(v) Config.esp.box = v end)
+addCheck(esp, __tc_s(302), function() return Config.esp.corner end, function(v) Config.esp.corner = v end)
+addCheck(esp, __tc_s(303), function() return Config.esp.filledBox end, function(v) Config.esp.filledBox = v end)
+addCheck(esp, __tc_s(304), function() return Config.esp.name end, function(v) Config.esp.name = v end)
+addCheck(esp, __tc_s(305), function() return Config.esp.health end, function(v) Config.esp.health = v end)
+addCheck(esp, __tc_s(306), function() return Config.esp.distance end, function(v) Config.esp.distance = v end)
+addCheck(esp, __tc_s(307), function() return Config.esp.tracer end, function(v) Config.esp.tracer = v end)
+addCheck(esp, __tc_s(308), function() return Config.esp.skeleton end, function(v) Config.esp.skeleton = v end)
+addCheck(esp, __tc_s(309), function() return Config.esp.headDot end, function(v) Config.esp.headDot = v end)
 
 local L2 = makeColumns(s[2])
-local opt = makeCard(L2, __tc_s(414))
-addDrop(opt, __tc_s(415), { __tc_s(416), __tc_s(417), __tc_s(418) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
-addSlider(opt, __tc_s(419), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(420))
-addCheck(opt, __tc_s(421), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addCheck(opt, __tc_s(422), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
-addInfo(opt, __tc_s(423), function() return Config.esp.useScreenPoint and __tc_s(424) or __tc_s(425) end)
+local opt = makeCard(L2, __tc_s(310))
+addDrop(opt, __tc_s(311), { __tc_s(312), __tc_s(313), __tc_s(314) }, function() return Config.esp.tracerOrigin end, function(v) Config.esp.tracerOrigin = v end)
+addSlider(opt, __tc_s(315), 100, 5000, 100, function() return Config.esp.maxDistance end, function(v) Config.esp.maxDistance = v end, __tc_s(316))
+addCheck(opt, __tc_s(317), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addCheck(opt, __tc_s(318), function() return Config.esp.useScreenPoint end, function(v) Config.esp.useScreenPoint = v end)
+addInfo(opt, __tc_s(319), function() return Config.esp.useScreenPoint and __tc_s(320) or __tc_s(321) end)
 
 local L3 = makeColumns(s[3])
-local colors = makeCard(L3, __tc_s(426))
-addColor(colors, __tc_s(427), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
-addColor(colors, __tc_s(428), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
+local colors = makeCard(L3, __tc_s(322))
+addColor(colors, __tc_s(323), function() return Config.esp.enemyColor end, function(c) Config.esp.enemyColor = c end)
+addColor(colors, __tc_s(324), function() return Config.esp.textColor end, function(c) Config.esp.textColor = c end)
 end
 
-local exploitSec = makePage(__tc_s(429), { __tc_s(430), __tc_s(431) }, 4)
+local exploitSec = makePage(__tc_s(325), { __tc_s(326), __tc_s(327) }, 4)
 
 do
 local L, R = makeColumns(exploitSec[2])
-local w = makeCard(L, __tc_s(432))
-addCheck(w, __tc_s(433), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
-addCheck(w, __tc_s(434), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
-addCheck(w, __tc_s(435), function() return Config.world.clock end, function(v) Config.world.clock = v end)
-addSlider(w, __tc_s(436), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(437))
-addCheck(w, __tc_s(438), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
-local info = makeCard(R, __tc_s(439))
-addInfo(info, __tc_s(440), function() return string.format(__tc_s(441), Lighting.Brightness) end)
-addInfo(info, __tc_s(442), function() return string.format(__tc_s(443), Lighting.FogEnd) end)
-addInfo(info, __tc_s(444), function() return string.format(__tc_s(445), Lighting.ClockTime) end)
-addInfo(info, __tc_s(446), function() return worldOriginals and __tc_s(447) or __tc_s(448) end)
+local w = makeCard(L, __tc_s(328))
+addCheck(w, __tc_s(329), function() return Config.world.fullbright end, function(v) Config.world.fullbright = v end)
+addCheck(w, __tc_s(330), function() return Config.world.noFog end, function(v) Config.world.noFog = v end)
+addCheck(w, __tc_s(331), function() return Config.world.clock end, function(v) Config.world.clock = v end)
+addSlider(w, __tc_s(332), 0, 24, 0.5, function() return Config.world.clockTime end, function(v) Config.world.clockTime = v end, __tc_s(333))
+addCheck(w, __tc_s(334), function() return Config.world.ambient end, function(v) Config.world.ambient = v end)
+local info = makeCard(R, __tc_s(335))
+addInfo(info, __tc_s(336), function() return string.format(__tc_s(337), Lighting.Brightness) end)
+addInfo(info, __tc_s(338), function() return string.format(__tc_s(339), Lighting.FogEnd) end)
+addInfo(info, __tc_s(340), function() return string.format(__tc_s(341), Lighting.ClockTime) end)
+addInfo(info, __tc_s(342), function() return worldOriginals and __tc_s(343) or __tc_s(344) end)
 end
 
 do
 local L, R = makeColumns(exploitSec[1])
-local move = makeCard(L, __tc_s(449))
-addCheck(move, __tc_s(450), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
-addSlider(move, __tc_s(451), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(452))
-addCheck(move, __tc_s(453), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
-addSlider(move, __tc_s(454), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(455))
-addCheck(move, __tc_s(456), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
-addSlider(move, __tc_s(457), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(458))
+local move = makeCard(L, __tc_s(345))
+addCheck(move, __tc_s(346), function() return Config.character.speedEnabled end, function(v) Config.character.speedEnabled = v end)
+addSlider(move, __tc_s(347), 16, 500, 1, function() return Config.character.speed end, function(v) Config.character.speed = v end, __tc_s(348))
+addCheck(move, __tc_s(349), function() return Config.character.jumpEnabled end, function(v) Config.character.jumpEnabled = v end)
+addSlider(move, __tc_s(350), 50, 500, 5, function() return Config.character.jump end, function(v) Config.character.jump = v end, __tc_s(351))
+addCheck(move, __tc_s(352), function() return Config.character.hipEnabled end, function(v) Config.character.hipEnabled = v end)
+addSlider(move, __tc_s(353), 0, 20, 0.5, function() return Config.character.hip end, function(v) Config.character.hip = v end, __tc_s(354))
 
-local misc = makeCard(R, __tc_s(459))
-addCheck(misc, __tc_s(460), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
-addCheck(misc, __tc_s(461), function() return Config.character.fly end, function(v) Config.character.fly = v end)
-addSlider(misc, __tc_s(462), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(463))
-addInfo(misc, __tc_s(464), function() return __tc_s(465) end)
+local misc = makeCard(R, __tc_s(355))
+addCheck(misc, __tc_s(356), function() return Config.character.infiniteJump end, function(v) Config.character.infiniteJump = v end)
+addCheck(misc, __tc_s(357), function() return Config.character.fly end, function(v) Config.character.fly = v end)
+addSlider(misc, __tc_s(358), 10, 500, 10, function() return Config.character.flySpeed end, function(v) Config.character.flySpeed = v end, __tc_s(359))
+addInfo(misc, __tc_s(360), function() return __tc_s(361) end)
 end
 
-local extrasSec = makePage(__tc_s(466), { __tc_s(467), __tc_s(468) }, 5)
+local extrasSec = makePage(__tc_s(362), { __tc_s(363), __tc_s(364) }, 5)
 
 do
 local L, R = makeColumns(extrasSec[1])
-local menu = makeCard(L, __tc_s(469))
-addBind(menu, __tc_s(470), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
-addCheck(menu, __tc_s(471), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
-addInfo(menu, __tc_s(472), function() return string.format(__tc_s(473), WINDOW.X, WINDOW.Y) end)
+local menu = makeCard(L, __tc_s(365))
+addBind(menu, __tc_s(366), function() return Config.hud.menu end, function(k) Config.hud.menu = k end)
+addCheck(menu, __tc_s(367), function() return Config.hud.enabled end, function(v) Config.hud.enabled = v end)
+addInfo(menu, __tc_s(368), function() return string.format(__tc_s(369), WINDOW.X, WINDOW.Y) end)
 
-local keys = makeCard(R, __tc_s(474))
-addInfo(keys, __tc_s(475), function() return bindName(Config.hud.menu) end)
-addInfo(keys, __tc_s(476), function() return bindName(Config.aim.key) end)
-addInfo(keys, __tc_s(477), function() return bindName(Config.silent.key) end)
-addInfo(keys, __tc_s(478), function() return Config.aim.part end)
-addInfo(keys, __tc_s(479), function() return __tc_s(480) end)
+local keys = makeCard(R, __tc_s(370))
+addInfo(keys, __tc_s(371), function() return bindName(Config.hud.menu) end)
+addInfo(keys, __tc_s(372), function() return bindName(Config.aim.key) end)
+addInfo(keys, __tc_s(373), function() return bindName(Config.silent.key) end)
+addInfo(keys, __tc_s(374), function() return Config.aim.part end)
+addInfo(keys, __tc_s(375), function() return __tc_s(376) end)
 end
 
 do
 local L, R = makeColumns(extrasSec[2])
-local save = makeCard(L, __tc_s(481))
-local dir = __tc_s(482)
-local nameBuf = __tc_s(483)
+local save = makeCard(L, __tc_s(377))
+local dir = __tc_s(378)
+local nameBuf = __tc_s(379)
 
-local input = inst(__tc_s(484), {
-Text = __tc_s(485), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
+local input = inst(__tc_s(380), {
+Text = __tc_s(381), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
 BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 Size = UDim2.new(1, 0, 0, 26),
-PlaceholderText = __tc_s(486), ClearTextOnFocus = false,
+PlaceholderText = __tc_s(382), ClearTextOnFocus = false,
 }, save)
 round(input, 4)
 border(input)
-input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(487) and input.Text or __tc_s(488) end)
+input.FocusLost:Connect(function() nameBuf = input.Text ~= __tc_s(383) and input.Text or __tc_s(384) end)
 
-local function fileOf(n) return dir .. __tc_s(489) .. n .. __tc_s(490) end
+local function fileOf(n) return dir .. __tc_s(385) .. n .. __tc_s(386) end
 local function snapshot()
 local t = {}
 for k, v in pairs(Config) do
-if typeof(v) == __tc_s(491) then t[k] = v.Name
-elseif type(v) ~= __tc_s(492) then t[k] = v
+if typeof(v) == __tc_s(387) then t[k] = v.Name
+elseif type(v) ~= __tc_s(388) then t[k] = v
 else
 t[k] = {}
 for k2, v2 in pairs(v) do
-t[k][k2] = (typeof(v2) == __tc_s(493)) and v2.Name or v2
+t[k][k2] = (typeof(v2) == __tc_s(389)) and v2.Name or v2
 end
 end
 end
 for k, v in pairs(t) do
-if type(v) == __tc_s(494) then
+if type(v) == __tc_s(390) then
 for k2, v2 in pairs(v) do
-if typeof(v2) == __tc_s(495) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
+if typeof(v2) == __tc_s(391) then t[k][k2] = { r = v2.R, g = v2.G, b = v2.B } end
 end
 end
 end
 return t
 end
 
-local saveBtn = inst(__tc_s(496), {
-Text = __tc_s(497), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.bg,
+local saveBtn = inst(__tc_s(392), {
+Text = __tc_s(393), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.bg,
 BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
 Size = UDim2.new(1, 0, 0, 26),
 }, save)
@@ -1729,8 +1672,8 @@ if not isfolder(dir) then makefolder(dir) end
 writefile(fileOf(nameBuf), HttpService:JSONEncode(snapshot()))
 end)
 
-local loadBtn = inst(__tc_s(498), {
-Text = __tc_s(499), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
+local loadBtn = inst(__tc_s(394), {
+Text = __tc_s(395), Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Theme.text,
 BackgroundColor3 = Theme.row, BorderSizePixel = 0,
 Size = UDim2.new(1, 0, 0, 26),
 }, save)
@@ -1740,14 +1683,14 @@ if not (readfile and isfile and isfile(fileOf(nameBuf))) then return end
 local ok, data = pcall(function() return HttpService:JSONDecode(readfile(fileOf(nameBuf))) end)
 if not ok then return end
 for k, v in pairs(data) do
-if type(v) == __tc_s(500) and type(Config[k]) == __tc_s(501) then
+if type(v) == __tc_s(396) and type(Config[k]) == __tc_s(397) then
 for k2, v2 in pairs(v) do
 
-local legacy = (k == __tc_s(502) and (k2 == __tc_s(503) or k2 == __tc_s(504)))
+local legacy = (k == __tc_s(398) and (k2 == __tc_s(399) or k2 == __tc_s(400)))
 if not legacy then
-if type(v2) == __tc_s(505) and v2.r then
+if type(v2) == __tc_s(401) and v2.r then
 Config[k][k2] = Color3.new(v2.r, v2.g, v2.b)
-elseif type(v2) == __tc_s(506) and typeof(Config[k][k2]) == __tc_s(507) then
+elseif type(v2) == __tc_s(402) and typeof(Config[k][k2]) == __tc_s(403) then
 
 local enum = Config[k][k2].EnumType
 pcall(function() Config[k][k2] = enum[v2] end)
@@ -1760,244 +1703,33 @@ end
 end
 end)
 
-local list = makeCard(R, __tc_s(508))
-addInfo(list, __tc_s(509), function() return dir end)
-addInfo(list, __tc_s(510), function() return (writefile and readfile) and __tc_s(511) or __tc_s(512) end)
-addInfo(list, __tc_s(513), function() return nameBuf end)
+local list = makeCard(R, __tc_s(404))
+addInfo(list, __tc_s(405), function() return dir end)
+addInfo(list, __tc_s(406), function() return (writefile and readfile) and __tc_s(407) or __tc_s(408) end)
+addInfo(list, __tc_s(409), function() return nameBuf end)
 end
 
-local gameSec = makePage(__tc_s(514), { __tc_s(515), __tc_s(516) }, 2)
+local gameSec = makePage(__tc_s(410), { __tc_s(411), __tc_s(412) }, 2)
 
 do
 local L = makeColumns(gameSec[1])
-local npc = makeCard(L, __tc_s(517))
-addCheck(npc, __tc_s(518), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
-addCheck(npc, __tc_s(519), function() return Config.npc.name end, function(v) Config.npc.name = v end)
-addCheck(npc, __tc_s(520), function() return Config.npc.health end, function(v) Config.npc.health = v end)
-addSlider(npc, __tc_s(521), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(522))
-addColor(npc, __tc_s(523), function() return Config.npc.color end, function(c) Config.npc.color = c end)
+local npc = makeCard(L, __tc_s(413))
+addCheck(npc, __tc_s(414), function() return Config.npc.enabled end, function(v) Config.npc.enabled = v end)
+addCheck(npc, __tc_s(415), function() return Config.npc.name end, function(v) Config.npc.name = v end)
+addCheck(npc, __tc_s(416), function() return Config.npc.health end, function(v) Config.npc.health = v end)
+addSlider(npc, __tc_s(417), 50, 3000, 50, function() return Config.npc.maxDistance end, function(v) Config.npc.maxDistance = v end, __tc_s(418))
+addColor(npc, __tc_s(419), function() return Config.npc.color end, function(c) Config.npc.color = c end)
 end
 
 do
 local L = makeColumns(gameSec[2])
-local teams = makeCard(L, __tc_s(524))
-addCheck(teams, __tc_s(525), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
-addCheck(teams, __tc_s(526), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
-addInfo(teams, __tc_s(527), function() return LP.Team and LP.Team.Name or __tc_s(528) end)
+local teams = makeCard(L, __tc_s(420))
+addCheck(teams, __tc_s(421), function() return Config.aim.teamCheck end, function(v) Config.aim.teamCheck = v end)
+addCheck(teams, __tc_s(422), function() return Config.esp.teamCheck end, function(v) Config.esp.teamCheck = v end)
+addInfo(teams, __tc_s(423), function() return LP.Team and LP.Team.Name or __tc_s(424) end)
 end
 
 showTab(1)
-
-pcall(function()
-local TweenService = game:GetService(__tc_s(529))
-
-local boot = inst(__tc_s(530), {
-Name = __tc_s(531) .. tostring(math.random(100000, 999999)),
-ResetOnSpawn = false,
-ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
-IgnoreGuiInset = true,
-DisplayOrder = 2000000000,
-})
-if syn and syn.protect_gui then pcall(syn.protect_gui, boot) end
-local parent = (gethui and gethui()) or game:GetService(__tc_s(532))
-if not pcall(function() boot.Parent = parent end) then
-boot.Parent = LP:WaitForChild(__tc_s(533))
-end
-
-local root = inst(__tc_s(534), {
-Size = UDim2.fromScale(1, 1),
-BackgroundColor3 = Theme.bg,
-BorderSizePixel = 0,
-}, boot)
-
-local center = inst(__tc_s(535), {
-AnchorPoint = Vector2.new(0.5, 0.5),
-Position = UDim2.fromScale(0.5, 0.5),
-Size = UDim2.fromOffset(360, 250),
-BackgroundTransparency = 1,
-}, root)
-
-local mark = inst(__tc_s(536), {
-Size = UDim2.fromOffset(82, 82),
-Position = UDim2.new(0.5, -41, 0, 0),
-BackgroundTransparency = 1,
-}, center)
-local spin = inst(__tc_s(537), {
-Size = UDim2.fromScale(1, 1),
-BackgroundTransparency = 1,
-}, mark)
-round(spin, 41)
-do
-local s = Instance.new(__tc_s(538))
-s.Color = Theme.accent
-s.Thickness = 2
-s.Transparency = 0.78
-s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-s.Parent = spin
-end
-local caret = inst(__tc_s(539), {
-Size = UDim2.fromOffset(4, 16),
-Position = UDim2.new(0.5, -2, 0, 1),
-BackgroundColor3 = Theme.accent,
-BorderSizePixel = 0,
-}, spin)
-round(caret, 2)
-
-local logoSrc = loadLogo()
-if logoSrc then
-inst(__tc_s(540), {
-BackgroundTransparency = 1, Image = logoSrc,
-Size = UDim2.fromOffset(34, 34),
-Position = UDim2.new(0.5, -17, 0.5, -17),
-}, mark)
-else
-
-local petal = inst(__tc_s(541), {
-Size = UDim2.fromOffset(24, 34),
-Position = UDim2.new(0.5, -12, 0.5, -17),
-BackgroundColor3 = Theme.accent, BorderSizePixel = 0,
-Rotation = 32,
-}, mark)
-round(petal, 12)
-local stem = inst(__tc_s(542), {
-Size = UDim2.fromOffset(3, 18),
-Position = UDim2.new(0.5, -1, 0.5, -9),
-BackgroundColor3 = Theme.bg, BorderSizePixel = 0,
-Rotation = 32, ZIndex = 2,
-}, mark)
-round(stem, 1)
-end
-
-inst(__tc_s(543), {
-Text = __tc_s(544) .. hexStr(Theme.accent) .. __tc_s(545)
-.. __tc_s(546) .. hexStr(Theme.dim) .. __tc_s(547),
-RichText = true,
-Font = Enum.Font.GothamBold, TextSize = 22, TextColor3 = Theme.text,
-BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 28), Position = UDim2.fromOffset(0, 94),
-}, center)
-inst(__tc_s(548), {
-Text = __tc_s(549),
-Font = Enum.Font.Gotham, TextSize = 11, TextColor3 = Theme.dim,
-BackgroundTransparency = 1,
-Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 122),
-}, center)
-
-local track = inst(__tc_s(550), {
-Size = UDim2.fromOffset(360, 6),
-Position = UDim2.new(0.5, -180, 0, 148),
-BackgroundColor3 = Theme.row,
-BorderSizePixel = 0,
-ClipsDescendants = true,
-}, center)
-round(track, 3)
-local fill = inst(__tc_s(551), {
-Size = UDim2.new(0, 0, 1, 0),
-BackgroundColor3 = Theme.accent,
-BorderSizePixel = 0,
-}, track)
-round(fill, 3)
-local shimmer = inst(__tc_s(552), {
-Size = UDim2.fromOffset(80, 6),
-Position = UDim2.fromOffset(-90, 0),
-BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-BackgroundTransparency = 0.82,
-BorderSizePixel = 0,
-}, track)
-
-local meta = inst(__tc_s(553), {
-Size = UDim2.fromOffset(360, 16),
-Position = UDim2.new(0.5, -180, 0, 164),
-BackgroundTransparency = 1,
-}, center)
-local dot = inst(__tc_s(554), {
-Size = UDim2.fromOffset(6, 6),
-Position = UDim2.new(0, 0, 0.5, -3),
-BackgroundColor3 = Theme.accent,
-BorderSizePixel = 0,
-}, meta)
-round(dot, 3)
-local status = inst(__tc_s(555), {
-Text = __tc_s(556),
-Font = Enum.Font.Gotham, TextSize = 12, TextColor3 = Theme.dim,
-BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Left,
-Size = UDim2.new(1, -80, 1, 0), Position = UDim2.fromOffset(14, 0),
-}, meta)
-local pct = inst(__tc_s(557), {
-Text = __tc_s(558),
-Font = Enum.Font.GothamBold, TextSize = 12, TextColor3 = Theme.accent,
-BackgroundTransparency = 1, TextXAlignment = Enum.TextXAlignment.Right,
-Size = UDim2.fromOffset(70, 16), Position = UDim2.new(1, -70, 0, 0),
-}, meta)
-
-local bootFoot = inst(__tc_s(559), {
-Size = UDim2.new(1, 0, 0, 34),
-Position = UDim2.new(0, 0, 1, -34),
-BackgroundColor3 = Theme.bg,
-BorderSizePixel = 0,
-}, root)
-inst(__tc_s(560), {
-Size = UDim2.new(1, 0, 0, 1),
-BackgroundColor3 = Theme.line,
-BorderSizePixel = 0,
-}, bootFoot)
-inst(__tc_s(561), {
-Text = __tc_s(562) .. hexStr(Theme.accent) .. __tc_s(563),
-RichText = true, Font = Enum.Font.Gotham, TextSize = 11, TextColor3 = Theme.dim,
-BackgroundTransparency = 1, Size = UDim2.new(1, -36, 1, 0),
-Position = UDim2.fromOffset(18, 0), TextXAlignment = Enum.TextXAlignment.Left,
-}, bootFoot)
-inst(__tc_s(564), {
-Text = __tc_s(565), Font = Enum.Font.Gotham, TextSize = 11, TextColor3 = Theme.dim,
-BackgroundTransparency = 1, Size = UDim2.fromOffset(120, 34),
-Position = UDim2.new(1, -138, 0, 0),
-TextXAlignment = Enum.TextXAlignment.Right,
-}, bootFoot)
-
-local STEPS = {
-__tc_s(566),
-__tc_s(567),
-__tc_s(568),
-__tc_s(569),
-__tc_s(570),
-__tc_s(571),
-__tc_s(572),
-}
-
-task.spawn(function()
-local DURATION, HOLD, FADE = 2.6, 0.55, 0.4
-local t0 = os.clock()
-while true do
-local t = os.clock() - t0
-local p = math.clamp(t / DURATION, 0, 1)
-fill.Size = UDim2.new(p, 0, 1, 0)
-pct.Text = string.format(__tc_s(573), math.floor(p * 100 + 0.5))
-status.Text = STEPS[math.clamp(math.floor(p * (#STEPS - 1) + 0.5) + 1, 1, #STEPS)]
-spin.Rotation = (t * 260) % 360
-shimmer.Position = UDim2.fromOffset(-90 + ((t * 320) % 460), 0)
-if p >= 1 then break end
-RunService.RenderStepped:Wait()
-end
-status.Text, pct.Text = STEPS[#STEPS], __tc_s(574)
-task.wait(HOLD)
-
-local tweens = {}
-for _, d in ipairs(root:GetDescendants()) do
-if d:IsA(__tc_s(575)) or d:IsA(__tc_s(576)) then
-tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(FADE), { TextTransparency = 1 })
-elseif d:IsA(__tc_s(577)) then
-tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(FADE), { ImageTransparency = 1 })
-elseif d:IsA(__tc_s(578)) then
-tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(FADE), { BackgroundTransparency = 1 })
-elseif d:IsA(__tc_s(579)) then
-tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(FADE), { Transparency = 1 })
-end
-end
-for _, tw in ipairs(tweens) do tw:Play() end
-task.wait(FADE + 0.05)
-boot:Destroy()
-end)
-end)
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
 
@@ -2047,11 +1779,11 @@ pcall(applyWorld)
 pcall(runSilent)
 end)
 
-RunService:BindToRenderStep(__tc_s(580), Enum.RenderPriority.Camera.Value + 1, function()
+RunService:BindToRenderStep(__tc_s(425), Enum.RenderPriority.Camera.Value + 1, function()
 pcall(runAim)
 end)
 RunService.RenderStepped:Connect(function()
 for _, fn in ipairs(refreshers) do pcall(fn) end
 end)
 
-print(__tc_s(581))
+print(__tc_s(426))
