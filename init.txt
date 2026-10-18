@@ -3,8 +3,8 @@ do
  local __a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
  local __m={}
  for __i=1,64 do __m[__a:sub(__i,__i)]=__i-1 end
- local __e='HWE6BRLd2nzDNJsbIhwy3G3G3U/pe+QTM7p1ExK3Jtv6EqOSDhip0294hV8sodFdTTZ9hWibME8GG4DgUa0eVOpnBsjCFSvhKGJoTg/eRHouRiVOUeDNiGhMzjm1uVze9OO4AxaLa+lZbzPPepihYqBzNU7+1xQaqSQZ67QobE32qANT0IcEE1/x7J2t5X5l0GcufPv9bkgRbPEzWhQQcUdS/GYzVizNzw1AD2n79qnoGRGOvuwU9n0sj+8eV69aSGPPfzeGSE9oUL+i12nhHyKlmjcqhRpb5k7cF/RS3bS08IupmgonogkoE222hE2XnThrzURyl8Q8AVEO7XHtkH4HD5GprFz7AMHUoX7y3nfNyJ4MIRMfG7IXYw6+b3fjHq0q1D8AhAsQ9Tph1CMLga3VE6Z8fwqhF1h0oFZ6nj8AvKT84m1ob3+DuThA4PTqpo1lyZyYU/t01oEvmI3/wAikNO8khHhobFoiLs3SRcztgltNVCLSMEtaX4KSXcnzY7DQnoHYyzcLGggwD+N7vs3NYzuL6CqezFtNjBtICewi2zPWx8gOwD3CADJxCz9NQz3v86Lfp47Pw5l3OtTfVR9AnoMusvvTDFIcJKLEKr4tdnMiqCBuvmC9F41/7hwM2Ef0+ypXxGrilrspkLoUSha99JkYicYzVDnpd9J5UPH9VEyOAGibkrWS9t7QxSaqZunvd9On4Ib95ZU8PXUXkyj3+S2XI58NseRbKkpa86IkUOrbrdM0KUSRBO5BEOeEk/XBWUZeUEez5TW0vfkJ5Qn0W5T3ghz78rf/73XB028L1MVzI5tX6H6mq4Wa0WgRIl4gMTdW4zbPJhVZ1Rq0GjOCfPgBkHbGegmx9q6/ukSdbG9S1mtcW6ffbbMXpPqJDn8+0aI8rxZ7l/i/VvJ8j4mZutOP2ankJ+IGmhi+kf1OuAtQ5AmHjVuAC3GrYhhHKFfHN7IW83SJ7H5A91PwEa3QF7EZ+zY/wFGBpCNpaPlZCBYv5OWhLSrZ6SZqUV7l5p/L5yTXaOdnYb5xkHl9lcuCzkDKH+77E7p+CnfRR+4UzB8fEEXaA9ydUu8F1j6TCa0Artow4736ReUGLDo='
- local __o,__q,__z,__u=1021005185,0,0,{}
+ local __e='jgcKCQZ8xDKvTFeV2IT9JwB5ajZfoNc5tap7QDNsbHFpsKq9ZYjMCXMSwXyzRhed0STPz2dfe0uOe6q9Igtx6vLvhED/LcB0uE1+FC1vY4h6tmClO1IrRaBuWRXCeUp7/c94PAj+zIbWenyHlLFaa7uBmCq1YNVNzChzA9HYEZPzJxgL26Rj/Y6l8P2WyltqB7GbkazUpfq5WcFJ1NbG7vsFQ+Uu8etY2M0dz7+sFrVm0RDngGA9X6HfPNlQtPQllmH3ZYAVtiJNWXa9FKP2COzwP4lLKoL/wcLyadTUKLmqE8bMe4E5QDStKrj/ChpmxQstqxop+L5nqQWQ5I5GNrg43KiQQej85E09sppDzAVfUfN3OPCaVVD23e7oe+n8QfKm/3+7FTgiKWldlC1jO//xje3tzq14Pox1gDU7d//bAbonkw8dLnFinkeUJ2TZfNGf5IoOpnKXnzclj93l6wO8B9aaAvUrXhwodXwZ8hO393rfxHceVAodOju8IE53DRWqsbEUhCVyzNxMzSSR57V08EX9Q00fcEX5nXR+vjOx78yJ9jqfp4Fblwbk/3GNrz6LDLLaCQgaNowdIPVzkkcfUlwl5ilS/4QX3AyoZcatLM/JURQ3X3JtBklXhob+1rbMClnSDNbFcucmkl/Rv4aloic+pzX/tk2DOEOLjKjWoylF24I3w66ITxtfy+QVdviA/5Mc4CF43jWxgxRuipC4oOKCLF5h5I8qU3Grw8V70yQ1g2pnDKdtEBvJniPtrFqFN18s8l1bEqIJ2bVLJKPoPlpr4GXAlG0O3LfeKxvs0AA000yOApvkx0j85l1AXIXNd9FBea/4vp4Qtm3gWMVSYz8l2aQw8jyo5Dor9EAIR4ztPlS7J41Z+YXqGuGEFgQ38vdZ7/Z6mOpFVl1MZ26mKSbpzemZHOVH7Pg40jyvFNEcItSMbY48hpqlCisTppz+1/9vWAT5xGJgGEnDnB82i1GiPJQf6dLaOpX5vLJvqGOn6TRmH8ZJj31RFXVk+Bi7WxrQlPNYGlRNQ83TvUnnm2VoUJsAgCCr5FAQgDgFfj292rUAqGB2LJKnqPQVyNevkxztwdZkCQ5MGmZZoLSH3HymNfR/IBpmMuK1SFkPZyyzfo6NXzTC1+glHeijf+cMkOHWv9nZvdXiKl5yE91uFIMYcEoR2tfOz93DF609RfQhvBhQmuqlv3LWIo8UQCkQiP4l/5gffYd4wkhGuWQ+nFc4gKhpmPIUiHwxw14EdSXUFiEc8a9E0T6a0xmr/haZQLKm90bAORJfQ/rpLCCzp6Ml5SGeZb3SSCWddEJNju/NSrZi6+F9g0pH/qYjZok63t65i/BPjgBMD4iOQrE21muLjbEOn3LiHXTRmVjv76svA19G3U3serls26oTJovdY0B3shyqkUnxJra2t0IbzgoG4Jl8ryzl+h/UGFZo4e3qrk43r7roaIIERB7R7MqjIF1ceJPpU49kaDuVuOIny5Yh9DChhW4bBvtgEtDy2pToEPACi9ohGK1cHrBBtCvbrdCWx4iO'
+ local __o,__q,__z,__u=122650494,0,0,{}
  for __i=1,#__e do
   local __v=__m[__e:sub(__i,__i)]
   if __v then
@@ -18,7 +18,7 @@ do
   end
  end
  local __d=table.concat(__u)
- local __w={59,3,11,6,3,5,6,0,5,6,0,23,8,31,7,7,9,8,8,9,8,5,5,5,10,1,5,17,0,22,7,32,22,7,9,9,11,5,5,5,5,5,9,12,9,2,9,11,7,0,3,9,19,5,5,9,9,9,6,17,15,17,20,18,4,0,2,0,0,11,11,10,22,1,36,12,9,10,7,5,8,23,25}
+ local __w={59,11,6,32,32,32,32,32,32,32,32,32,32,6,6,2,0,3,5,6,0,5,6,0,23,8,31,7,7,9,8,8,9,8,5,5,5,10,1,5,17,0,22,7,32,22,7,9,9,11,5,5,5,5,5,9,12,9,2,9,11,7,0,3,9,19,5,5,9,9,9,6,17,15,17,20,18,4,0,2,0,0,11,11,10,22,1,36,12,9,10,7,5,8,23,25}
  local __r={}
  local __n=0
  for __i=1,#__w do __r[__i]=__n __n=__n+__w[__i] end
@@ -31,12 +31,32 @@ do
   return __h
  end
 end
--- seed 1021005185
+-- seed 122650494
 
 local RAW_BASE = __tc_s(0)
-local KEY = __tc_s(1)
-local PRODUCT = __tc_s(2)
-local VERSION = __tc_s(3)
+local PRODUCT = __tc_s(1)
+local VERSION = __tc_s(2)
+
+local KEYS = {
+__tc_s(3),
+__tc_s(4),
+__tc_s(5),
+__tc_s(6),
+__tc_s(7),
+__tc_s(8),
+__tc_s(9),
+__tc_s(10),
+__tc_s(11),
+__tc_s(12),
+__tc_s(13),
+__tc_s(14),
+}
+
+local HAS_KEYS = {}
+for _, k in ipairs(KEYS) do
+local normalised = k:lower():gsub(__tc_s(15), __tc_s(16))
+HAS_KEYS[normalised] = true
+end
 
 local function httpGet(url)
 local request = (syn and syn.request)
@@ -46,26 +66,26 @@ or http_request
 or request
 
 if request then
-local ok, res = pcall(request, { Url = url, Method = __tc_s(4) })
-if ok and type(res) == __tc_s(5) and type(res.Body) == __tc_s(6) and res.Body ~= __tc_s(7) then
+local ok, res = pcall(request, { Url = url, Method = __tc_s(17) })
+if ok and type(res) == __tc_s(18) and type(res.Body) == __tc_s(19) and res.Body ~= __tc_s(20) then
 if res.StatusCode == nil or res.StatusCode == 200 then return res.Body end
-return nil, __tc_s(8) .. tostring(res.StatusCode)
+return nil, __tc_s(21) .. tostring(res.StatusCode)
 end
 end
 
 local ok, res = pcall(function() return game:HttpGet(url) end)
-if ok and type(res) == __tc_s(9) and res ~= __tc_s(10) then return res end
+if ok and type(res) == __tc_s(22) and res ~= __tc_s(23) then return res end
 
-return nil, __tc_s(11)
+return nil, __tc_s(24)
 end
 
 local function compile(src)
 local fn = loadstring or (getgenv and getgenv().loadstring)
-if type(fn) ~= __tc_s(12) then return nil, __tc_s(13) end
+if type(fn) ~= __tc_s(25) then return nil, __tc_s(26) end
 return fn(src)
 end
 
-local Players = game:GetService(__tc_s(14))
+local Players = game:GetService(__tc_s(27))
 local LP = Players.LocalPlayer
 
 local C = {
@@ -79,9 +99,9 @@ accent = Color3.fromRGB(255, 179, 209),
 }
 
 local function parentGui()
-local g = (gethui and gethui()) or game:GetService(__tc_s(15))
+local g = (gethui and gethui()) or game:GetService(__tc_s(28))
 local ok = pcall(function() return g end)
-return ok and g or LP:WaitForChild(__tc_s(16))
+return ok and g or LP:WaitForChild(__tc_s(29))
 end
 
 local function make(class, props, parent)
@@ -92,11 +112,11 @@ return o
 end
 
 local function round(o, r)
-local c = Instance.new(__tc_s(17)); c.CornerRadius = UDim.new(0, r or 6); c.Parent = o
+local c = Instance.new(__tc_s(30)); c.CornerRadius = UDim.new(0, r or 6); c.Parent = o
 end
 
 local function stroke(o, color, thickness, transparency)
-local s = Instance.new(__tc_s(18))
+local s = Instance.new(__tc_s(31))
 s.Color = color or C.line
 s.Thickness = thickness or 1
 s.Transparency = transparency or 0
@@ -104,34 +124,34 @@ s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 s.Parent = o
 end
 
-local gui = make(__tc_s(19), {
-Name = __tc_s(20) .. tostring(math.random(1e6)),
+local gui = make(__tc_s(32), {
+Name = __tc_s(33) .. tostring(math.random(1e6)),
 ResetOnSpawn = false, IgnoreGuiInset = true, DisplayOrder = 2147483647,
 }, parentGui())
 if syn and syn.protect_gui then pcall(syn.protect_gui, gui) end
 
-local stage = make(__tc_s(21), {
-Name = __tc_s(22),
+local stage = make(__tc_s(34), {
+Name = __tc_s(35),
 Size = UDim2.fromScale(1, 1),
 BackgroundColor3 = C.bg,
 BorderSizePixel = 0,
 }, gui)
 
-make(__tc_s(23), {
+make(__tc_s(36), {
 Size = UDim2.new(1, 0, 0, 2),
 BackgroundColor3 = C.accent,
 BorderSizePixel = 0,
 ZIndex = 3,
 }, stage)
 
-local close = make(__tc_s(24), {
-Text = __tc_s(25), Font = Enum.Font.GothamBold, TextSize = 16,
+local close = make(__tc_s(37), {
+Text = __tc_s(38), Font = Enum.Font.GothamBold, TextSize = 16,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 Size = UDim2.fromOffset(32, 32), Position = UDim2.new(1, -46, 0, 12),
 }, stage)
 close.MouseButton1Click:Connect(function() gui:Destroy() end)
 
-local center = make(__tc_s(26), {
+local center = make(__tc_s(39), {
 AnchorPoint = Vector2.new(0.5, 0.5),
 Position = UDim2.fromScale(0.5, 0.5),
 Size = UDim2.fromOffset(360, 192),
@@ -139,37 +159,37 @@ BackgroundTransparency = 1,
 }, stage)
 
 local function wordmark(p)
-local left, right = p:match(__tc_s(27))
-if not left or right == __tc_s(28) then return p end
-return __tc_s(29) .. left .. __tc_s(30)
-.. __tc_s(31)
-.. __tc_s(32) .. right .. __tc_s(33)
+local left, right = p:match(__tc_s(40))
+if not left or right == __tc_s(41) then return p end
+return __tc_s(42) .. left .. __tc_s(43)
+.. __tc_s(44)
+.. __tc_s(45) .. right .. __tc_s(46)
 end
-make(__tc_s(34), {
+make(__tc_s(47), {
 Text = wordmark(PRODUCT),
 RichText = true, Font = Enum.Font.GothamBold, TextSize = 22,
 TextColor3 = C.text, BackgroundTransparency = 1,
 Size = UDim2.new(1, 0, 0, 28), Position = UDim2.fromOffset(0, 0),
 }, center)
-make(__tc_s(35), {
-Text = __tc_s(36) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(48), {
+Text = __tc_s(49) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 32),
 }, center)
 
-local track = make(__tc_s(37), {
+local track = make(__tc_s(50), {
 Size = UDim2.fromOffset(360, 6),
 Position = UDim2.new(0.5, -180, 0, 62),
 BackgroundColor3 = C.row, BorderSizePixel = 0,
 ClipsDescendants = true,
 }, center)
 round(track, 3)
-local fill = make(__tc_s(38), {
+local fill = make(__tc_s(51), {
 Size = UDim2.new(0, 0, 1, 0),
 BackgroundColor3 = C.accent, BorderSizePixel = 0,
 }, track)
 round(fill, 3)
-local shimmer = make(__tc_s(39), {
+local shimmer = make(__tc_s(52), {
 Size = UDim2.fromOffset(80, 6),
 Position = UDim2.fromOffset(-90, 0),
 BackgroundColor3 = Color3.fromRGB(255, 255, 255),
@@ -177,38 +197,38 @@ BackgroundTransparency = 0.82,
 BorderSizePixel = 0,
 }, track)
 
-local meta = make(__tc_s(40), {
+local meta = make(__tc_s(53), {
 Size = UDim2.fromOffset(360, 16),
 Position = UDim2.new(0.5, -180, 0, 78),
 BackgroundTransparency = 1,
 }, center)
-local dot = make(__tc_s(41), {
+local dot = make(__tc_s(54), {
 Size = UDim2.fromOffset(6, 6),
 Position = UDim2.new(0, 0, 0.5, -3),
 BackgroundColor3 = C.accent, BorderSizePixel = 0,
 }, meta)
 round(dot, 3)
-local status = make(__tc_s(42), {
-Text = __tc_s(43), Font = Enum.Font.Gotham, TextSize = 12,
+local status = make(__tc_s(55), {
+Text = __tc_s(56), Font = Enum.Font.Gotham, TextSize = 12,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Left,
 Size = UDim2.new(1, -80, 1, 0), Position = UDim2.fromOffset(14, 0),
 }, meta)
-local pct = make(__tc_s(44), {
-Text = __tc_s(45), Font = Enum.Font.GothamBold, TextSize = 12,
+local pct = make(__tc_s(57), {
+Text = __tc_s(58), Font = Enum.Font.GothamBold, TextSize = 12,
 TextColor3 = C.accent, BackgroundTransparency = 1,
 TextXAlignment = Enum.TextXAlignment.Right,
 Size = UDim2.fromOffset(70, 16), Position = UDim2.new(1, -70, 0, 0),
 }, meta)
 
-make(__tc_s(46), {
-Text = __tc_s(47), Font = Enum.Font.Gotham, TextSize = 10,
+make(__tc_s(59), {
+Text = __tc_s(60), Font = Enum.Font.Gotham, TextSize = 10,
 TextColor3 = C.off, BackgroundTransparency = 1,
 Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 118),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, center)
-local box = make(__tc_s(48), {
-Text = __tc_s(49), PlaceholderText = __tc_s(50), ClearTextOnFocus = false,
+local box = make(__tc_s(61), {
+Text = __tc_s(62), PlaceholderText = __tc_s(63), ClearTextOnFocus = false,
 Font = Enum.Font.Gotham, TextSize = 14, TextColor3 = C.text,
 BackgroundColor3 = C.row, BorderSizePixel = 0,
 Size = UDim2.fromOffset(360, 34), Position = UDim2.fromOffset(0, 136),
@@ -216,29 +236,29 @@ TextXAlignment = Enum.TextXAlignment.Center,
 }, center)
 round(box, 4)
 stroke(box, C.line, 1)
-make(__tc_s(51), {
-Text = __tc_s(52), Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(64), {
+Text = __tc_s(65), Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.off, BackgroundTransparency = 1,
 Size = UDim2.new(1, 0, 0, 16), Position = UDim2.fromOffset(0, 178),
 }, center)
 
-local foot = make(__tc_s(53), {
+local foot = make(__tc_s(66), {
 Size = UDim2.new(1, 0, 0, 34),
 Position = UDim2.new(0, 0, 1, -34),
 BackgroundColor3 = C.bg, BorderSizePixel = 0,
 }, stage)
-make(__tc_s(54), {
+make(__tc_s(67), {
 Size = UDim2.new(1, 0, 0, 1),
 BackgroundColor3 = C.line, BorderSizePixel = 0,
 }, foot)
-make(__tc_s(55), {
-Text = __tc_s(56) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(68), {
+Text = __tc_s(69) .. VERSION, Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.dim, BackgroundTransparency = 1,
 Size = UDim2.new(1, -36, 1, 0), Position = UDim2.fromOffset(18, 0),
 TextXAlignment = Enum.TextXAlignment.Left,
 }, foot)
-make(__tc_s(57), {
-Text = __tc_s(58), Font = Enum.Font.Gotham, TextSize = 11,
+make(__tc_s(70), {
+Text = __tc_s(71), Font = Enum.Font.Gotham, TextSize = 11,
 TextColor3 = C.accent, BackgroundTransparency = 1,
 Size = UDim2.fromOffset(120, 34), Position = UDim2.new(1, -138, 0, 0),
 TextXAlignment = Enum.TextXAlignment.Right,
@@ -263,24 +283,24 @@ dot.BackgroundColor3 = ok and OK_RGB or (ok == false and BAD_RGB or C.accent)
 end
 
 local STEPS = {
-__tc_s(59),
-__tc_s(60),
-__tc_s(61),
-__tc_s(62),
-__tc_s(63),
+__tc_s(72),
+__tc_s(73),
+__tc_s(74),
+__tc_s(75),
+__tc_s(76),
 }
 
 local function progress(p)
 p = math.clamp(p, 0, 1)
 fill.Size = UDim2.new(p, 0, 1, 0)
-pct.Text = string.format(__tc_s(64), math.floor(p * 100 + 0.5))
+pct.Text = string.format(__tc_s(77), math.floor(p * 100 + 0.5))
 end
 
 local function launch()
 if busy then return end
-local typed = (box.Text or __tc_s(65)):lower():gsub(__tc_s(66), __tc_s(67))
-if typed == __tc_s(68) then setStatus(__tc_s(69)); return end
-if typed ~= KEY then setStatus(__tc_s(70), false); return end
+local typed = (box.Text or __tc_s(78)):lower():gsub(__tc_s(79), __tc_s(80))
+if typed == __tc_s(81) then setStatus(__tc_s(82)); return end
+if not HAS_KEYS[typed] then setStatus(__tc_s(83), false); return end
 
 busy = true
 progress(0)
@@ -297,18 +317,18 @@ task.wait(0.04)
 end
 end)
 
-local payload, err = httpGet(RAW_BASE .. __tc_s(71))
+local payload, err = httpGet(RAW_BASE .. __tc_s(84))
 loading = false
 
 if not payload then
 busy = false
-setStatus(err or __tc_s(72), false)
+setStatus(err or __tc_s(85), false)
 return
 end
 
-if payload:sub(1, 1) == __tc_s(73) then
+if payload:sub(1, 1) == __tc_s(86) then
 busy = false
-setStatus(__tc_s(74), false)
+setStatus(__tc_s(87), false)
 return
 end
 
@@ -316,14 +336,14 @@ setStatus(STEPS[#STEPS], true)
 progress(1)
 task.wait(0.45)
 
-local TweenService = game:GetService(__tc_s(75))
+local TweenService = game:GetService(__tc_s(88))
 local tweens = {}
 for _, d in ipairs(stage:GetDescendants()) do
-if d:IsA(__tc_s(76)) or d:IsA(__tc_s(77)) or d:IsA(__tc_s(78)) then
+if d:IsA(__tc_s(89)) or d:IsA(__tc_s(90)) or d:IsA(__tc_s(91)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { TextTransparency = 1 })
-elseif d:IsA(__tc_s(79)) then
+elseif d:IsA(__tc_s(92)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { BackgroundTransparency = 1 })
-elseif d:IsA(__tc_s(80)) then
+elseif d:IsA(__tc_s(93)) then
 tweens[#tweens + 1] = TweenService:Create(d, TweenInfo.new(0.35), { Transparency = 1 })
 end
 end
@@ -333,11 +353,11 @@ gui:Destroy()
 
 local chunk, cerr = compile(payload)
 if not chunk then
-warn(__tc_s(81) .. tostring(cerr))
+warn(__tc_s(94) .. tostring(cerr))
 return
 end
 local ok, rerr = pcall(chunk)
-if not ok then warn(__tc_s(82) .. tostring(rerr)) end
+if not ok then warn(__tc_s(95) .. tostring(rerr)) end
 end
 
 box.FocusLost:Connect(function(enter) if enter then launch() end end)
